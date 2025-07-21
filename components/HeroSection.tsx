@@ -488,7 +488,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center section-warm overflow-hidden pt-16">
+    <section className="relative min-h-screen flex items-center justify-center section-warm overflow-hidden pt-14 sm:pt-16">
       {/* TaskLapアプリ風の背景装飾 */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-200/30 dark:bg-primary-900/20 rounded-full blur-3xl animate-float"></div>
@@ -502,8 +502,8 @@ export default function HeroSection() {
         ></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Left Content - TaskLapアプリ風デザイン */}
           <div className="text-center lg:text-left space-y-8">
             {/* Badge - 実際のTaskLapアイコンを使用 */}
@@ -521,44 +521,44 @@ export default function HeroSection() {
             </div>
 
             {/* Main Title - 暖かいグラデーション */}
-            <div className="space-y-4">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-100 leading-tight">
+            <div className="space-y-3 sm:space-y-4">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-100 leading-tight">
                 {t("hero.title")}
               </h1>
-              <p className="text-xl sm:text-2xl text-primary-600 dark:text-primary-400 font-medium">
+              <p className="text-lg sm:text-xl md:text-2xl text-primary-600 dark:text-primary-400 font-medium">
                 {t("hero.subtitle")}
               </p>
             </div>
 
             {/* Description */}
-            <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-2xl">
+            <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-2xl">
               {t("hero.description")}
             </p>
 
             {/* Stats - TaskLapアプリ風アイコン */}
-            <div className="flex flex-wrap justify-center lg:justify-start gap-6 py-4">
-              <div className="flex items-center space-x-2 text-neutral-700 dark:text-neutral-300">
-                <div className="w-8 h-8 bg-yellow-400 rounded-lg flex items-center justify-center">
-                  <Star className="w-4 h-4 text-white" />
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 py-3 sm:py-4">
+              <div className="flex items-center space-x-1.5 sm:space-x-2 text-neutral-700 dark:text-neutral-300">
+                <div className="w-6 h-6 sm:w-8 sm:h-8 bg-yellow-400 rounded-lg flex items-center justify-center">
+                  <Star className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
                 </div>
-                <span className="text-sm font-medium">
+                <span className="text-xs sm:text-sm font-medium">
                   {t("hero.badges.ratingPreparation")}
                 </span>
               </div>
-              <div className="flex items-center space-x-2 text-neutral-700 dark:text-neutral-300">
-                <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                  <Users className="w-4 h-4 text-white" />
+              <div className="flex items-center space-x-1.5 sm:space-x-2 text-neutral-700 dark:text-neutral-300">
+                <div className="w-6 h-6 sm:w-8 sm:h-8 bg-blue-500 rounded-lg flex items-center justify-center">
+                  <Users className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
                 </div>
-                <span className="text-sm font-medium">
+                <span className="text-xs sm:text-sm font-medium">
                   {t("hero.badges.multilingualSupport")}
                 </span>
               </div>
-              <div className="flex items-center space-x-2 text-neutral-700 dark:text-neutral-300">
-                <div className="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center">
+              <div className="flex items-center space-x-1.5 sm:space-x-2 text-neutral-700 dark:text-neutral-300">
+                <div className="w-6 h-6 sm:w-8 sm:h-8 bg-purple-500 rounded-lg flex items-center justify-center">
                   <div className="flex items-center justify-center w-full h-full">
                     {theme === "dark" ? (
                       <svg
-                        className="w-4 h-4 text-white"
+                        className="w-3 h-3 sm:w-4 sm:h-4 text-white"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                       >
@@ -566,7 +566,7 @@ export default function HeroSection() {
                       </svg>
                     ) : (
                       <svg
-                        className="w-4 h-4 text-white"
+                        className="w-3 h-3 sm:w-4 sm:h-4 text-white"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                       >
@@ -575,15 +575,15 @@ export default function HeroSection() {
                     )}
                   </div>
                 </div>
-                <span className="text-sm font-medium">
+                <span className="text-xs sm:text-sm font-medium">
                   {t("common.darkLightMode")}
                 </span>
               </div>
-              <div className="flex items-center space-x-2 text-neutral-700 dark:text-neutral-300">
-                <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
-                  <Download className="w-4 h-4 text-white" />
+              <div className="flex items-center space-x-1.5 sm:space-x-2 text-neutral-700 dark:text-neutral-300">
+                <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-500 rounded-lg flex items-center justify-center">
+                  <Download className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
                 </div>
-                <span className="text-sm font-medium">
+                <span className="text-xs sm:text-sm font-medium">
                   {t("hero.badges.freeDownload")}
                 </span>
               </div>
@@ -591,7 +591,7 @@ export default function HeroSection() {
 
             {/* CTA Buttons - TaskLapアプリ風 */}
             {/* 公式ストアバッジ */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center lg:items-start lg:justify-start justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-3 sm:pt-4 items-center lg:items-start lg:justify-start justify-center">
               <a
                 href="#"
                 className="block transition-transform hover:scale-105"
@@ -600,7 +600,7 @@ export default function HeroSection() {
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
                   alt="App Store からダウンロード"
-                  className="h-[48px] w-auto"
+                  className="h-[36px] sm:h-[48px] w-auto"
                 />
               </a>
               <a
@@ -611,44 +611,44 @@ export default function HeroSection() {
                 <img
                   src="https://raw.githubusercontent.com/pioug/google-play-badges/main/svg/English.svg"
                   alt="Get it on Google Play"
-                  className="h-[48px] w-auto"
+                  className="h-[36px] sm:h-[48px] w-auto"
                 />
               </a>
             </div>
 
             {/* 申請中メッセージ */}
-            <div className="pt-4">
-              <div className="inline-flex items-center px-4 py-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-700">
-                <span className="text-sm text-primary-700 dark:text-primary-300">
+            <div className="pt-3 sm:pt-4">
+              <div className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-700">
+                <span className="text-xs sm:text-sm text-primary-700 dark:text-primary-300">
                   {t("common.applicationInProgress")}
                 </span>
               </div>
             </div>
 
             {/* 機能確認ボタン */}
-            <div className="pt-4">
+            <div className="pt-3 sm:pt-4">
               <button
                 onClick={() => scrollToSection("focus-mode")}
-                className="group btn-secondary px-8 py-4 rounded-2xl font-semibold text-lg flex items-center justify-center space-x-3"
+                className="group btn-secondary px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 rounded-xl sm:rounded-xl md:rounded-2xl font-semibold text-sm sm:text-base md:text-lg flex items-center justify-center space-x-1.5 sm:space-x-2 md:space-x-3"
               >
-                <Play className="w-6 h-6" />
+                <Play className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
                 <span>{t("hero.viewFeatures")}</span>
               </button>
             </div>
 
             {/* Platform badges - TaskLapアプリ風 */}
-            <div className="flex flex-col sm:flex-row items-center gap-4 pt-8">
-              <span className="text-neutral-500 dark:text-neutral-400 text-sm font-medium">
+            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 pt-6 sm:pt-8">
+              <span className="text-neutral-500 dark:text-neutral-400 text-xs sm:text-sm font-medium">
                 {t("hero.availableOn")}
               </span>
-              <div className="flex items-center gap-4">
-                <div className="bg-warm-200 dark:bg-neutral-700 px-4 py-2 rounded-xl flex items-center space-x-2 shadow-warm">
-                  <span className="text-neutral-700 dark:text-neutral-300 text-sm font-medium">
+              <div className="flex items-center gap-3 sm:gap-4">
+                <div className="bg-warm-200 dark:bg-neutral-700 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl flex items-center space-x-1.5 sm:space-x-2 shadow-warm">
+                  <span className="text-neutral-700 dark:text-neutral-300 text-xs sm:text-sm font-medium">
                     🍎 iOS 16.0+
                   </span>
                 </div>
-                <div className="bg-warm-200 dark:bg-neutral-700 px-4 py-2 rounded-xl flex items-center space-x-2 shadow-warm">
-                  <span className="text-neutral-700 dark:text-neutral-300 text-sm font-medium">
+                <div className="bg-warm-200 dark:bg-neutral-700 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl flex items-center space-x-1.5 sm:space-x-2 shadow-warm">
+                  <span className="text-neutral-700 dark:text-neutral-300 text-xs sm:text-sm font-medium">
                     🤖 Android 8.0+
                   </span>
                 </div>
@@ -658,10 +658,10 @@ export default function HeroSection() {
 
           {/* Right Content - TaskLapアプリの実際のスクリーンショット */}
           <div className="relative">
-            <div className="relative max-w-sm mx-auto">
+            <div className="relative max-w-[280px] sm:max-w-xs md:max-w-sm mx-auto">
               {/* Phone Frame - TaskLapアプリ風 */}
-              <div className="relative bg-black rounded-[3rem] p-4 shadow-warm-xl">
-                <div className="bg-black rounded-[2.5rem] overflow-hidden aspect-[9/19.5] relative">
+              <div className="relative bg-black rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-2.5 sm:p-3 md:p-4 shadow-warm-xl">
+                <div className="bg-black rounded-[1.5rem] sm:rounded-[2rem] md:rounded-[2.5rem] overflow-hidden aspect-[9/19.5] relative">
                   {/* Screenshot Carousel - TaskLapアプリの実際のスクリーンショット */}
                   <div className="relative h-full">
                     {screenshots.map((screenshot, index) => {
@@ -682,7 +682,7 @@ export default function HeroSection() {
                             }`}
                             priority={true} // すべての画像を優先読み込み
                             loading="eager" // 即座に読み込み
-                            sizes="(max-width: 768px) 300px, 400px"
+                            sizes="(max-width: 640px) 220px, (max-width: 768px) 280px, 400px"
                             quality={85} // 品質と速度のバランス
                           />
                           {/* ローディング状態表示 */}
@@ -706,32 +706,36 @@ export default function HeroSection() {
                   {/* Navigation arrows */}
                   <button
                     onClick={prevSlide}
-                    className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/40 backdrop-blur-sm text-white p-2 rounded-full hover:bg-black/60 transition-colors z-10"
+                    className="absolute left-1 sm:left-2 top-1/2 transform -translate-y-1/2 bg-black/40 backdrop-blur-sm text-white p-1.5 sm:p-2 rounded-full hover:bg-black/60 transition-colors z-10"
                     aria-label="前のスクリーンショット"
                   >
-                    <ChevronLeft className="w-4 h-4" />
+                    <ChevronLeft className="w-3 h-3 sm:w-4 sm:h-4" />
                   </button>
                   <button
                     onClick={nextSlide}
-                    className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/40 backdrop-blur-sm text-white p-2 rounded-full hover:bg-black/60 transition-colors z-10"
+                    className="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 bg-black/40 backdrop-blur-sm text-white p-1.5 sm:p-2 rounded-full hover:bg-black/60 transition-colors z-10"
                     aria-label="次のスクリーンショット"
                   >
-                    <ChevronRight className="w-4 h-4" />
+                    <ChevronRight className="w-3 h-3 sm:w-4 sm:h-4" />
                   </button>
 
                   {/* モード切り替え説明（5枚目の時のみ表示） */}
                   {isLastSlide && (
-                    <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/70 backdrop-blur-sm text-white px-3 py-2 rounded-lg text-xs text-center z-20">
+                    <div className="absolute bottom-2 sm:bottom-4 left-1/2 transform -translate-x-1/2 bg-black/70 backdrop-blur-sm text-white px-2 sm:px-3 py-1 sm:py-2 rounded-lg text-xs text-center z-20">
                       <div className="flex items-center space-x-1">
                         {currentMode === "dark" ? (
                           <>
-                            <Sun className="w-3 h-3" />
-                            <span>{t("common.lightMode")}</span>
+                            <Sun className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
+                            <span className="text-xs sm:text-sm">
+                              {t("common.lightMode")}
+                            </span>
                           </>
                         ) : (
                           <>
-                            <Moon className="w-3 h-3" />
-                            <span>{t("common.darkMode")}</span>
+                            <Moon className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
+                            <span className="text-xs sm:text-sm">
+                              {t("common.darkMode")}
+                            </span>
                           </>
                         )}
                       </div>
@@ -740,30 +744,30 @@ export default function HeroSection() {
                 </div>
 
                 {/* Screen reflection effect */}
-                <div className="absolute inset-4 bg-gradient-to-t from-white/10 to-transparent rounded-[2.5rem] pointer-events-none"></div>
+                <div className="absolute inset-3 sm:inset-4 bg-gradient-to-t from-white/10 to-transparent rounded-[2rem] sm:rounded-[2.5rem] pointer-events-none"></div>
               </div>
 
               {/* TaskLapアプリ風のフローティング要素 */}
-              <div className="absolute -top-4 -left-4 w-8 h-8 bg-primary-400 rounded-full opacity-80 animate-float shadow-warm"></div>
+              <div className="absolute -top-3 -left-3 sm:-top-4 sm:-left-4 w-6 h-6 sm:w-8 sm:h-8 bg-primary-400 rounded-full opacity-80 animate-float shadow-warm"></div>
               <div
-                className="absolute -bottom-4 -right-4 w-6 h-6 bg-warm-400 rounded-full opacity-80 animate-float shadow-warm"
+                className="absolute -bottom-3 -right-3 sm:-bottom-4 sm:-right-4 w-5 h-5 sm:w-6 sm:h-6 bg-warm-400 rounded-full opacity-80 animate-float shadow-warm"
                 style={{ animationDelay: "1s" }}
               ></div>
               <div
-                className="absolute top-1/2 -right-8 w-4 h-4 bg-primary-300 rounded-full opacity-80 animate-float shadow-warm"
+                className="absolute top-1/2 -right-6 sm:-right-8 w-3 h-3 sm:w-4 sm:h-4 bg-primary-300 rounded-full opacity-80 animate-float shadow-warm"
                 style={{ animationDelay: "3s" }}
               ></div>
             </div>
 
             {/* Screenshot indicators - TaskLapアプリ風 */}
-            <div className="flex justify-center space-x-2 mt-8">
+            <div className="flex justify-center space-x-1.5 sm:space-x-2 mt-6 sm:mt-8">
               {screenshots.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentSlide(index)}
-                  className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                  className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full transition-all duration-300 ${
                     index === currentSlide
-                      ? "bg-primary-500 shadow-warm w-6"
+                      ? "bg-primary-500 shadow-warm w-4 sm:w-6"
                       : "bg-warm-300 dark:bg-neutral-600"
                   }`}
                   aria-label={`スクリーンショット ${index + 1} を表示`}

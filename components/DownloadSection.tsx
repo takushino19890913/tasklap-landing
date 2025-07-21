@@ -14,301 +14,108 @@ import {
   Clock,
   Users,
   Award,
+  Target,
+  List,
 } from "lucide-react";
 
 export default function DownloadSection() {
   const t = useTranslations();
-  const [showQR, setShowQR] = useState("ios"); // 'ios' or 'android'
-
-  const features = [
-    {
-      icon: Zap,
-      title: t("download.features.instant.title"),
-      description: t("download.features.instant.description"),
-      color:
-        "text-yellow-600 bg-yellow-50 dark:bg-yellow-900/20 dark:text-yellow-400",
-    },
-    {
-      icon: Shield,
-      title: t("download.features.free.title"),
-      description: t("download.features.free.description"),
-      color:
-        "text-green-600 bg-green-50 dark:bg-green-900/20 dark:text-green-400",
-    },
-    {
-      icon: Globe,
-      title: t("download.features.multilingual.title"),
-      description: t("download.features.multilingual.description"),
-      color: "text-blue-600 bg-blue-50 dark:bg-blue-900/20 dark:text-blue-400",
-    },
-  ];
-
-  const stats = [
-    {
-      icon: Users,
-      value: t("common.comingSoon"),
-      label: t("download.stats.downloads"),
-    },
-    {
-      icon: Star,
-      value: t("common.comingSoon"),
-      label: t("download.stats.rating"),
-    },
-    { icon: Clock, value: "50MB", label: t("download.stats.size") },
-    { icon: Award, value: "1.0.0", label: t("download.stats.version") },
-  ];
 
   return (
     <section
       id="download"
-      className="py-24 section-warm relative overflow-hidden"
+      className="py-8 sm:py-12 md:py-20 bg-gradient-to-b from-primary-50 to-white dark:from-neutral-800 dark:to-neutral-900"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Header */}
-        <div className="text-center mb-20">
-          <div className="inline-flex items-center px-6 py-3 bg-primary-500 text-white rounded-full text-sm font-medium mb-6 shadow-warm dark:shadow-navy animate-pulse-warm">
-            <div className="relative w-5 h-5 mr-2 rounded-md overflow-hidden bg-white/20">
-              <Image
-                src="/app_icon_transparent.png"
-                alt="TaskLap Icon"
-                width={20}
-                height={20}
-                className="w-full h-full object-contain rounded-md"
-              />
-            </div>
-            <span>{t("common.downloadNow")}</span>
-          </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-primary-contrast mb-6">
+        <div className="mb-6 sm:mb-8 md:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800 dark:text-white mb-2 sm:mb-3 md:mb-4">
             {t("download.title")}
           </h2>
-          <p className="text-xl text-secondary-contrast max-w-3xl mx-auto">
+          <p className="text-sm sm:text-base md:text-xl text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto hidden sm:block">
             {t("download.subtitle")}
           </p>
         </div>
 
-        {/* Main Download Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
-          {/* Left: App Preview */}
-          <div className="text-center lg:text-left">
-            <div className="flex items-center justify-center lg:justify-start mb-8">
-              <div className="relative w-24 h-24 rounded-3xl overflow-hidden shadow-warm dark:shadow-navy">
-                <Image
-                  src="/app_icon_transparent.png"
-                  alt="TaskLap App Icon"
-                  width={96}
-                  height={96}
-                  className="w-full h-full object-contain rounded-3xl"
-                />
-              </div>
-            </div>
+        {/* Store Badges */}
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 justify-center items-center mb-6 sm:mb-8 md:mb-12">
+          <a
+            href="#"
+            className="block transition-transform hover:scale-105"
+            aria-label="App Store からダウンロード（申請中）"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+              alt="App Store からダウンロード"
+              className="h-10 sm:h-12 md:h-14 w-auto"
+            />
+          </a>
+          <a
+            href="#"
+            className="block transition-transform hover:scale-105"
+            aria-label="Get it on Google Play（申請中）"
+          >
+            <img
+              src="https://raw.githubusercontent.com/pioug/google-play-badges/main/svg/English.svg"
+              alt="Get it on Google Play"
+              className="h-10 sm:h-12 md:h-14 w-auto"
+            />
+          </a>
+        </div>
 
-            <h3 className="text-3xl font-bold text-primary-contrast mb-4">
-              {t("download.title")}
-            </h3>
-            <p className="text-lg text-secondary-contrast mb-8 max-w-2xl lg:mx-0 mx-auto">
-              {t("download.subtitle")}
-              {t("download.description")}
-            </p>
-
-            {/* Download Badges - 公式ストアバッジ */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-6 items-center lg:items-start lg:justify-start justify-center">
-              {/* App Store Badge */}
-              <a
-                href="#"
-                className="block transition-transform hover:scale-105"
-                aria-label={t("download.appStore")}
-              >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
-                  alt={t("download.appStore")}
-                  className="h-[48px] w-auto"
-                />
-              </a>
-
-              {/* Google Play Badge */}
-              <a
-                href="#"
-                className="block transition-transform hover:scale-105"
-                aria-label={t("download.googlePlay")}
-              >
-                <img
-                  src="https://raw.githubusercontent.com/pioug/google-play-badges/main/svg/English.svg"
-                  alt={t("download.googlePlay")}
-                  className="h-[48px] w-auto"
-                />
-              </a>
-            </div>
-
-            {/* 申請中メッセージ */}
-            <div className="mb-8 p-4 bg-primary-50 dark:bg-primary-900/20 rounded-xl border border-primary-200 dark:border-primary-700">
-              <p className="text-sm text-primary-700 dark:text-primary-300 text-center">
-                {t("common.applicationInProgress")}
-              </p>
-            </div>
-
-            {/* QR Code Toggle */}
-            <div className="card p-4">
-              <div className="flex items-center justify-center space-x-4 mb-4">
-                <button
-                  onClick={() => setShowQR("ios")}
-                  className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors ${
-                    showQR === "ios"
-                      ? "bg-primary-500 text-white"
-                      : "text-muted-contrast hover:text-primary-500"
-                  }`}
-                >
-                  iOS QR
-                </button>
-                <button
-                  onClick={() => setShowQR("android")}
-                  className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors ${
-                    showQR === "android"
-                      ? "bg-primary-500 text-white"
-                      : "text-muted-contrast hover:text-primary-500"
-                  }`}
-                >
-                  Android QR
-                </button>
-              </div>
-              <div className="flex justify-center">
-                <div className="w-32 h-32 bg-elevated-alt rounded-2xl flex items-center justify-center">
-                  <QrCode className="w-16 h-16 text-muted-contrast" />
-                </div>
-              </div>
-              <p className="text-center text-xs text-muted-contrast mt-2">
-                {t("common.qrCodeInProgress")}
-              </p>
-            </div>
-          </div>
-
-          {/* Right: Features List */}
-          <div className="space-y-6">
-            <h4 className="text-2xl font-bold text-primary-contrast mb-6">
-              {t("download.whyChoose")}
-            </h4>
-
-            <div className="grid grid-cols-1 gap-4">
-              {features.map((feature, index) => (
-                <div
-                  key={index}
-                  className="flex items-center space-x-3 p-4 rounded-xl bg-elevated border border-elevated"
-                >
-                  <div
-                    className={`w-10 h-10 ${feature.color} rounded-xl flex items-center justify-center`}
-                  >
-                    <feature.icon className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-primary-contrast">
-                      {feature.title}
-                    </h4>
-                    <p className="text-sm text-muted-contrast">
-                      {feature.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
+        {/* Application Status */}
+        <div className="mb-6 sm:mb-8 md:mb-12">
+          <div className="inline-flex items-center px-3 sm:px-4 py-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-700">
+            <span className="text-xs sm:text-sm text-primary-700 dark:text-primary-300">
+              {t("common.applicationInProgress")}
+            </span>
           </div>
         </div>
 
-        {/* Stats Section */}
-        <div className="card p-8">
-          <h3 className="text-2xl font-bold text-primary-contrast text-center mb-8">
-            {t("download.appStats")}
+        {/* Why Choose TaskLap - Simplified on mobile */}
+        <div className="hidden sm:block">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-neutral-800 dark:text-white mb-4 sm:mb-6 md:mb-8">
+            {t("download.whyChoose")}
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="icon-container-large mx-auto mb-3">
-                  <stat.icon className="w-8 h-8" />
-                </div>
-                <div className="text-2xl font-bold text-primary-contrast mb-1">
-                  {stat.value}
-                </div>
-                <div className="text-sm text-muted-contrast">{stat.label}</div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+            <div className="text-center p-3 sm:p-4 md:p-6">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Target className="w-6 h-6 sm:w-8 sm:h-8 text-orange-600 dark:text-orange-400" />
               </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Final CTA */}
-        <div className="text-center mt-20">
-          <div className="card p-8 md:p-12">
-            <div className="flex items-center justify-center mb-6">
-              <div className="relative w-16 h-16 rounded-3xl overflow-hidden shadow-warm dark:shadow-navy">
-                <Image
-                  src="/app_icon_transparent.png"
-                  alt="TaskLap App Icon"
-                  width={64}
-                  height={64}
-                  className="w-full h-full object-contain rounded-3xl"
-                />
-              </div>
-            </div>
-            <h3 className="text-3xl font-bold text-primary-contrast mb-4">
-              {t("download.title")}
-            </h3>
-            <p className="text-lg text-secondary-contrast mb-8 max-w-2xl mx-auto">
-              {t("download.subtitle")} {t("download.description")}
-            </p>
-            {/* 公式ストアバッジ（小サイズ） */}
-            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-4">
-              <a
-                href="#"
-                className="block transition-transform hover:scale-105"
-                aria-label={t("download.appStore")}
-              >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
-                  alt={t("download.appStore")}
-                  className="h-[48px] w-auto"
-                />
-              </a>
-              <a
-                href="#"
-                className="block transition-transform hover:scale-105"
-                aria-label={t("download.googlePlay")}
-              >
-                <img
-                  src="https://raw.githubusercontent.com/pioug/google-play-badges/main/svg/English.svg"
-                  alt={t("download.googlePlay")}
-                  className="h-[48px] w-auto"
-                />
-              </a>
+              <h4 className="font-semibold text-neutral-800 dark:text-white text-sm sm:text-base mb-1 sm:mb-2">
+                {t("features.focusMode.title")}
+              </h4>
+              <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400">
+                {t("features.focusMode.shortDescription")}
+              </p>
             </div>
 
-            {/* 申請中メッセージ */}
-            <div className="mb-6 flex justify-center">
-              <div className="inline-flex items-center px-3 py-1.5 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-700">
-                <span className="text-xs text-primary-700 dark:text-primary-300">
-                  {t("download.storeSubmission")}
-                </span>
+            <div className="text-center p-3 sm:p-4 md:p-6">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <List className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 dark:text-blue-400" />
               </div>
+              <h4 className="font-semibold text-neutral-800 dark:text-white text-sm sm:text-base mb-1 sm:mb-2">
+                {t("features.checklist.title")}
+              </h4>
+              <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400">
+                {t("features.checklist.shortDescription")}
+              </p>
             </div>
-            <div className="flex justify-center">
-              <button
-                onClick={() => {
-                  const element = document.getElementById("features");
-                  if (element) {
-                    element.scrollIntoView({ behavior: "smooth" });
-                  }
-                }}
-                className="btn-secondary px-8 py-4 rounded-2xl font-semibold text-lg"
-              >
-                {t("hero.viewFeatures")}
-              </button>
+
+            <div className="text-center p-3 sm:p-4 md:p-6">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Smartphone className="w-6 h-6 sm:w-8 sm:h-8 text-green-600 dark:text-green-400" />
+              </div>
+              <h4 className="font-semibold text-neutral-800 dark:text-white text-sm sm:text-base mb-1 sm:mb-2">
+                {t("features.simple.title")}
+              </h4>
+              <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400">
+                {t("features.simple.shortDescription")}
+              </p>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Background decorations */}
-      <div className="absolute top-20 right-10 w-32 h-32 bg-primary-200/20 dark:bg-primary-800/10 rounded-full opacity-60 animate-float"></div>
-      <div
-        className="absolute bottom-40 left-10 w-24 h-24 bg-accent-200/20 dark:bg-accent-800/10 rounded-full opacity-60 animate-float"
-        style={{ animationDelay: "2s" }}
-      ></div>
     </section>
   );
 }

@@ -56,16 +56,16 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full header-glass z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-14 sm:h-16">
           {/* Logo - TaskLapアプリの実際のアイコンを使用 */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link
                 href={`/${locale}`}
-                className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+                className="flex items-center space-x-2 sm:space-x-3 hover:opacity-80 transition-opacity"
               >
                 {/* TaskLapの透過アイコン */}
-                <div className="relative w-10 h-10">
+                <div className="relative w-8 h-8 sm:w-10 sm:h-10">
                   <Image
                     src="/app_icon_transparent.png"
                     alt="TaskLap App Icon"
@@ -75,7 +75,7 @@ export default function Header() {
                     priority
                   />
                 </div>
-                <h1 className="text-2xl font-bold text-neutral-800 dark:text-neutral-100">
+                <h1 className="text-xl sm:text-2xl font-bold text-neutral-800 dark:text-neutral-100">
                   Task<span className="text-primary-500">Lap</span>
                 </h1>
               </Link>
@@ -181,7 +181,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden">
+          <div className="md:hidden relative z-50">
             <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3 bg-white dark:bg-neutral-800 border-t border-neutral-200 dark:border-neutral-700 rounded-b-2xl shadow-warm-lg">
               <button
                 onClick={() => handleNavigation("features")}
@@ -194,6 +194,12 @@ export default function Header() {
                 className="block w-full text-left px-4 py-3 text-neutral-700 dark:text-neutral-300 hover:bg-warm-50 dark:hover:bg-neutral-700 rounded-xl font-medium transition-colors duration-200"
               >
                 {t("navigation.focusMode")}
+              </button>
+              <button
+                onClick={() => handleNavigation("checklist")}
+                className="block w-full text-left px-4 py-3 text-neutral-700 dark:text-neutral-300 hover:bg-warm-50 dark:hover:bg-neutral-700 rounded-xl transition-colors duration-200"
+              >
+                {t("navigation.checklist")}
               </button>
               <button
                 onClick={() => handleNavigation("download")}

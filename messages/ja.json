@@ -34,6 +34,7 @@
     "subtitle": "一つのタスクに集中する表示モード",
     "description": "フォーカスモードは、気を散らす要素を排除し、一つのタスクだけに集中できる表示モードです。",
     "featureIntro": "TaskLap機能紹介",
+    "experienceTitle": "🎯 フォーカスモードを体験",
     "workCategory": "仕事",
     "completed": "完了",
     "congratulations": "お疲れ様でした！",
@@ -63,6 +64,14 @@
     },
     "benefits": {
       "title": "フォーカスモードの効果",
+      "singleTask": {
+        "title": "一つのタスクに集中",
+        "description": "マルチタスクの誘惑を完全排除"
+      },
+      "simpleChoice": {
+        "title": "シンプルな選択",
+        "description": "完了かスキップの2択のみ"
+      },
       "items": {
         "decisionFatigue": "決断疲れの軽減",
         "focusDuration": "集中力の持続時間向上",
@@ -94,6 +103,8 @@
     },
     "instructions": "項目をタップ、追加、完了後リセットボタンで再利用",
     "resetInstructions": "完了後はリセットボタンで全てのチェックを外し、同じリストを再利用できます。",
+    "actualScreenCaption": "📝 実際のTaskLapのチェックリスト画面",
+    "tryInteracting": "項目をタップ、追加、完了後リセットボタンで再利用",
     "experienceTitle": "📝 チェックリスト機能を体験",
     "simpleCheckFeature": "シンプルなチェック機能",
     "simpleCheckDescription": "タップ一つで項目にチェックを入れたり外したり。直感的な操作で快適に使えます。",
@@ -101,6 +112,16 @@
     "addItemsDescription": "必要な時にいつでも新しい項目を追加。リストは自由に編集できます。",
     "oneClickReset": "ワンクリックでリセット",
     "convenientFor": "こんな時に便利",
+    "benefits": {
+      "reusable": {
+        "title": "再利用できるチェックリスト",
+        "description": "一度作ったリストを何度でも使える"
+      },
+      "flexible": {
+        "title": "柔軟なリスト管理",
+        "description": "いつでも項目追加・編集が可能"
+      }
+    },
     "useCases": {
       "travelPrep": "旅行準備の持ち物チェック",
       "shoppingList": "買い物リストの管理",

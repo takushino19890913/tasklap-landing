@@ -190,87 +190,54 @@ export default function FocusModeSection() {
   return (
     <section
       id="focus-mode"
-      className="py-24 section-warm-alt overflow-hidden relative"
+      className="py-8 sm:py-12 md:py-20 bg-white dark:bg-neutral-900"
     >
-      {/* TaskLapアプリ風の背景装飾 */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-20 h-20 bg-primary-200/30 dark:bg-primary-800/20 rounded-full opacity-60 animate-float"></div>
-        <div
-          className="absolute bottom-20 right-10 w-16 h-16 bg-warm-200/40 dark:bg-warm-800/20 rounded-full opacity-60 animate-float"
-          style={{ animationDelay: "2s" }}
-        ></div>
-        <div
-          className="absolute top-1/2 right-20 w-12 h-12 bg-primary-300/30 dark:bg-primary-700/20 rounded-full opacity-60 animate-float"
-          style={{ animationDelay: "4s" }}
-        ></div>
-      </div>
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header - TaskLapアプリ風 */}
-        <div className="text-center mb-20">
-          <div className="inline-flex items-center px-6 py-3 bg-primary-500 text-white rounded-full text-sm font-medium mb-6 shadow-warm">
-            <div className="relative w-5 h-5 mr-2 rounded-md overflow-hidden bg-white/20">
-              <Image
-                src="/app_icon_transparent.png"
-                alt="TaskLap Icon"
-                width={20}
-                height={20}
-                className="w-full h-full object-contain rounded-md "
-              />
-            </div>
-            <span>{t("focusMode.featureIntro")}</span>
-          </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-100 mb-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="text-center mb-6 sm:mb-8 md:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800 dark:text-white mb-2 sm:mb-3 md:mb-4">
             {t("focusMode.title")}
           </h2>
-          <p className="text-xl text-primary-600 dark:text-primary-400 max-w-3xl mx-auto mb-8 font-medium">
+          <p className="text-sm sm:text-base md:text-xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto hidden sm:block">
             {t("focusMode.subtitle")}
-          </p>
-          <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-4xl mx-auto leading-relaxed">
-            {t("focusMode.description")}
           </p>
         </div>
 
-        {/* Main Demo Section - TaskLapアプリの実際の画面を模倣 */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
-          {/* Interactive Demo - TaskLapアプリのフォーカスモード画面 */}
-          <div className="order-2 lg:order-1">
-            <div className="max-w-sm mx-auto">
-              {/* TaskLap App Frame */}
-              <div className="relative rounded-[3rem] p-4 shadow-2xl bg-black">
-                {/* Phone Screen */}
-                <div
-                  className={`rounded-[2.5rem] overflow-hidden aspect-[9/19.5] relative flex flex-col ${
-                    currentMode === "dark"
-                      ? "bg-gradient-to-br from-slate-800 to-slate-900"
-                      : "bg-gradient-to-br from-orange-50 to-orange-100"
-                  }`}
-                >
+        {/* Experience Section */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
+          {/* Interactive Experience */}
+          <div className="lg:order-2">
+            <div className="relative max-w-[280px] sm:max-w-xs md:max-w-sm mx-auto">
+              {/* iPhone Mockup - Unified with Hero Section */}
+              <div className="relative w-full bg-black rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-2.5 sm:p-3 md:p-4 shadow-warm-xl">
+                <div className="w-full h-full bg-neutral-900 dark:bg-neutral-800 rounded-[1.5rem] sm:rounded-[2rem] md:rounded-[2.5rem] overflow-hidden aspect-[9/19.5] relative flex flex-col">
                   {/* Status Bar */}
                   <div
-                    className={`h-16 flex items-center justify-center ${
+                    className={`h-10 sm:h-12 md:h-14 flex items-center justify-center ${
                       currentMode === "dark" ? "bg-black" : "bg-neutral-900"
                     }`}
                   >
-                    <div className="text-white text-xl font-semibold">Todo</div>
-                    <div className="absolute right-6">
-                      <Info className="w-6 h-6 text-white" />
+                    <div className="text-white text-sm sm:text-base md:text-lg font-semibold">
+                      Todo
+                    </div>
+                    <div className="absolute right-3 sm:right-4 md:right-5">
+                      <Info className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" />
                     </div>
                   </div>
 
                   {/* Navigation Header */}
-                  <div className="px-6 py-4 flex items-center">
+                  <div className="px-3 sm:px-4 md:px-5 py-2.5 sm:py-3 md:py-3.5 flex items-center">
                     <ArrowLeft
-                      className={`w-6 h-6 ${
+                      className={`w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 ${
                         currentMode === "dark"
                           ? "text-white"
                           : "text-neutral-800"
-                      } mr-4`}
+                      } mr-2.5 sm:mr-3 md:mr-3.5`}
                     />
                     <div className="flex items-center">
-                      <div className="w-3 h-5 bg-orange-500 rounded-sm mr-3"></div>
+                      <div className="w-2 h-3 sm:w-2.5 sm:h-4 md:w-3 md:h-4.5 bg-orange-500 rounded-sm mr-2 sm:mr-2.5 md:mr-3"></div>
                       <span
-                        className={`text-lg font-medium ${
+                        className={`text-sm sm:text-base md:text-lg font-medium ${
                           currentMode === "dark"
                             ? "text-orange-400"
                             : "text-orange-600"
@@ -282,8 +249,8 @@ export default function FocusModeSection() {
                   </div>
 
                   {/* Progress Display */}
-                  <div className="text-center px-6 py-6">
-                    <div className="text-7xl font-bold mb-2 leading-none">
+                  <div className="text-center px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5">
+                    <div className="text-4xl sm:text-5xl md:text-6xl font-bold mb-1.5 sm:mb-2 md:mb-2.5 leading-none">
                       <span className="text-orange-500">
                         {completedTasks.length}
                       </span>
@@ -299,7 +266,7 @@ export default function FocusModeSection() {
                       </span>
                     </div>
                     <div
-                      className={`text-lg ${
+                      className={`text-xs sm:text-sm md:text-base ${
                         currentMode === "dark"
                           ? "text-neutral-400"
                           : "text-neutral-600"
@@ -310,10 +277,10 @@ export default function FocusModeSection() {
                   </div>
 
                   {/* Current Task Card */}
-                  <div className="px-6 flex-1 flex items-center justify-center py-6">
+                  <div className="px-3 sm:px-4 md:px-5 flex-1 flex items-center justify-center py-3 sm:py-4 md:py-5">
                     {!isAllCompleted ? (
                       <div
-                        className={`w-full max-w-sm p-6 rounded-3xl shadow-lg ${
+                        className={`w-full max-w-sm p-3 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl md:rounded-3xl shadow-lg ${
                           currentMode === "dark"
                             ? "bg-slate-700/50 border border-slate-600"
                             : "bg-white border border-orange-100"
@@ -321,14 +288,14 @@ export default function FocusModeSection() {
                       >
                         <div className="text-center">
                           <div
-                            className={`w-20 h-20 rounded-3xl flex items-center justify-center mx-auto mb-6 ${
+                            className={`w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-xl sm:rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto mb-3 sm:mb-4 md:mb-5 ${
                               currentMode === "dark"
                                 ? "bg-orange-500/20"
                                 : "bg-orange-100"
                             }`}
                           >
                             <CheckSquare
-                              className={`w-10 h-10 ${
+                              className={`w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 ${
                                 currentMode === "dark"
                                   ? "text-orange-400"
                                   : "text-orange-600"
@@ -336,7 +303,7 @@ export default function FocusModeSection() {
                             />
                           </div>
                           <h3
-                            className={`text-xl font-medium leading-relaxed ${
+                            className={`text-sm sm:text-base md:text-lg font-medium leading-relaxed ${
                               currentMode === "dark"
                                 ? "text-white"
                                 : "text-neutral-800"
@@ -347,16 +314,16 @@ export default function FocusModeSection() {
                         </div>
                       </div>
                     ) : (
-                      <div className="text-center p-6">
+                      <div className="text-center p-3 sm:p-4 md:p-5">
                         <div
-                          className={`w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 ${
+                          className={`w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 md:mb-5 ${
                             currentMode === "dark"
                               ? "bg-green-500/20"
                               : "bg-green-100"
                           }`}
                         >
                           <CheckCircle
-                            className={`w-12 h-12 ${
+                            className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 ${
                               currentMode === "dark"
                                 ? "text-green-400"
                                 : "text-green-600"
@@ -364,7 +331,7 @@ export default function FocusModeSection() {
                           />
                         </div>
                         <h3
-                          className={`text-2xl font-bold mb-4 ${
+                          className={`text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3 md:mb-4 ${
                             currentMode === "dark"
                               ? "text-green-400"
                               : "text-green-600"
@@ -373,7 +340,7 @@ export default function FocusModeSection() {
                           {t("focusMode.congratulations")}
                         </h3>
                         <p
-                          className={`text-base ${
+                          className={`text-sm sm:text-base md:text-lg ${
                             currentMode === "dark"
                               ? "text-neutral-400"
                               : "text-neutral-600"
@@ -387,35 +354,35 @@ export default function FocusModeSection() {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="px-6 pb-6 pt-4 flex space-x-4">
+                  <div className="px-2.5 sm:px-3 md:px-4 pb-2.5 sm:pb-3 md:pb-4 pt-2 sm:pt-2.5 md:pt-3 flex space-x-2 sm:space-x-3">
                     {!isAllCompleted ? (
                       <>
                         {/* Skip Button */}
                         <button
                           onClick={handleSkip}
-                          className={`flex-1 py-4 rounded-2xl border-2 font-semibold text-lg flex items-center justify-center space-x-2 transition-all ${
+                          className={`flex-1 py-2.5 sm:py-3 md:py-3.5 rounded-lg sm:rounded-xl md:rounded-2xl border-2 font-semibold text-xs sm:text-sm md:text-base flex items-center justify-center space-x-1.5 sm:space-x-2 transition-all ${
                             currentMode === "dark"
                               ? "bg-transparent border-orange-500 text-orange-400 hover:bg-orange-500/10"
                               : "bg-white border-orange-500 text-orange-600 hover:bg-orange-50"
                           }`}
                         >
-                          <SkipForward className="w-5 h-5" />
+                          <SkipForward className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5" />
                           <span>{t("focusMode.skip")}</span>
                         </button>
 
                         {/* Complete Button */}
                         <button
                           onClick={handleComplete}
-                          className="flex-1 py-4 rounded-2xl bg-green-500 hover:bg-green-600 text-white font-semibold text-lg flex items-center justify-center space-x-2 transition-all"
+                          className="flex-1 py-2.5 sm:py-3 md:py-3.5 rounded-lg sm:rounded-xl md:rounded-2xl bg-green-500 hover:bg-green-600 text-white font-semibold text-xs sm:text-sm md:text-base flex items-center justify-center space-x-1.5 sm:space-x-2 transition-all"
                         >
-                          <CheckCircle className="w-5 h-5" />
+                          <CheckCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5" />
                           <span>{t("focusMode.complete")}</span>
                         </button>
                       </>
                     ) : (
                       <button
                         onClick={reset}
-                        className="w-full py-4 rounded-2xl bg-primary-500 hover:bg-primary-600 text-white font-semibold text-lg transition-all"
+                        className="w-full py-2.5 sm:py-3 md:py-3.5 rounded-lg sm:rounded-xl md:rounded-2xl bg-primary-500 hover:bg-primary-600 text-white font-semibold text-xs sm:text-sm md:text-base transition-all"
                       >
                         もう一度体験する
                       </button>
@@ -423,135 +390,89 @@ export default function FocusModeSection() {
                   </div>
 
                   {/* Spacer to push tab navigation to bottom */}
-                  <div className="flex-1 min-h-[40px]"></div>
+                  <div className="flex-1 min-h-[20px] sm:min-h-[30px] md:min-h-[35px]"></div>
 
                   {/* Bottom Navigation */}
                   <div
-                    className={`h-20 ${
+                    className={`h-14 sm:h-16 md:h-18 ${
                       currentMode === "dark" ? "bg-black" : "bg-neutral-900"
-                    } flex items-center justify-around px-2 py-2`}
+                    } flex items-center justify-around px-2 py-1.5`}
                   >
                     <div className="flex flex-col items-center">
-                      <CheckCircle className="w-7 h-7 text-white mb-1" />
-                      <span className="text-white text-xs">Todo</span>
+                      <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white mb-0.5 sm:mb-1" />
+                      <span className="text-white text-xs sm:text-sm">
+                        Todo
+                      </span>
                     </div>
                     <div className="flex flex-col items-center">
-                      <List className="w-7 h-7 text-neutral-500 mb-1" />
-                      <span className="text-neutral-500 text-xs">
+                      <List className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-neutral-500 mb-0.5 sm:mb-1" />
+                      <span className="text-neutral-500 text-xs sm:text-sm">
                         {t("common.checklist")}
                       </span>
                     </div>
                     <div className="flex flex-col items-center">
-                      <Settings className="w-7 h-7 text-neutral-500 mb-1" />
-                      <span className="text-neutral-500 text-xs">
+                      <Settings className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-neutral-500 mb-0.5 sm:mb-1" />
+                      <span className="text-neutral-500 text-xs sm:text-sm">
                         {t("common.settings")}
                       </span>
                     </div>
                   </div>
 
                   {/* Home indicator */}
-                  <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-white rounded-full"></div>
+                  <div className="absolute bottom-1.5 sm:bottom-2 md:bottom-2.5 left-1/2 transform -translate-x-1/2 w-24 sm:w-28 md:w-32 h-1 bg-white rounded-full"></div>
                 </div>
-
-                {/* Screen reflection effect */}
-                <div className="absolute inset-4 bg-gradient-to-t from-white/10 to-transparent rounded-[2.5rem] pointer-events-none"></div>
               </div>
 
               {/* Instructions */}
-              <div className="text-center mt-6 space-y-2">
-                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+              <div className="text-center mt-3 sm:mt-4 md:mt-6 space-y-1.5 sm:space-y-2">
+                <p className="text-neutral-600 dark:text-neutral-400 text-xs sm:text-sm md:text-base">
                   {t("focusMode.actualScreenCaption")}
                 </p>
-                <p className="text-xs text-neutral-500 dark:text-neutral-500">
+                <p className="text-xs sm:text-sm text-neutral-500 dark:text-neutral-500">
                   {t("focusMode.tryTapping")}
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Feature Description - TaskLapアプリ風 */}
-          <div className="order-1 lg:order-2 space-y-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {focusFeatures.map((feature, index) => (
-                <div key={index} className="card p-6 card-hover">
-                  <div
-                    className={`w-12 h-12 bg-gradient-to-br ${feature.color} rounded-xl flex items-center justify-center mb-4`}
-                  >
-                    <feature.icon className="w-6 h-6 text-white" />
-                  </div>
-                  <h3 className="text-lg font-bold text-neutral-800 dark:text-neutral-200 mb-2">
-                    {feature.title}
-                  </h3>
-                  <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-                    {feature.description}
+          {/* Description */}
+          <div className="lg:order-1">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-neutral-800 dark:text-white mb-3 sm:mb-4 md:mb-6">
+              {t("focusMode.experienceTitle")}
+            </h3>
+            <p className="text-sm sm:text-base md:text-lg text-neutral-600 dark:text-neutral-400 mb-4 sm:mb-6 md:mb-8 leading-relaxed hidden sm:block">
+              {t("focusMode.experienceDescription")}
+            </p>
+
+            {/* Benefits - Simplified on mobile */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-6">
+              <div className="flex items-start space-x-2 sm:space-x-3">
+                <div className="flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center mt-0.5">
+                  <Target className="w-3 h-3 sm:w-4 sm:h-4 text-orange-600 dark:text-orange-400" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-neutral-800 dark:text-white text-sm sm:text-base">
+                    {t("focusMode.benefits.singleTask.title")}
+                  </h4>
+                  <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 hidden sm:block">
+                    {t("focusMode.benefits.singleTask.description")}
                   </p>
                 </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Benefits Section - TaskLapアプリ風 */}
-        <div className="card p-8 md:p-12">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-neutral-800 dark:text-neutral-200 mb-4">
-              {t("focusMode.benefits.title")}
-            </h3>
-            <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-              {t("focusMode.benefitsSubtitle")}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {benefits.map((benefit, index) => (
-              <div key={index} className="text-center p-6">
-                <div
-                  className={`w-16 h-16 ${benefit.color} rounded-2xl flex items-center justify-center mx-auto mb-4`}
-                >
-                  <benefit.icon className="w-8 h-8" />
-                </div>
-                <h4 className="text-lg font-semibold text-neutral-800 dark:text-neutral-200">
-                  {benefit.title}
-                </h4>
               </div>
-            ))}
-          </div>
-        </div>
 
-        {/* Call to Action - TaskLapアプリ風 */}
-        {/* 公式ストアバッジ */}
-        <div className="text-center mt-16">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a
-              href="#"
-              className="block transition-transform hover:scale-105"
-              aria-label="App Store からダウンロード（申請中）"
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
-                alt="App Store からダウンロード"
-                className="h-[48px] w-auto"
-              />
-            </a>
-            <a
-              href="#"
-              className="block transition-transform hover:scale-105"
-              aria-label="Get it on Google Play（申請中）"
-            >
-              <img
-                src="https://raw.githubusercontent.com/pioug/google-play-badges/main/svg/English.svg"
-                alt="Get it on Google Play"
-                className="h-[48px] w-auto"
-              />
-            </a>
-          </div>
-
-          {/* 申請中メッセージ */}
-          <div className="mt-6">
-            <div className="inline-flex items-center px-4 py-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-700">
-              <span className="text-sm text-primary-700 dark:text-primary-300">
-                {t("common.applicationInProgress")}
-              </span>
+              <div className="flex items-start space-x-2 sm:space-x-3">
+                <div className="flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center mt-0.5">
+                  <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-600 dark:text-green-400" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-neutral-800 dark:text-white text-sm sm:text-base">
+                    {t("focusMode.benefits.simpleChoice.title")}
+                  </h4>
+                  <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 hidden sm:block">
+                    {t("focusMode.benefits.simpleChoice.description")}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
