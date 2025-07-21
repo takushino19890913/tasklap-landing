@@ -356,23 +356,24 @@
       "title": "5. Security",
       "description": "Since your data is managed only on your device, it is protected by your device's security settings (passcode, fingerprint authentication, etc.)."
     },
-    "advertising": {
+    "ads": {
       "title": "6. Advertising",
       "description": "TaskLap app does not display any advertisements."
     },
-    "ageRequirement": {
+    "ageRestriction": {
       "title": "7. Age Requirement",
       "description": "TaskLap app is intended for users aged 13 and above. Users under 13 should use this app with parental consent."
     },
     "contact": {
       "title": "8. Contact",
       "description": "If you have any questions about this privacy policy, please feel free to contact us:",
-      "email": "privacy@tasklap.com"
+      "email": "Email"
     },
-    "changes": {
+    "policyChanges": {
       "title": "9. Policy Changes",
       "description": "This privacy policy may be updated in response to changes in legal requirements or additions to app features. When there are significant changes, we will notify you in advance through the app or website."
-    }
+    },
+    "finalNote": "This privacy policy is designed to respect your privacy to the fullest and provide you with complete control over your data."
   },
   "common": {
     "downloadNow": "Download Now",

@@ -251,9 +251,10 @@
     }
   },
   "download": {
-    "title": "Baixe o TaskLap agora",
-    "subtitle": "Aplicativo de gerenciamento de tarefas simples e fácil de usar.",
-    "description": "Baixe grátis agora e gerencie suas tarefas diárias com eficiência.",
+    "title": "Transforme seu foco com TaskLap agora",
+    "subtitle": "Grátis, sem registro, início imediato",
+    "description": "Baixe grátis agora e gerencie suas tarefas diárias de forma eficiente.",
+    "whyChoose": "Por que escolher TaskLap?",
     "downloadTitle": "Baixar agora",
     "appStore": "Baixar na App Store",
     "googlePlay": "Baixar no Google Play",
@@ -353,23 +354,24 @@
       "title": "5. Segurança",
       "description": "Como seus dados são gerenciados apenas no seu dispositivo, eles são protegidos pelas configurações de segurança do seu dispositivo (código de acesso, autenticação por impressão digital, etc.)."
     },
-    "advertising": {
+    "ads": {
       "title": "6. Publicidade",
       "description": "O aplicativo TaskLap não exibe nenhuma publicidade."
     },
-    "ageRequirement": {
+    "ageRestriction": {
       "title": "7. Requisito de idade",
       "description": "O aplicativo TaskLap é destinado a usuários de 13 anos ou mais. Usuários menores de 13 anos devem usar este aplicativo com o consentimento dos pais."
     },
     "contact": {
       "title": "8. Contato",
       "description": "Se você tiver alguma pergunta sobre esta política de privacidade, sinta-se à vontade para nos contatar:",
-      "email": "privacy@tasklap.com"
+      "email": "Email"
     },
-    "changes": {
+    "policyChanges": {
       "title": "9. Mudanças na Política",
       "description": "Esta política de privacidade pode ser atualizada em resposta a mudanças nos requisitos legais ou adições de recursos do aplicativo. Quando houver mudanças importantes, notificaremos você antecipadamente através do aplicativo ou site."
-    }
+    },
+    "finalNote": "Esta política de privacidade foi projetada para respeitar totalmente sua privacidade e fornecer controle completo sobre seus dados."
   },
   "common": {
     "downloadNow": "Baixar agora",

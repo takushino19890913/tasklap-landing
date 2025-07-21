@@ -251,9 +251,10 @@
     }
   },
   "download": {
-    "title": "Descarga TaskLap ahora",
-    "subtitle": "Aplicación de gestión de tareas simple y fácil de usar.",
+    "title": "Transforma tu concentración con TaskLap ahora",
+    "subtitle": "Gratis, sin registro, inicio inmediato",
     "description": "Descarga gratis ahora y gestiona eficientemente tus tareas diarias.",
+    "whyChoose": "¿Por qué elegir TaskLap?",
     "downloadTitle": "Descargar ahora",
     "appStore": "Descargar en App Store",
     "googlePlay": "Descargar en Google Play",
@@ -353,23 +354,24 @@
       "title": "5. Seguridad",
       "description": "Dado que sus datos se gestionan únicamente en su dispositivo, están protegidos por la configuración de seguridad de su dispositivo (código de acceso, autenticación por huella dactilar, etc.)."
     },
-    "advertising": {
+    "ads": {
       "title": "6. Publicidad",
       "description": "La aplicación TaskLap no muestra ninguna publicidad."
     },
-    "ageRequirement": {
+    "ageRestriction": {
       "title": "7. Requisito de edad",
       "description": "La aplicación TaskLap está destinada a usuarios de 13 años en adelante. Los usuarios menores de 13 años deben usar esta aplicación con el consentimiento de los padres."
     },
     "contact": {
       "title": "8. Contacto",
       "description": "Si tiene alguna pregunta sobre esta política de privacidad, no dude en contactarnos:",
-      "email": "privacy@tasklap.com"
+      "email": "Email"
     },
-    "changes": {
+    "policyChanges": {
       "title": "9. Cambios en la Política",
       "description": "Esta política de privacidad puede actualizarse en respuesta a cambios en los requisitos legales o adiciones de funciones de la aplicación. Cuando haya cambios importantes, le notificaremos con anticipación a través de la aplicación o el sitio web."
-    }
+    },
+    "finalNote": "Esta política de privacidad está diseñada para respetar plenamente tu privacidad y proporcionarte control completo sobre tus datos."
   },
   "common": {
     "downloadNow": "Descargar ahora",

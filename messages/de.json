@@ -251,9 +251,10 @@
     }
   },
   "download": {
-    "title": "TaskLap jetzt herunterladen",
-    "subtitle": "Einfache und benutzerfreundliche Aufgabenverwaltungs-App.",
+    "title": "Verwandeln Sie Ihre Konzentration mit TaskLap jetzt",
+    "subtitle": "Kostenlos, keine Registrierung, sofortiger Start",
     "description": "Jetzt kostenlos herunterladen und Ihre täglichen Aufgaben effizient verwalten.",
+    "whyChoose": "Warum TaskLap wählen?",
     "downloadTitle": "Jetzt herunterladen",
     "appStore": "Im App Store herunterladen",
     "googlePlay": "Bei Google Play herunterladen",
@@ -353,23 +354,24 @@
       "title": "5. Sicherheit",
       "description": "Da Ihre Daten nur auf Ihrem Gerät verwaltet werden, sind sie durch die Sicherheitseinstellungen Ihres Geräts (Passcode, Fingerabdruck-Authentifizierung, etc.) geschützt."
     },
-    "advertising": {
+    "ads": {
       "title": "6. Werbung",
       "description": "Die TaskLap-App zeigt keine Werbung an."
     },
-    "ageRequirement": {
+    "ageRestriction": {
       "title": "7. Altersanforderung",
       "description": "Die TaskLap-App ist für Benutzer ab 13 Jahren gedacht. Benutzer unter 13 Jahren sollten diese App mit Zustimmung der Eltern verwenden."
     },
     "contact": {
       "title": "8. Kontakt",
       "description": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns gerne:",
-      "email": "privacy@tasklap.com"
+      "email": "Email"
     },
-    "changes": {
+    "policyChanges": {
       "title": "9. Richtlinienänderungen",
       "description": "Diese Datenschutzrichtlinie kann als Reaktion auf Änderungen der gesetzlichen Anforderungen oder Hinzufügungen von App-Funktionen aktualisiert werden. Bei wichtigen Änderungen werden wir Sie im Voraus über die App oder Website benachrichtigen."
-    }
+    },
+    "finalNote": "Diese Datenschutzrichtlinie soll Ihre Privatsphäre vollständig respektieren und Ihnen die vollständige Kontrolle über Ihre Daten geben."
   },
   "common": {
     "downloadNow": "Jetzt herunterladen",

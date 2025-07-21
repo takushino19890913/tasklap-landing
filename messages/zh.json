@@ -251,9 +251,10 @@
     }
   },
   "download": {
-    "title": "立即下载TaskLap",
-    "subtitle": "简单易用的任务管理应用。",
-    "description": "立即免费下载，高效管理日常任务。",
+    "title": "立即使用TaskLap改变您的专注力",
+    "subtitle": "免费，无需注册，立即开始使用",
+    "description": "立即免费下载，高效管理您的日常任务。",
+    "whyChoose": "为什么选择TaskLap？",
     "downloadTitle": "立即下载",
     "appStore": "从App Store下载",
     "googlePlay": "在Google Play获取",
@@ -353,23 +354,24 @@
       "title": "5. 安全",
       "description": "由于您的数据仅在设备内管理，因此受到您设备安全设置（密码、指纹认证等）的保护。"
     },
-    "advertising": {
+    "ads": {
       "title": "6. 广告",
       "description": "TaskLap应用不显示任何广告。"
     },
-    "ageRequirement": {
+    "ageRestriction": {
       "title": "7. 年龄要求",
       "description": "TaskLap应用面向13岁及以上用户。13岁以下用户应在父母同意下使用此应用。"
     },
     "contact": {
       "title": "8. 联系方式",
       "description": "如您对此隐私政策有任何疑问，请随时联系我们：",
-      "email": "privacy@tasklap.com"
+      "email": "Email"
     },
-    "changes": {
+    "policyChanges": {
       "title": "9. 政策变更",
       "description": "此隐私政策可能会根据法律要求的变化或应用功能的增加而更新。如有重大变更，我们将通过应用或网站提前通知您。"
-    }
+    },
+    "finalNote": "此隐私政策旨在最大程度地尊重您的隐私，并为您提供对数据的完全控制。"
   },
   "common": {
     "downloadNow": "立即下载",

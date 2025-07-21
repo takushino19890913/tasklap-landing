@@ -251,9 +251,10 @@
     }
   },
   "download": {
-    "title": "Téléchargez TaskLap maintenant",
-    "subtitle": "Application de gestion des tâches simple et facile à utiliser.",
+    "title": "Transformez votre concentration avec TaskLap dès maintenant",
+    "subtitle": "Gratuit, sans inscription, démarrage immédiat",
     "description": "Téléchargez gratuitement maintenant et gérez efficacement vos tâches quotidiennes.",
+    "whyChoose": "Pourquoi choisir TaskLap ?",
     "downloadTitle": "Télécharger maintenant",
     "appStore": "Télécharger sur l'App Store",
     "googlePlay": "Disponible sur Google Play",
@@ -353,23 +354,24 @@
       "title": "5. Sécurité",
       "description": "Puisque vos données sont gérées uniquement sur votre appareil, elles sont protégées par les paramètres de sécurité de votre appareil (code d'accès, authentification par empreinte digitale, etc.)."
     },
-    "advertising": {
+    "ads": {
       "title": "6. Publicité",
       "description": "L'application TaskLap n'affiche aucune publicité."
     },
-    "ageRequirement": {
+    "ageRestriction": {
       "title": "7. Exigence d'âge",
       "description": "L'application TaskLap est destinée aux utilisateurs âgés de 13 ans et plus. Les utilisateurs de moins de 13 ans doivent utiliser cette application avec le consentement des parents."
     },
     "contact": {
       "title": "8. Contact",
       "description": "Si vous avez des questions concernant cette politique de confidentialité, n'hésitez pas à nous contacter :",
-      "email": "privacy@tasklap.com"
+      "email": "Email"
     },
-    "changes": {
+    "policyChanges": {
       "title": "9. Modifications de la Politique",
       "description": "Cette politique de confidentialité peut être mise à jour en réponse aux changements des exigences légales ou aux ajouts de fonctionnalités de l'application. En cas de changements importants, nous vous en informerons à l'avance via l'application ou le site web."
-    }
+    },
+    "finalNote": "Cette politique de confidentialité vise à respecter pleinement votre vie privée et à vous fournir un contrôle complet sur vos données."
   },
   "common": {
     "downloadNow": "Télécharger maintenant",
