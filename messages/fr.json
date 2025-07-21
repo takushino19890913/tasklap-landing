@@ -1,0 +1,467 @@
+{
+  "metadata": {
+    "title": "TaskLap - Application Todo et Liste de contrôle simple.",
+    "description": "Application de gestion des tâches simple et facile à utiliser. Équipée du mode focus et des fonctionnalités de liste de contrôle.",
+    "keywords": "gestion des tâches,todo,liste de contrôle,focus,concentration,application"
+  },
+  "navigation": {
+    "features": "Fonctionnalités",
+    "focusMode": "Mode Focus",
+    "checklist": "Liste de contrôle",
+    "useCases": "Cas d'usage",
+    "download": "Télécharger",
+    "language": "Langue",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Application Todo et Liste de contrôle simple.",
+    "subtitle": "Gestion des tâches simple et facile à utiliser",
+    "description": "Gérez efficacement les tâches avec des opérations intuitives. Mode Focus, fonctionnalités de liste de contrôle et support de 8 langues pour soutenir votre quotidien.",
+    "downloadAppStore": "Télécharger sur l'App Store",
+    "downloadGooglePlay": "Disponible sur Google Play",
+    "availableOn": "Disponible sur",
+    "version": "Version 1.0.0",
+    "badges": {
+      "ratingPreparation": "Évaluation en attente",
+      "multilingualSupport": "8 langues",
+      "freeDownload": "Téléchargement gratuit"
+    },
+    "viewFeatures": "Voir les fonctionnalités",
+    "simpleTaskManagement": "Gestion simple des tâches"
+  },
+  "focusMode": {
+    "title": "Mode Focus",
+    "subtitle": "Mode d'affichage pour se concentrer sur une seule tâche",
+    "description": "Le mode Focus élimine les distractions et permet de se concentrer sur une seule tâche.",
+    "featureIntro": "Présentation des fonctionnalités TaskLap",
+    "workCategory": "Travail",
+    "completed": "Terminé",
+    "congratulations": "Bon travail !",
+    "tasksCompleted": "tâches terminées",
+    "skip": "Ignorer",
+    "complete": "Terminé",
+    "tryTapping": "Appuyez sur \"Terminé\" ou \"Ignorer\" pour essayer",
+    "actualScreenCaption": "🎯 Écran réel du mode Focus de TaskLap",
+    "benefitsSubtitle": "Le mode Focus offre un environnement propice à la concentration",
+    "features": {
+      "oneTask": {
+        "title": "Un écran, une tâche",
+        "description": "Élimination complète de la tentation du multitâche"
+      },
+      "simpleChoice": {
+        "title": "Choix simple",
+        "description": "Seulement deux choix : terminer ou ignorer"
+      },
+      "beautifulProgress": {
+        "title": "Progression élégante",
+        "description": "Retour visuel qui augmente le sentiment d'accomplissement"
+      },
+      "smartContinue": {
+        "title": "Continuation intelligente",
+        "description": "Transition automatique vers la tâche suivante"
+      }
+    },
+    "benefits": {
+      "title": "Effets du mode Focus",
+      "items": {
+        "decisionFatigue": "Réduction de la fatigue décisionnelle",
+        "focusDuration": "Amélioration de la durée de concentration",
+        "completionRate": "Amélioration du taux d'achèvement des tâches",
+        "stressReduction": "Réduction du stress"
+      }
+    }
+  },
+  "checklist": {
+    "title": "Listes de contrôle réutilisables",
+    "subtitle": "Utilisez vos listes autant de fois que vous le souhaitez",
+    "description": "Gérez facilement les listes de contrôle récurrentes comme la préparation de voyage, les listes de courses, les vérifications de travail. Après achèvement, réinitialisez en un clic pour réutiliser.",
+    "featureIntro": "Fonctionnalité de liste de contrôle",
+    "checklistTitle": "Liste de contrôle",
+    "travelListTitle": "Liste de préparation de voyage",
+    "resetTitle": "Réinitialiser",
+    "resetting": "Réinitialisation...",
+    "resetDescription": "Préparation de la liste pour réutilisation",
+    "completedTitle": "Terminé ! Bon travail",
+    "resetQuestion": "Réinitialiser et réutiliser ?",
+    "resetAndReuse": "Réinitialiser et réutiliser",
+    "newItemPlaceholder": "Saisir un nouvel élément...",
+    "sampleItems": {
+      "passport": "Passeport",
+      "ticket": "Billet d'avion",
+      "hotelConfirmation": "Confirmation de réservation d'hôtel",
+      "travelInsurance": "Assurance voyage",
+      "currency": "Préparation de la monnaie locale"
+    },
+    "instructions": "Appuyez sur les éléments, ajoutez, puis utilisez le bouton de réinitialisation après achèvement",
+    "resetInstructions": "Après achèvement, utilisez le bouton de réinitialisation pour décocher tous les éléments et réutiliser la même liste.",
+    "experienceTitle": "📝 Découvrez la fonctionnalité de liste de contrôle",
+    "simpleCheckFeature": "Fonction de vérification simple",
+    "simpleCheckDescription": "Cochez ou décochez les éléments d'un simple tap. Interface intuitive pour une utilisation confortable.",
+    "addItemsAnytime": "Ajout d'éléments à tout moment",
+    "addItemsDescription": "Ajoutez de nouveaux éléments quand vous en avez besoin. Les listes peuvent être librement éditées.",
+    "oneClickReset": "Réinitialisation en un clic",
+    "convenientFor": "Pratique dans ces situations",
+    "useCases": {
+      "travelPrep": "Vérification des affaires de voyage",
+      "shoppingList": "Gestion de liste de courses",
+      "regularTasks": "Vérification de tâches régulières",
+      "eventPrep": "Confirmation de préparation d'événement"
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités principales",
+    "subtitle": "Fonctionnalités simples et pratiques",
+    "focusMode": {
+      "title": "Mode Focus",
+      "description": "Se concentrer sur une tâche pour un travail efficace",
+      "detail": "Affichage propice à la concentration, 2 choix : terminer/ignorer",
+      "oneTaskFocus": "Se concentrer sur une tâche",
+      "completeOrSkip": "Terminer/Ignorer"
+    },
+    "design": {
+      "title": "Design élégant",
+      "description": "Interface intuitive et raffinée",
+      "detail": "Support mode sombre, animations fluides"
+    },
+    "checklist": {
+      "title": "Fonctionnalité de liste de contrôle",
+      "description": "Modèles de tâches réutilisables",
+      "detail": "Gestion de groupes, instanciation, fonction de réinitialisation",
+      "management": "Gestion de listes de contrôle",
+      "progressTracking": "Suivi des progrès"
+    },
+    "multilingual": {
+      "title": "8 langues",
+      "description": "Support d'utilisateurs du monde entier",
+      "detail": "Détection automatique de langue, localisation complète"
+    },
+    "simple": {
+      "title": "Configuration simple",
+      "description": "Utilisation immédiate après installation",
+      "detail": "Pas de compte requis, aucune configuration complexe"
+    },
+    "reliable": {
+      "title": "Fonctionnement stable",
+      "description": "Fonctionnement fiable et confortable",
+      "detail": "Design responsive, fonctionnement fluide"
+    },
+    "cta": {
+      "title": "Améliorez votre productivité avec TaskLap dès maintenant",
+      "description": "Révolutionnez votre gestion des tâches avec le mode Focus et les fonctionnalités de liste de contrôle"
+    }
+  },
+  "useCases": {
+    "title": "Scénarios d'utilisation",
+    "subtitle": "TaskLap excelle dans diverses situations",
+    "featureIntro": "Excelle dans divers scénarios",
+    "findYourWay": "Trouvez votre façon de l'utiliser",
+    "supportProductivity": "Du temps de concentration matinal à la formation d'habitudes, TaskLap soutient l'amélioration de votre productivité",
+    "inProgress": "En cours",
+    "completed": "Terminé",
+    "morning": {
+      "title": "Temps de concentration matinal",
+      "description": "Se concentrer sur les tâches importantes avec le mode Focus",
+      "scenario": "6h00 du matin - Traitement concentré des tâches importantes",
+      "tasks": {
+        "presentation": "Vérification finale du matériel de présentation",
+        "emails": "Réponse aux emails importants",
+        "priorities": "Configuration des tâches prioritaires d'aujourd'hui"
+      },
+      "features": {
+        "focusMode": "Mode Focus",
+        "singleTask": "Concentration sur 1 tâche",
+        "progressVisualization": "Visualisation des progrès"
+      },
+      "cta": "☀️ Créons une liste de concentration matinale"
+    },
+    "project": {
+      "title": "Projets de travail",
+      "description": "Gestion fiable des progrès avec des listes de contrôle",
+      "scenario": "Gestion de projet - Utilisation de listes de contrôle",
+      "tasks": {
+        "requirements": "Définition des exigences terminée",
+        "uiReview": "Révision de la conception UI",
+        "devSetup": "Construction de l'environnement de développement"
+      },
+      "features": {
+        "checklist": "Liste de contrôle",
+        "projectManagement": "Gestion de projet",
+        "progressTracking": "Suivi des progrès"
+      },
+      "cta": "📊 Créons une liste de projet"
+    },
+    "travel": {
+      "title": "Préparation de voyage/événement",
+      "description": "Liste d'emballage, liste de contrôle de préparation",
+      "scenario": "Préparation de voyage - Liste de contrôle d'emballage",
+      "tasks": {
+        "passportCheck": "Vérification du passeport",
+        "medicine": "Préparation de médicaments et articles de première nécessité",
+        "souvenirList": "Création de liste de souvenirs"
+      },
+      "features": {
+        "reusableTemplate": "Modèles réutilisables",
+        "groupManagement": "Gestion de groupes",
+        "resetFunction": "Fonction de réinitialisation"
+      },
+      "cta": "✈️ Créons une liste de contrôle de voyage"
+    },
+    "habit": {
+      "title": "Formation d'habitudes",
+      "description": "Exécution continue de tâches de routine",
+      "scenario": "Formation d'habitudes - Routine quotidienne",
+      "tasks": {
+        "meditation": "Méditation matinale 10 minutes",
+        "reading": "Lecture 30 minutes",
+        "workout": "Entraînement musculaire 20 minutes"
+      },
+      "features": {
+        "routineManagement": "Gestion de routine",
+        "continuityTracking": "Suivi de continuité",
+        "motivationBoost": "Amélioration de la motivation"
+      },
+      "cta": "🎯 Créer une liste d'habitudes"
+    },
+    "cta": "Commencer maintenant"
+  },
+  "technical": {
+    "title": "Fonctionnement fiable et rapide",
+    "subtitle": "Base technique fiable",
+    "localFirst": {
+      "title": "Local d'abord",
+      "description": "Fonctionnement rapide et support hors ligne"
+    },
+    "dataSafety": {
+      "title": "Sécurité des données",
+      "description": "Fonction corbeille de 7 jours"
+    },
+    "future": {
+      "title": "Perspectives d'avenir",
+      "description": "Fonction de synchronisation cloud en développement"
+    },
+    "platform": {
+      "title": "Technologie fiable",
+      "description": "Plateforme stable React Native + Expo"
+    },
+    "requirements": {
+      "title": "Environnement d'exécution",
+      "ios": "iOS 16.0 ou ultérieur, compatible iPhone·iPad",
+      "android": "Android 8.0 (API level 26) ou ultérieur",
+      "size": "Taille : environ 50MB"
+    }
+  },
+  "download": {
+    "title": "Téléchargez TaskLap maintenant",
+    "subtitle": "Application de gestion des tâches simple et facile à utiliser.",
+    "description": "Téléchargez gratuitement maintenant et gérez efficacement vos tâches quotidiennes.",
+    "downloadTitle": "Télécharger maintenant",
+    "appStore": "Télécharger sur l'App Store",
+    "googlePlay": "Disponible sur Google Play",
+    "features": {
+      "instant": {
+        "title": "Utilisation immédiate",
+        "description": "Pas d'inscription de compte requise, utilisable immédiatement après téléchargement"
+      },
+      "free": {
+        "title": "Entièrement gratuit",
+        "description": "Aucun frais caché, toutes les fonctionnalités gratuites"
+      },
+      "multilingual": {
+        "title": "8 langues",
+        "description": "Entièrement localisé en 8 langues incluant le japonais"
+      }
+    },
+    "stats": {
+      "downloads": "Nombre de téléchargements",
+      "rating": "Évaluation utilisateur",
+      "size": "Taille de l'application",
+      "version": "Version"
+    },
+    "appStats": "Statistiques de l'application",
+    "storeSubmission": "📱 Actuellement en examen par l'app store. Disponible bientôt!"
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "quickLinks": "Liens rapides",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "version": "Version",
+    "copyright": "© 2024 TaskLap. All rights reserved.",
+    "appDescription": "Application simple pour se concentrer et gérer efficacement les tâches.",
+    "supportMessage": "Support de 8 langues, utilisation hors ligne, entièrement gratuit.",
+    "multilingualSupport": "Support de 8 langues"
+  },
+  "meta": {
+    "title": "TaskLap - Application de gestion des tâches qui transforme la concentration avec le mode Focus",
+    "description": "Équipé d'un mode Focus pour se concentrer sur une tâche. Application de gestion des tâches avec fonctionnement hors ligne, support de 8 langues et design élégant.",
+    "keywords": "gestion des tâches,focus,concentration,hors ligne,liste de contrôle,todo"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité TaskLap",
+    "lastUpdated": "Dernière mise à jour : Décembre 2024",
+    "keyPoint": {
+      "title": "Important : TaskLap est une application entièrement privée",
+      "description": "Vos données ne sont jamais envoyées à l'extérieur. Toutes les données sont gérées uniquement dans votre appareil."
+    },
+    "dataCollection": {
+      "title": "1. Informations que nous collectons",
+      "description": "L'application TaskLap stocke uniquement les informations suivantes sur votre appareil :",
+      "items": [
+        "Titres et contenu des tâches",
+        "Noms des listes de contrôle",
+        "Statut terminé/non terminé",
+        "Dates de création et de mise à jour",
+        "Paramètres de langue",
+        "Paramètres d'ordre de tri"
+      ]
+    },
+    "noDataCollection": {
+      "title": "2. Informations que nous ne collectons pas",
+      "description": "Nous ne collectons aucune des informations suivantes :",
+      "items": [
+        "Informations personnelles (nom, adresse e-mail, numéro de téléphone, etc.)",
+        "Informations de localisation",
+        "Accès aux photos ou à la caméra",
+        "Informations de contact",
+        "Informations d'identification de l'appareil",
+        "Données d'analyse d'utilisation"
+      ]
+    },
+    "dataStorage": {
+      "title": "3. Stockage et Gestion des Données",
+      "subtitle": "Stockage Local Complet :",
+      "items": [
+        "Toutes les données sont stockées uniquement dans la base de données SQLite de votre appareil",
+        "Aucune transmission vers des serveurs externes",
+        "Aucune fonctionnalité de synchronisation cloud",
+        "Aucune connexion Internet requise",
+        "Lorsque vous supprimez l'application, toutes les données sont complètement supprimées"
+      ]
+    },
+    "dataSharing": {
+      "title": "4. Partage de Données",
+      "description": "Nous ne partageons vos données avec aucun des éléments suivants :",
+      "items": [
+        "Sociétés de publicité",
+        "Sociétés d'analyse",
+        "Autres applications",
+        "Plateformes de médias sociaux",
+        "Autres tiers"
+      ]
+    },
+    "security": {
+      "title": "5. Sécurité",
+      "description": "Puisque vos données sont gérées uniquement sur votre appareil, elles sont protégées par les paramètres de sécurité de votre appareil (code d'accès, authentification par empreinte digitale, etc.)."
+    },
+    "advertising": {
+      "title": "6. Publicité",
+      "description": "L'application TaskLap n'affiche aucune publicité."
+    },
+    "ageRequirement": {
+      "title": "7. Exigence d'âge",
+      "description": "L'application TaskLap est destinée aux utilisateurs âgés de 13 ans et plus. Les utilisateurs de moins de 13 ans doivent utiliser cette application avec le consentement des parents."
+    },
+    "contact": {
+      "title": "8. Contact",
+      "description": "Si vous avez des questions concernant cette politique de confidentialité, n'hésitez pas à nous contacter :",
+      "email": "privacy@tasklap.com"
+    },
+    "changes": {
+      "title": "9. Modifications de la Politique",
+      "description": "Cette politique de confidentialité peut être mise à jour en réponse aux changements des exigences légales ou aux ajouts de fonctionnalités de l'application. En cas de changements importants, nous vous en informerons à l'avance via l'application ou le site web."
+    }
+  },
+  "common": {
+    "downloadNow": "Télécharger maintenant",
+    "comingSoon": "En préparation",
+    "version": "Version",
+    "applicationInProgress": "📱 Actuellement en examen par l'app store. Disponible bientôt!",
+    "qrCodeInProgress": "Le code QR est en préparation",
+    "todo": "Todo",
+    "checklist": "Liste de contrôle",
+    "settings": "Paramètres",
+    "darkLightMode": "Support Mode Sombre et Clair",
+    "toggleTheme": "Changer de thème",
+    "darkMode": "Mode Sombre",
+    "lightMode": "Mode Clair",
+    "screenshot": "Capture d'écran",
+    "modeSwitch": "Changement de mode",
+    "dark": "Sombre",
+    "light": "Clair"
+  },
+  "languages": {
+    "ja": "日本語",
+    "en": "English",
+    "fr": "Français",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "pt": "Português",
+    "de": "Deutsch"
+  },
+  "productivity": {
+    "title": "Fonctionnalités pour maximiser la productivité"
+  },
+  "header": {
+    "comments": {
+      "logo": "Utilise l'icône réelle de l'application TaskLap",
+      "icon": "Icône transparente TaskLap",
+      "theme": "Bouton de changement de thème",
+      "language": "Changement de langue",
+      "download": "Bouton de téléchargement"
+    }
+  },
+  "contact": {
+    "badge": "Nous Contacter",
+    "title": "Contactez-nous",
+    "subtitle": "Nous aimerions avoir de vos nouvelles. Envoyez-nous un message à propos de TaskLap et nous répondrons dès que possible.",
+    "info": {
+      "title": "Informations de Contact",
+      "email": {
+        "title": "Adresse Email",
+        "description": "Envoyez-nous un email directement"
+      },
+      "response": {
+        "title": "Temps de Réponse",
+        "description": "Nous répondrons dans les 24 heures"
+      },
+      "support": {
+        "title": "Support",
+        "description": "Nous sommes là pour aider avec les questions techniques"
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "description": "Consultez notre FAQ avant de nous contacter.",
+      "link": "Voir la FAQ"
+    },
+    "form": {
+      "title": "Envoyez-nous un Message",
+      "name": {
+        "label": "Nom",
+        "placeholder": "Entrez votre nom"
+      },
+      "email": {
+        "label": "Adresse Email",
+        "placeholder": "votre@email.com"
+      },
+      "subject": {
+        "label": "Sujet",
+        "placeholder": "De quoi s'agit-il ?"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Parlez-nous de votre question ou feedback..."
+      },
+      "privacy": "Vos informations ne seront utilisées que pour répondre à votre demande.",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "error": "Échec de l'envoi du message. Veuillez réessayer plus tard."
+    },
+    "success": {
+      "title": "Message Envoyé avec Succès !",
+      "message": "Merci de nous avoir contactés ! Nous vous répondrons dans les 24 heures.",
+      "sendAnother": "Envoyer un Autre Message"
+    }
+  }
+}

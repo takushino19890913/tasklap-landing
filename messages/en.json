@@ -1,0 +1,470 @@
+{
+  "metadata": {
+    "title": "TaskLap - Simple Todo & Checklist App.",
+    "description": "Simple and easy-to-use task management app. Features Focus Mode and checklist functionality.",
+    "keywords": "task management,todo,checklist,focus,concentration,app"
+  },
+  "navigation": {
+    "features": "Features",
+    "focusMode": "Focus Mode",
+    "checklist": "Checklist",
+    "useCases": "Use Cases",
+    "download": "Download",
+    "language": "Language",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Simple Todo & Checklist App.",
+    "subtitle": "Simple and easy-to-use task management",
+    "description": "Manage tasks efficiently with intuitive operations. Focus Mode, checklist features, and 8-language support to assist your daily life.",
+    "downloadAppStore": "Download on the App Store",
+    "downloadGooglePlay": "Get it on Google Play",
+    "availableOn": "Available on",
+    "version": "Version 1.0.0",
+    "badges": {
+      "ratingPreparation": "Rating Pending",
+      "multilingualSupport": "8 Languages",
+      "freeDownload": "Free Download"
+    },
+    "viewFeatures": "View Features",
+    "simpleTaskManagement": "Simple Task Management"
+  },
+  "focusMode": {
+    "title": "Focus Mode",
+    "subtitle": "A display mode to focus on one task",
+    "description": "Focus Mode is a display mode that eliminates distractions and allows you to concentrate on just one task.",
+    "featureIntro": "TaskLap Feature",
+    "workCategory": "Work",
+    "completed": "completed",
+    "congratulations": "Great job!",
+    "tasksCompleted": "tasks completed",
+    "skip": "Skip",
+    "complete": "Complete",
+    "tryTapping": "Tap \"Complete\" or \"Skip\" button to try",
+    "actualScreenCaption": "🎯 Actual TaskLap Focus Mode Screen",
+    "benefitsSubtitle": "Focus Mode provides an environment for better concentration",
+    "features": {
+      "oneTask": {
+        "title": "One Screen, One Task",
+        "description": "Completely eliminate multitasking temptations"
+      },
+      "simpleChoice": {
+        "title": "Simple Choice",
+        "description": "Only two options: complete or skip"
+      },
+      "beautifulProgress": {
+        "title": "Beautiful Progress",
+        "description": "Visual feedback that enhances achievement"
+      },
+      "smartContinue": {
+        "title": "Smart Continuation",
+        "description": "Automatic transition to the next task"
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Focus Mode",
+      "items": {
+        "decisionFatigue": "Reduce decision fatigue",
+        "focusDuration": "Improve focus duration",
+        "completionRate": "Increase task completion rate",
+        "stressReduction": "Reduce stress"
+      }
+    }
+  },
+  "checklist": {
+    "title": "Reusable Checklists",
+    "subtitle": "Use lists you create over and over",
+    "description": "Easily manage recurring checklists for travel preparation, shopping lists, work tasks, and more. Reset with one click for reuse after completion.",
+    "featureIntro": "Checklist Feature",
+    "checklistTitle": "Checklist",
+    "travelListTitle": "Travel Preparation List",
+    "resetTitle": "Reset",
+    "resetting": "Resetting...",
+    "resetDescription": "Making checklist reusable",
+    "completedTitle": "Completed! Great job",
+    "resetQuestion": "Reset and reuse?",
+    "resetAndReuse": "Reset and reuse",
+    "newItemPlaceholder": "Enter new item...",
+    "sampleItems": {
+      "passport": "Passport",
+      "ticket": "Flight ticket",
+      "hotelConfirmation": "Hotel reservation confirmation",
+      "travelInsurance": "Travel insurance",
+      "currency": "Local currency preparation"
+    },
+    "instructions": "Tap items, add, and reset after completion for reuse",
+    "resetInstructions": "After completion, use the reset button to uncheck all items and reuse the same list.",
+    "experienceTitle": "📝 Experience Checklist Features",
+    "simpleCheckFeature": "Simple Check Feature",
+    "simpleCheckDescription": "Tap once to check or uncheck items. Enjoy intuitive and comfortable operation.",
+    "addItemsAnytime": "Add Items Anytime",
+    "addItemsDescription": "Add new items whenever needed. Lists can be freely edited.",
+    "oneClickReset": "One-Click Reset",
+    "convenientFor": "Convenient For",
+    "useCases": {
+      "travelPrep": "Travel preparation check",
+      "shoppingList": "Shopping list management",
+      "regularTasks": "Regular task checking",
+      "eventPrep": "Event preparation confirmation"
+    }
+  },
+  "features": {
+    "title": "Main Features",
+    "subtitle": "Simple and practical functionality",
+    "focusMode": {
+      "title": "Focus Mode",
+      "description": "Concentrate on one task for efficient work",
+      "detail": "Focus-friendly display, two choices: complete/skip",
+      "oneTaskFocus": "Focus on one task",
+      "completeOrSkip": "Complete/Skip"
+    },
+    "design": {
+      "title": "Beautiful Design",
+      "description": "Intuitive and sophisticated interface",
+      "detail": "Dark mode support, smooth animations"
+    },
+    "checklist": {
+      "title": "Checklist Feature",
+      "description": "Reusable task templates",
+      "detail": "Group management, instantiation, reset function",
+      "management": "Checklist management",
+      "progressTracking": "Progress tracking"
+    },
+    "multilingual": {
+      "title": "8 Language Support",
+      "description": "Support for users worldwide",
+      "detail": "Automatic language detection, full localization"
+    },
+    "simple": {
+      "title": "Simple Setup",
+      "description": "Start using immediately after installation",
+      "detail": "No account required, no complex settings"
+    },
+    "reliable": {
+      "title": "Stable Operation",
+      "description": "Reliable and comfortable operation",
+      "detail": "Responsive design, smooth performance"
+    },
+    "cta": {
+      "title": "Boost Your Productivity with TaskLap Now",
+      "description": "Revolutionize your task management with Focus Mode and checklist features"
+    }
+  },
+  "useCases": {
+    "title": "Use Cases",
+    "subtitle": "TaskLap excels in various situations",
+    "featureIntro": "Excels in various scenarios",
+    "findYourWay": "Find Your Way to Use",
+    "supportProductivity": "From morning focus time to habit formation, TaskLap supports your productivity improvement",
+    "inProgress": "In Progress",
+    "completed": "completed",
+    "morning": {
+      "title": "Morning Focus Time",
+      "description": "Focus on important tasks with Focus Mode",
+      "scenario": "6:00 AM - Important task concentration",
+      "tasks": {
+        "presentation": "Final presentation review",
+        "emails": "Important email replies",
+        "priorities": "Set today's priority tasks"
+      },
+      "features": {
+        "focusMode": "Focus Mode",
+        "singleTask": "Single task focus",
+        "progressVisualization": "Progress visualization"
+      },
+      "cta": "☀️ Create morning focus list"
+    },
+    "project": {
+      "title": "Work Projects",
+      "description": "Reliable progress management with checklists",
+      "scenario": "Project management - Checklist utilization",
+      "tasks": {
+        "requirements": "Requirements definition completed",
+        "uiReview": "UI design review",
+        "devSetup": "Development environment setup"
+      },
+      "features": {
+        "checklist": "Checklist",
+        "projectManagement": "Project management",
+        "progressTracking": "Progress tracking"
+      },
+      "cta": "📊 Create project list"
+    },
+    "travel": {
+      "title": "Travel & Event Preparation",
+      "description": "Packing lists, preparation checklists",
+      "scenario": "Travel preparation - Packing checklist",
+      "tasks": {
+        "passportCheck": "Passport verification",
+        "medicine": "Medicine and essentials prep",
+        "souvenirList": "Souvenir list creation"
+      },
+      "features": {
+        "reusableTemplate": "Reusable template",
+        "groupManagement": "Group management",
+        "resetFunction": "Reset function"
+      },
+      "cta": "✈️ Create travel checklist"
+    },
+    "habit": {
+      "title": "Habit Formation",
+      "description": "Continuous execution of routine tasks",
+      "scenario": "Habit formation - Daily routine",
+      "tasks": {
+        "meditation": "Morning meditation 10 min",
+        "reading": "Reading 30 min",
+        "workout": "Workout 20 min"
+      },
+      "features": {
+        "routineManagement": "Routine management",
+        "continuityTracking": "Continuity tracking",
+        "motivationBoost": "Motivation boost"
+      },
+      "cta": "🎯 Create habit list"
+    },
+    "cta": "Start Using Now"
+  },
+  "technical": {
+    "title": "Reliable and Fast Operation",
+    "subtitle": "Trustworthy technical foundation",
+    "localFirst": {
+      "title": "Local First",
+      "description": "Fast operation and offline support"
+    },
+    "dataSafety": {
+      "title": "Data Safety",
+      "description": "7-day trash function"
+    },
+    "future": {
+      "title": "Future-Ready",
+      "description": "Cloud sync feature in development"
+    },
+    "platform": {
+      "title": "Trusted Technology",
+      "description": "Stable React Native + Expo platform"
+    },
+    "requirements": {
+      "title": "System Requirements",
+      "ios": "iOS 16.0 or later, iPhone & iPad compatible",
+      "android": "Android 8.0 (API level 26) or later",
+      "size": "Size: About 50MB"
+    }
+  },
+  "download": {
+    "title": "Download TaskLap Now",
+    "subtitle": "Simple and easy-to-use task management app.",
+    "description": "Download for free now and manage your daily tasks efficiently.",
+    "downloadTitle": "Download Now",
+    "appStore": "Download from App Store",
+    "googlePlay": "Get it on Google Play",
+    "whyChoose": "Why Choose TaskLap?",
+    "appStats": "App Statistics",
+    "storeSubmission": "📱 Currently under app store review. Available soon!",
+    "features": {
+      "instant": {
+        "title": "Start Using Instantly",
+        "description": "No account registration required, ready to use after download"
+      },
+      "free": {
+        "title": "Completely Free",
+        "description": "No hidden fees, all features available for free"
+      },
+      "multilingual": {
+        "title": "8 Language Support",
+        "description": "Fully localized in 8 languages including English"
+      }
+    },
+    "stats": {
+      "downloads": "Downloads",
+      "rating": "User Rating",
+      "size": "App Size",
+      "version": "Version"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TaskLap",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "madeWith": "Made by: ",
+    "appDescription": "Simple Todo & Checklist App.",
+    "supportMessage": "Easy-to-use task management to support your daily life.",
+    "multilingualSupport": "8 Languages Support",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "version": "Version: 1.0.0"
+  },
+  "meta": {
+    "title": "TaskLap - Transform Your Focus with Task Management App",
+    "description": "Focus Mode that lets you concentrate on one task. Offline operation, 8-language support, beautiful design task management app.",
+    "keywords": "task management,focus,concentration,offline,checklist,todo"
+  },
+  "privacy": {
+    "title": "TaskLap Privacy Policy",
+    "lastUpdated": "Last Updated: December 2024",
+    "keyPoint": {
+      "title": "Important: TaskLap is a completely private app",
+      "description": "Your data is never sent externally. All data is managed only within your device."
+    },
+    "dataCollection": {
+      "title": "1. Information We Collect",
+      "description": "TaskLap app stores only the following information on your device:",
+      "items": [
+        "Task titles and content",
+        "Checklist names",
+        "Completion/incomplete status",
+        "Creation and update dates",
+        "Language settings",
+        "Sort order settings"
+      ]
+    },
+    "noDataCollection": {
+      "title": "2. Information We Do Not Collect",
+      "description": "We do not collect any of the following information:",
+      "items": [
+        "Personal information (name, email address, phone number, etc.)",
+        "Location information",
+        "Photo or camera access",
+        "Contact information",
+        "Device identification information",
+        "Usage analytics data"
+      ]
+    },
+    "dataStorage": {
+      "title": "3. Data Storage and Management",
+      "subtitle": "Complete Local Storage:",
+      "items": [
+        "All data is stored only in the SQLite database on your device",
+        "No external server transmission whatsoever",
+        "No cloud sync features",
+        "No internet connection required",
+        "When you delete the app, all data is completely removed"
+      ]
+    },
+    "dataSharing": {
+      "title": "4. Data Sharing",
+      "description": "We do not share your data with any of the following:",
+      "items": [
+        "Advertising companies",
+        "Analytics companies",
+        "Other applications",
+        "Social media platforms",
+        "Other third parties"
+      ]
+    },
+    "security": {
+      "title": "5. Security",
+      "description": "Since your data is managed only on your device, it is protected by your device's security settings (passcode, fingerprint authentication, etc.)."
+    },
+    "advertising": {
+      "title": "6. Advertising",
+      "description": "TaskLap app does not display any advertisements."
+    },
+    "ageRequirement": {
+      "title": "7. Age Requirement",
+      "description": "TaskLap app is intended for users aged 13 and above. Users under 13 should use this app with parental consent."
+    },
+    "contact": {
+      "title": "8. Contact",
+      "description": "If you have any questions about this privacy policy, please feel free to contact us:",
+      "email": "privacy@tasklap.com"
+    },
+    "changes": {
+      "title": "9. Policy Changes",
+      "description": "This privacy policy may be updated in response to changes in legal requirements or additions to app features. When there are significant changes, we will notify you in advance through the app or website."
+    }
+  },
+  "common": {
+    "downloadNow": "Download Now",
+    "comingSoon": "Coming Soon",
+    "version": "Version",
+    "applicationInProgress": "📱 Currently under app store review. Available soon!",
+    "qrCodeInProgress": "QR Code is being prepared",
+    "todo": "Todo",
+    "checklist": "Checklist",
+    "settings": "Settings",
+    "darkLightMode": "Dark & Light Mode Support",
+    "toggleTheme": "Toggle theme",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "screenshot": "Screenshot",
+    "modeSwitch": "Mode Switch",
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "languages": {
+    "ja": "日本語",
+    "en": "English",
+    "fr": "Français",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "pt": "Português",
+    "de": "Deutsch"
+  },
+  "productivity": {
+    "title": "Features to Maximize Productivity"
+  },
+  "header": {
+    "comments": {
+      "logo": "Using actual TaskLap app icon",
+      "icon": "TaskLap transparent icon",
+      "theme": "Theme toggle button",
+      "language": "Language switcher",
+      "download": "Download button"
+    }
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you. Send us a message about TaskLap and we'll respond as soon as possible.",
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email Address",
+        "description": "Send us an email directly"
+      },
+      "response": {
+        "title": "Response Time",
+        "description": "We'll respond within 24 hours"
+      },
+      "support": {
+        "title": "Support",
+        "description": "We're here to help with technical questions"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Check our FAQ before reaching out.",
+      "link": "View FAQ"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "your@email.com"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "What is this about?"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your question or feedback..."
+      },
+      "privacy": "Your information will only be used to respond to your inquiry.",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "error": "Failed to send message. Please try again later."
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "message": "Thanks for reaching out! We'll get back to you within 24 hours.",
+      "sendAnother": "Send Another Message"
+    }
+  }
+}

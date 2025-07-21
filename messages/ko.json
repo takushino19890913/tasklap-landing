@@ -1,0 +1,467 @@
+{
+  "metadata": {
+    "title": "TaskLap - 간단한 할 일, 체크리스트 앱.",
+    "description": "간단하고 사용하기 쉬운 작업 관리 앱. 집중 모드, 체크리스트 기능 탑재.",
+    "keywords": "작업 관리,할 일,체크리스트,집중,포커스,앱"
+  },
+  "navigation": {
+    "features": "기능",
+    "focusMode": "집중 모드",
+    "checklist": "체크리스트",
+    "useCases": "사용 예시",
+    "download": "다운로드",
+    "language": "언어",
+    "contact": "문의하기"
+  },
+  "hero": {
+    "title": "간단한 할 일, 체크리스트 앱.",
+    "subtitle": "간단하고 사용하기 쉬운 작업 관리",
+    "description": "직관적인 조작으로 작업을 효율적으로 관리. 집중 모드, 체크리스트 기능, 8개 언어 지원으로 일상을 지원합니다.",
+    "downloadAppStore": "App Store에서 다운로드",
+    "downloadGooglePlay": "Google Play에서 다운로드",
+    "availableOn": "사용 가능한 플랫폼",
+    "version": "버전 1.0.0",
+    "badges": {
+      "ratingPreparation": "평가 준비 중",
+      "multilingualSupport": "8개 언어",
+      "freeDownload": "무료 다운로드"
+    },
+    "viewFeatures": "기능 보기",
+    "simpleTaskManagement": "간단한 작업 관리"
+  },
+  "focusMode": {
+    "title": "집중 모드",
+    "subtitle": "하나의 작업에 집중하는 표시 모드",
+    "description": "집중 모드는 주의를 산만하게 하는 요소를 제거하고, 하나의 작업에만 집중할 수 있는 표시 모드입니다.",
+    "featureIntro": "TaskLap 기능 소개",
+    "workCategory": "작업",
+    "completed": "완료",
+    "congratulations": "수고하셨습니다!",
+    "tasksCompleted": "개의 작업을 완료했습니다",
+    "skip": "건너뛰기",
+    "complete": "완료",
+    "tryTapping": "\"완료\" 또는 \"건너뛰기\" 버튼을 탭하여 체험",
+    "actualScreenCaption": "🎯 실제 TaskLap의 집중 모드 화면",
+    "benefitsSubtitle": "집중 모드로 집중하기 쉬운 환경을 제공합니다",
+    "features": {
+      "oneTask": {
+        "title": "한 화면 한 작업",
+        "description": "멀티태스킹의 유혹을 완전 차단"
+      },
+      "simpleChoice": {
+        "title": "간단한 선택",
+        "description": "완료 또는 건너뛰기 2가지 선택만"
+      },
+      "beautifulProgress": {
+        "title": "아름다운 진행상황",
+        "description": "성취감을 높이는 시각적 피드백"
+      },
+      "smartContinue": {
+        "title": "스마트 계속",
+        "description": "다음 작업으로 자동 전환"
+      }
+    },
+    "benefits": {
+      "title": "집중 모드의 효과",
+      "items": {
+        "decisionFatigue": "결정 피로 감소",
+        "focusDuration": "집중력 지속 시간 향상",
+        "completionRate": "작업 완료율 향상",
+        "stressReduction": "스트레스 감소"
+      }
+    }
+  },
+  "checklist": {
+    "title": "재사용 가능한 체크리스트",
+    "subtitle": "한 번 만든 리스트를 몇 번이든 사용 가능",
+    "description": "여행 준비, 쇼핑 리스트, 작업 체크 등 반복적으로 사용하는 체크리스트를 쉽게 관리. 완료 후 원클릭으로 리셋하여 재사용할 수 있습니다.",
+    "featureIntro": "체크리스트 기능",
+    "checklistTitle": "체크리스트",
+    "travelListTitle": "여행 준비 리스트",
+    "resetTitle": "리셋",
+    "resetting": "리셋 중...",
+    "resetDescription": "체크리스트를 재사용할 수 있게 하고 있습니다",
+    "completedTitle": "완료! 수고하셨습니다",
+    "resetQuestion": "리셋하여 재사용하시겠습니까?",
+    "resetAndReuse": "리셋하여 재사용",
+    "newItemPlaceholder": "새로운 항목 입력...",
+    "sampleItems": {
+      "passport": "여권",
+      "ticket": "항공권",
+      "hotelConfirmation": "호텔 예약 확인",
+      "travelInsurance": "해외여행보험",
+      "currency": "현지 통화 준비"
+    },
+    "instructions": "항목을 탭, 추가, 완료 후 리셋 버튼으로 재사용",
+    "resetInstructions": "완료 후 리셋 버튼으로 모든 체크를 해제하고 같은 목록을 재사용할 수 있습니다.",
+    "experienceTitle": "📝 체크리스트 기능을 체험",
+    "simpleCheckFeature": "간단한 체크 기능",
+    "simpleCheckDescription": "탭 하나로 항목에 체크를 넣거나 빼기. 직관적인 조작으로 편리하게 사용할 수 있습니다.",
+    "addItemsAnytime": "언제든지 항목 추가",
+    "addItemsDescription": "필요할 때 언제든지 새로운 항목 추가. 리스트는 자유롭게 편집할 수 있습니다.",
+    "oneClickReset": "원클릭으로 리셋",
+    "convenientFor": "이런 때 편리",
+    "useCases": {
+      "travelPrep": "여행 준비 물품 체크",
+      "shoppingList": "쇼핑 리스트 관리",
+      "regularTasks": "정기적인 작업 체크",
+      "eventPrep": "이벤트 준비 확인"
+    }
+  },
+  "features": {
+    "title": "주요 기능",
+    "subtitle": "간단하고 실용적인 기능",
+    "focusMode": {
+      "title": "집중 모드",
+      "description": "하나의 작업에 집중하여 효율적으로 작업",
+      "detail": "집중하기 쉬운 표시, 완료/건너뛰기 2가지 선택",
+      "oneTaskFocus": "하나의 작업에 집중",
+      "completeOrSkip": "완료/건너뛰기"
+    },
+    "design": {
+      "title": "아름다운 디자인",
+      "description": "직관적이고 세련된 인터페이스",
+      "detail": "다크 모드 지원, 부드러운 애니메이션"
+    },
+    "checklist": {
+      "title": "체크리스트 기능",
+      "description": "재사용 가능한 작업 템플릿",
+      "detail": "그룹 관리, 인스턴스화, 리셋 기능",
+      "management": "체크리스트 관리",
+      "progressTracking": "진행 상황 추적"
+    },
+    "multilingual": {
+      "title": "8개 언어",
+      "description": "전 세계 사용자 지원",
+      "detail": "자동 언어 감지, 완전 현지화"
+    },
+    "simple": {
+      "title": "간단한 설정",
+      "description": "설치 후 즉시 사용 시작",
+      "detail": "계정 불필요, 복잡한 설정 없음"
+    },
+    "reliable": {
+      "title": "안정적인 동작",
+      "description": "확실하고 편안한 조작",
+      "detail": "반응형 디자인, 부드러운 동작"
+    },
+    "cta": {
+      "title": "지금 TaskLap으로 생산성을 향상시키세요",
+      "description": "집중 모드와 체크리스트 기능으로 여러분의 작업 관리를 혁신합니다"
+    }
+  },
+  "useCases": {
+    "title": "활용 시나리오",
+    "subtitle": "다양한 상황에서 TaskLap이 활약",
+    "featureIntro": "다양한 장면에서 활약",
+    "findYourWay": "당신의 사용법을 찾아보세요",
+    "supportProductivity": "아침 집중 시간부터 습관 형성까지, TaskLap이 여러분의 생산성 향상을 지원합니다",
+    "inProgress": "진행 중",
+    "completed": "완료",
+    "morning": {
+      "title": "아침 집중 시간",
+      "description": "중요한 작업에 집중 모드로 집중",
+      "scenario": "아침 6:00 - 중요 작업의 집중 처리",
+      "tasks": {
+        "presentation": "프레젠테이션 자료의 최종 확인",
+        "emails": "중요 이메일 답변",
+        "priorities": "오늘의 우선 작업 설정"
+      },
+      "features": {
+        "focusMode": "집중 모드",
+        "singleTask": "1작업 집중",
+        "progressVisualization": "진행 상황 시각화"
+      },
+      "cta": "☀️ 아침 집중 리스트를 만들어보자"
+    },
+    "project": {
+      "title": "업무 프로젝트",
+      "description": "체크리스트로 확실한 진행 관리",
+      "scenario": "프로젝트 관리 - 체크리스트 활용",
+      "tasks": {
+        "requirements": "요구사항 정의 완료",
+        "uiReview": "UI 설계 리뷰",
+        "devSetup": "개발 환경 구축"
+      },
+      "features": {
+        "checklist": "체크리스트",
+        "projectManagement": "프로젝트 관리",
+        "progressTracking": "진행 상황 추적"
+      },
+      "cta": "📊 프로젝트 리스트를 만들어보자"
+    },
+    "travel": {
+      "title": "여행·이벤트 준비",
+      "description": "패킹 리스트, 준비 체크리스트",
+      "scenario": "여행 준비 - 패킹 체크리스트",
+      "tasks": {
+        "passportCheck": "여권 확인",
+        "medicine": "약·상비품 준비",
+        "souvenirList": "기념품 리스트 작성"
+      },
+      "features": {
+        "reusableTemplate": "재사용 템플릿",
+        "groupManagement": "그룹 관리",
+        "resetFunction": "리셋 기능"
+      },
+      "cta": "✈️ 여행 체크리스트를 만들어보자"
+    },
+    "habit": {
+      "title": "습관 형성",
+      "description": "루틴 작업의 지속적 실행",
+      "scenario": "습관 형성 - 매일의 루틴",
+      "tasks": {
+        "meditation": "아침 명상 10분",
+        "reading": "독서 30분",
+        "workout": "근력운동 20분"
+      },
+      "features": {
+        "routineManagement": "루틴 관리",
+        "continuityTracking": "지속성 추적",
+        "motivationBoost": "동기 부여 향상"
+      },
+      "cta": "🎯 습관 리스트 만들기"
+    },
+    "cta": "지금 사용 시작하기"
+  },
+  "technical": {
+    "title": "확실하고 빠른 동작",
+    "subtitle": "신뢰할 수 있는 기술 기반",
+    "localFirst": {
+      "title": "로컬 우선",
+      "description": "빠른 동작과 오프라인 지원"
+    },
+    "dataSafety": {
+      "title": "데이터 안전성",
+      "description": "7일간 휴지통 기능"
+    },
+    "future": {
+      "title": "미래성",
+      "description": "클라우드 동기화 기능 개발 예정"
+    },
+    "platform": {
+      "title": "신뢰 기술",
+      "description": "React Native + Expo의 안정적인 플랫폼"
+    },
+    "requirements": {
+      "title": "동작 환경",
+      "ios": "iOS 16.0 이후, iPhone·iPad 지원",
+      "android": "Android 8.0 (API level 26) 이후",
+      "size": "용량: 약 50MB"
+    }
+  },
+  "download": {
+    "title": "지금 TaskLap을 다운로드하세요",
+    "subtitle": "간단하고 사용하기 쉬운 작업 관리 앱.",
+    "description": "지금 무료로 다운로드하여 일상의 작업을 효율적으로 관리하세요.",
+    "downloadTitle": "지금 다운로드",
+    "appStore": "App Store에서 다운로드",
+    "googlePlay": "Google Play에서 다운로드",
+    "features": {
+      "instant": {
+        "title": "즉시 이용 시작",
+        "description": "계정 등록 불필요, 다운로드 후 즉시 사용 가능"
+      },
+      "free": {
+        "title": "완전 무료",
+        "description": "숨겨진 요금 없음, 모든 기능 무료 이용 가능"
+      },
+      "multilingual": {
+        "title": "8개 언어",
+        "description": "일본어를 포함한 8개 언어로 완전 현지화"
+      }
+    },
+    "stats": {
+      "downloads": "다운로드 수",
+      "rating": "사용자 평가",
+      "size": "앱 크기",
+      "version": "버전"
+    },
+    "appStats": "앱 통계",
+    "storeSubmission": "📱 앱스토어 신청 중. 곧 이용 시작 예정!"
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "quickLinks": "빠른 링크",
+    "legal": "법적 사항",
+    "privacy": "개인정보처리방침",
+    "version": "버전",
+    "copyright": "© 2024 TaskLap. All rights reserved.",
+    "appDescription": "한 번에 집중하고 효율적으로 작업을 관리하는 간단한 앱.",
+    "supportMessage": "8개 언어 지원, 오프라인 사용, 완전 무료.",
+    "multilingualSupport": "8개 언어 지원"
+  },
+  "meta": {
+    "title": "TaskLap - 집중 모드로 집중력을 바꾸는 작업 관리 앱",
+    "description": "하나의 작업에 집중할 수 있는 집중 모드 탑재. 오프라인 동작, 8개 언어 지원, 아름다운 디자인의 작업 관리 앱.",
+    "keywords": "작업 관리,집중,집중력,오프라인,체크리스트,할 일"
+  },
+  "privacy": {
+    "title": "TaskLap 개인정보처리방침",
+    "lastUpdated": "최종 업데이트: 2024년 12월",
+    "keyPoint": {
+      "title": "중요: TaskLap은 완전히 프라이빗한 앱입니다",
+      "description": "고객님의 데이터는 외부로 전송되지 않습니다. 모든 데이터는 고객님의 기기 내에서만 관리됩니다."
+    },
+    "dataCollection": {
+      "title": "1. 수집하는 정보",
+      "description": "TaskLap 앱은 다음 정보만을 고객님의 기기 내에 저장합니다:",
+      "items": [
+        "작업 제목과 내용",
+        "체크리스트 이름",
+        "완료/미완료 상태",
+        "생성 및 업데이트 날짜",
+        "언어 설정",
+        "정렬 순서 설정"
+      ]
+    },
+    "noDataCollection": {
+      "title": "2. 수집하지 않는 정보",
+      "description": "다음 정보는 일절 수집하지 않습니다:",
+      "items": [
+        "개인정보 (이름, 이메일 주소, 전화번호 등)",
+        "위치 정보",
+        "사진 또는 카메라 접근",
+        "연락처 정보",
+        "기기 식별 정보",
+        "사용 분석 데이터"
+      ]
+    },
+    "dataStorage": {
+      "title": "3. 데이터 저장 및 관리",
+      "subtitle": "완전 로컬 저장:",
+      "items": [
+        "모든 데이터는 고객님 기기의 SQLite 데이터베이스에만 저장됩니다",
+        "외부 서버 전송은 일절 없습니다",
+        "클라우드 동기화 기능이 없습니다",
+        "인터넷 연결이 필요하지 않습니다",
+        "앱을 삭제하면 모든 데이터가 완전히 삭제됩니다"
+      ]
+    },
+    "dataSharing": {
+      "title": "4. 데이터 공유",
+      "description": "고객님의 데이터를 다음 중 어떤 것과도 공유하지 않습니다:",
+      "items": [
+        "광고 회사",
+        "분석 회사",
+        "다른 애플리케이션",
+        "소셜 미디어 플랫폼",
+        "기타 제3자"
+      ]
+    },
+    "security": {
+      "title": "5. 보안",
+      "description": "고객님의 데이터는 기기 내에서만 관리되므로, 기기의 보안 설정(패스코드, 지문 인증 등)에 의해 보호됩니다."
+    },
+    "advertising": {
+      "title": "6. 광고",
+      "description": "TaskLap 앱은 광고를 표시하지 않습니다."
+    },
+    "ageRequirement": {
+      "title": "7. 연령 요구사항",
+      "description": "TaskLap 앱은 13세 이상의 사용자를 대상으로 합니다. 13세 미만의 사용자는 부모의 동의하에 이용해 주세요."
+    },
+    "contact": {
+      "title": "8. 연락처",
+      "description": "이 개인정보처리방침에 대해 궁금한 점이 있으시면 언제든지 문의해 주세요:",
+      "email": "privacy@tasklap.com"
+    },
+    "changes": {
+      "title": "9. 정책 변경",
+      "description": "이 개인정보처리방침은 법적 요구사항의 변경이나 앱 기능 추가에 따라 업데이트될 수 있습니다. 중요한 변경이 있을 경우 앱 내 또는 웹사이트에서 사전에 알려드립니다."
+    }
+  },
+  "common": {
+    "downloadNow": "지금 다운로드",
+    "comingSoon": "준비 중",
+    "version": "버전",
+    "applicationInProgress": "📱 현재 앱스토어에 신청 중입니다. 곧 이용 시작 예정!",
+    "qrCodeInProgress": "QR 코드 준비 중",
+    "todo": "Todo",
+    "checklist": "체크리스트",
+    "settings": "설정",
+    "darkLightMode": "다크모드・라이트모드 지원",
+    "toggleTheme": "테마 전환",
+    "darkMode": "다크모드",
+    "lightMode": "라이트모드",
+    "screenshot": "스크린샷",
+    "modeSwitch": "모드 전환",
+    "dark": "다크",
+    "light": "라이트"
+  },
+  "languages": {
+    "ja": "日本語",
+    "en": "English",
+    "fr": "Français",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "pt": "Português",
+    "de": "Deutsch"
+  },
+  "productivity": {
+    "title": "생산성을 최대화하는 기능"
+  },
+  "header": {
+    "comments": {
+      "logo": "TaskLap 앱의 실제 아이콘 사용",
+      "icon": "TaskLap 투명 아이콘",
+      "theme": "테마 전환 버튼",
+      "language": "언어 전환",
+      "download": "다운로드 버튼"
+    }
+  },
+  "contact": {
+    "badge": "문의하기",
+    "title": "연락하기",
+    "subtitle": "TaskLap에 대한 질문이나 피드백을 보내주세요. 최대한 빠르게 답변드리겠습니다.",
+    "info": {
+      "title": "연락처 정보",
+      "email": {
+        "title": "이메일 주소",
+        "description": "직접 이메일을 보내주세요"
+      },
+      "response": {
+        "title": "응답 시간",
+        "description": "24시간 이내에 답변드립니다"
+      },
+      "support": {
+        "title": "기술 지원",
+        "description": "기술적인 문제에 대해 도움을 드립니다"
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "문의하기 전에 자주 묻는 질문을 확인해 주세요.",
+      "link": "FAQ 보기"
+    },
+    "form": {
+      "title": "메시지 보내기",
+      "name": {
+        "label": "이름",
+        "placeholder": "이름을 입력하세요"
+      },
+      "email": {
+        "label": "이메일 주소",
+        "placeholder": "your@email.com"
+      },
+      "subject": {
+        "label": "제목",
+        "placeholder": "어떤 문의인가요?"
+      },
+      "message": {
+        "label": "메시지",
+        "placeholder": "질문이나 피드백을 알려주세요..."
+      },
+      "privacy": "귀하의 정보는 문의 답변 목적으로만 사용됩니다.",
+      "send": "메시지 보내기",
+      "sending": "전송 중...",
+      "error": "메시지 전송에 실패했습니다. 잠시 후 다시 시도해 주세요."
+    },
+    "success": {
+      "title": "메시지가 성공적으로 전송되었습니다!",
+      "message": "문의해 주셔서 감사합니다! 24시간 이내에 답변드리겠습니다.",
+      "sendAnother": "다른 메시지 보내기"
+    }
+  }
+}

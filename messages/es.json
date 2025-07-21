@@ -1,0 +1,467 @@
+{
+  "metadata": {
+    "title": "TaskLap - Aplicación simple de Todo y Lista de verificación.",
+    "description": "Aplicación de gestión de tareas simple y fácil de usar. Equipada con modo de enfoque y funciones de lista de verificación.",
+    "keywords": "gestión de tareas,todo,lista de verificación,enfoque,concentración,aplicación"
+  },
+  "navigation": {
+    "features": "Características",
+    "focusMode": "Modo Enfoque",
+    "checklist": "Lista de verificación",
+    "useCases": "Casos de uso",
+    "download": "Descargar",
+    "language": "Idioma",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Aplicación simple de Todo y Lista de verificación.",
+    "subtitle": "Gestión de tareas simple y fácil de usar",
+    "description": "Gestione eficientemente las tareas con operaciones intuitivas. Modo Enfoque, funciones de lista de verificación y soporte de 8 idiomas para apoyar su vida diaria.",
+    "downloadAppStore": "Descargar en App Store",
+    "downloadGooglePlay": "Descargar en Google Play",
+    "availableOn": "Disponible en",
+    "version": "Versión 1.0.0",
+    "badges": {
+      "ratingPreparation": "Evaluación pendiente",
+      "multilingualSupport": "8 idiomas",
+      "freeDownload": "Descarga gratuita"
+    },
+    "viewFeatures": "Ver características",
+    "simpleTaskManagement": "Gestión simple de tareas"
+  },
+  "focusMode": {
+    "title": "Modo Enfoque",
+    "subtitle": "Modo de visualización para concentrarse en una sola tarea",
+    "description": "El modo Enfoque elimina las distracciones y permite concentrarse en una sola tarea.",
+    "featureIntro": "Presentación de funciones de TaskLap",
+    "workCategory": "Trabajo",
+    "completed": "Completado",
+    "congratulations": "¡Buen trabajo!",
+    "tasksCompleted": "tareas completadas",
+    "skip": "Saltar",
+    "complete": "Completado",
+    "tryTapping": "Toque \"Completado\" o \"Saltar\" para probar",
+    "actualScreenCaption": "🎯 Pantalla real del modo Enfoque de TaskLap",
+    "benefitsSubtitle": "El modo Enfoque proporciona un entorno propicio para la concentración",
+    "features": {
+      "oneTask": {
+        "title": "Una pantalla, una tarea",
+        "description": "Eliminación completa de la tentación de multitarea"
+      },
+      "simpleChoice": {
+        "title": "Elección simple",
+        "description": "Solo dos opciones: completar o saltar"
+      },
+      "beautifulProgress": {
+        "title": "Progreso elegante",
+        "description": "Retroalimentación visual que aumenta la sensación de logro"
+      },
+      "smartContinue": {
+        "title": "Continuación inteligente",
+        "description": "Transición automática a la siguiente tarea"
+      }
+    },
+    "benefits": {
+      "title": "Efectos del modo Enfoque",
+      "items": {
+        "decisionFatigue": "Reducción de la fatiga de decisión",
+        "focusDuration": "Mejora de la duración de la concentración",
+        "completionRate": "Mejora de la tasa de finalización de tareas",
+        "stressReduction": "Reducción del estrés"
+      }
+    }
+  },
+  "checklist": {
+    "title": "Listas de verificación reutilizables",
+    "subtitle": "Use sus listas tantas veces como desee",
+    "description": "Gestione fácilmente listas de verificación recurrentes como preparación de viajes, listas de compras, verificaciones de trabajo. Después de completar, reinicie con un clic para reutilizar.",
+    "featureIntro": "Funcionalidad de lista de verificación",
+    "checklistTitle": "Lista de verificación",
+    "travelListTitle": "Lista de preparación de viaje",
+    "resetTitle": "Reiniciar",
+    "resetting": "Reiniciando...",
+    "resetDescription": "Preparando la lista para reutilización",
+    "completedTitle": "¡Completado! Buen trabajo",
+    "resetQuestion": "¿Reiniciar y reutilizar?",
+    "resetAndReuse": "Reiniciar y reutilizar",
+    "newItemPlaceholder": "Ingrese nuevo elemento...",
+    "sampleItems": {
+      "passport": "Pasaporte",
+      "ticket": "Boleto de avión",
+      "hotelConfirmation": "Confirmación de reserva de hotel",
+      "travelInsurance": "Seguro de viaje",
+      "currency": "Preparación de moneda local"
+    },
+    "instructions": "Toque nos itens, agregue, luego use el botón de reinicio después de completar",
+    "resetInstructions": "Después de completar, use el botón de reinicio para desmarcar todos los elementos y reutilizar la misma lista.",
+    "experienceTitle": "📝 Experimente la funcionalidad de lista de verificación",
+    "simpleCheckFeature": "Función de verificación simple",
+    "simpleCheckDescription": "Marque o desmarque elementos con un toque. Interfaz intuitiva para uso cómodo.",
+    "addItemsAnytime": "Agregar elementos en cualquier momento",
+    "addItemsDescription": "Agregue nuevos elementos cuando los necesite. Las listas se pueden editar libremente.",
+    "oneClickReset": "Reinicio con un clic",
+    "convenientFor": "Útil en estas situaciones",
+    "useCases": {
+      "travelPrep": "Verificación de artículos de viaje",
+      "shoppingList": "Gestión de lista de compras",
+      "regularTasks": "Verificación de tareas regulares",
+      "eventPrep": "Confirmación de preparación de eventos"
+    }
+  },
+  "features": {
+    "title": "Características principales",
+    "subtitle": "Características simples y prácticas",
+    "focusMode": {
+      "title": "Modo Enfoque",
+      "description": "Concentrarse en una tarea para trabajar eficientemente",
+      "detail": "Pantalla que facilita la concentración, 2 opciones: completar/saltar",
+      "oneTaskFocus": "Concentrarse en una tarea",
+      "completeOrSkip": "Completar/Saltar"
+    },
+    "design": {
+      "title": "Diseño hermoso",
+      "description": "Interfaz intuitiva y refinada",
+      "detail": "Soporte de modo oscuro, animaciones suaves"
+    },
+    "checklist": {
+      "title": "Funcionalidad de lista de verificación",
+      "description": "Plantillas de tareas reutilizables",
+      "detail": "Gestión de grupos, instanciación, función de reiniciar",
+      "management": "Gestión de listas de verificación",
+      "progressTracking": "Seguimiento de progreso"
+    },
+    "multilingual": {
+      "title": "8 idiomas",
+      "description": "Soporte para usuarios de todo el mundo",
+      "detail": "Detección automática de idioma, localización completa"
+    },
+    "simple": {
+      "title": "Configuración simple",
+      "description": "Uso inmediato después de la instalación",
+      "detail": "No se requiere cuenta, sin configuración compleja"
+    },
+    "reliable": {
+      "title": "Funcionamiento estable",
+      "description": "Operación confiable y cómoda",
+      "detail": "Diseño responsive, funcionamiento suave"
+    },
+    "cta": {
+      "title": "Mejore su productividad con TaskLap ahora",
+      "description": "Revolucione su gestión de tareas con el modo Enfoque y las funciones de lista de verificación"
+    }
+  },
+  "useCases": {
+    "title": "Escenarios de uso",
+    "subtitle": "TaskLap sobresale en diversas situaciones",
+    "featureIntro": "Sobresale en varios escenarios",
+    "findYourWay": "Encuentre su forma de usarlo",
+    "supportProductivity": "Desde el tiempo de concentración matutino hasta la formación de hábitos, TaskLap apoya la mejora de su productividad",
+    "inProgress": "En progreso",
+    "completed": "Completado",
+    "morning": {
+      "title": "Tiempo de concentración matutino",
+      "description": "Concentrar-se en tarefas importantes con modo Enfoque",
+      "scenario": "6:00 AM - Procesamiento concentrado de tarefas importantes",
+      "tasks": {
+        "presentation": "Verificación final del material de presentación",
+        "emails": "Respuesta a emails importantes",
+        "priorities": "Configuración de tarefas prioritarias de hoy"
+      },
+      "features": {
+        "focusMode": "Modo Enfoque",
+        "singleTask": "Concentración en 1 tarea",
+        "progressVisualization": "Visualización de progreso"
+      },
+      "cta": "☀️ Creemos una lista de concentración matutina"
+    },
+    "project": {
+      "title": "Proyectos de trabajo",
+      "description": "Gestión confiável del progreso con listas de verificación",
+      "scenario": "Gestión de proyectos - Uso de listas de verificación",
+      "tasks": {
+        "requirements": "Definición de requisitos completada",
+        "uiReview": "Revisión de diseño UI",
+        "devSetup": "Construcción del entorno de desarrollo"
+      },
+      "features": {
+        "checklist": "Lista de verificación",
+        "projectManagement": "Gestión de proyectos",
+        "progressTracking": "Seguimiento de progreso"
+      },
+      "cta": "📊 Creemos una lista de proyecto"
+    },
+    "travel": {
+      "title": "Preparación de viajes/eventos",
+      "description": "Lista de bagagem, lista de verificación de preparación",
+      "scenario": "Preparación de viagem - Lista de verificación de bagagem",
+      "tasks": {
+        "passportCheck": "Verificación de pasaporte",
+        "medicine": "Preparación de medicamentos y artículos esenciales",
+        "souvenirList": "Creación de lista de souvenirs"
+      },
+      "features": {
+        "reusableTemplate": "Plantillas reutilizables",
+        "groupManagement": "Gestión de grupos",
+        "resetFunction": "Función de reiniciar"
+      },
+      "cta": "✈️ Creemos una lista de verificación de viagem"
+    },
+    "habit": {
+      "title": "Formación de hábitos",
+      "description": "Ejecución continua de tareas de rutina",
+      "scenario": "Formación de hábitos - Rutina diária",
+      "tasks": {
+        "meditation": "Meditación matutina 10 minutos",
+        "reading": "Lectura 30 minutos",
+        "workout": "Entrenamiento muscular 20 minutos"
+      },
+      "features": {
+        "routineManagement": "Gestión de rutina",
+        "continuityTracking": "Seguimiento de continuidad",
+        "motivationBoost": "Mejora de motivación"
+      },
+      "cta": "🎯 Crear lista de hábitos"
+    },
+    "cta": "Comenzar ahora"
+  },
+  "technical": {
+    "title": "Funcionamiento confiable y rápido",
+    "subtitle": "Base técnica confiable",
+    "localFirst": {
+      "title": "Local primero",
+      "description": "Funcionamiento rápido y soporte sin conexión"
+    },
+    "dataSafety": {
+      "title": "Seguridad de datos",
+      "description": "Función de papelera de 7 días"
+    },
+    "future": {
+      "title": "Perspectivas futuras",
+      "description": "Función de sincronización en la nube en desarrollo"
+    },
+    "platform": {
+      "title": "Tecnología confiable",
+      "description": "Plataforma estable React Native + Expo"
+    },
+    "requirements": {
+      "title": "Entorno de ejecución",
+      "ios": "iOS 16.0 o posterior, compatible con iPhone·iPad",
+      "android": "Android 8.0 (API level 26) o posterior",
+      "size": "Tamaño: aproximadamente 50MB"
+    }
+  },
+  "download": {
+    "title": "Descarga TaskLap ahora",
+    "subtitle": "Aplicación de gestión de tareas simple y fácil de usar.",
+    "description": "Descarga gratis ahora y gestiona eficientemente tus tareas diarias.",
+    "downloadTitle": "Descargar ahora",
+    "appStore": "Descargar en App Store",
+    "googlePlay": "Descargar en Google Play",
+    "features": {
+      "instant": {
+        "title": "Uso inmediato",
+        "description": "No se requiere registro de cuenta, utilizable inmediatamente después de descargar"
+      },
+      "free": {
+        "title": "Completamente gratis",
+        "description": "Sin tarifas ocultas, todas las funciones disponibles gratis"
+      },
+      "multilingual": {
+        "title": "8 idiomas",
+        "description": "Completamente localizado en 8 idiomas incluyendo japonés"
+      }
+    },
+    "stats": {
+      "downloads": "Número de descargas",
+      "rating": "Calificación del usuario",
+      "size": "Tamaño de la aplicación",
+      "version": "Versión"
+    },
+    "appStats": "Estadísticas de la aplicación",
+    "storeSubmission": "📱 Actualmente en revisión de la tienda de aplicaciones. ¡Disponible pronto!"
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "quickLinks": "Enlaces rápidos",
+    "legal": "Asuntos legales",
+    "privacy": "Política de privacidad",
+    "version": "Versión",
+    "copyright": "© 2024 TaskLap. All rights reserved.",
+    "appDescription": "Aplicación simple para concentrarse y gestionar tareas de manera eficiente.",
+    "supportMessage": "Soporte para 8 idiomas, uso sin conexión, completamente gratis.",
+    "multilingualSupport": "Soporte para 8 idiomas"
+  },
+  "meta": {
+    "title": "TaskLap - Aplicación de gestión de tareas que transforma la concentración con modo Enfoque",
+    "description": "Equipado con modo Enfoque para concentrarse en una tarea. Aplicación de gestión de tareas con funcionamiento sin conexión, soporte de 8 idiomas y diseño hermoso.",
+    "keywords": "gestión de tareas,enfoque,concentración,sin conexión,lista de verificación,todo"
+  },
+  "privacy": {
+    "title": "Política de Privacidad de TaskLap",
+    "lastUpdated": "Última actualización: Diciembre 2024",
+    "keyPoint": {
+      "title": "Importante: TaskLap es una aplicación completamente privada",
+      "description": "Sus datos nunca se envían externamente. Todos los datos se gestionan únicamente dentro de su dispositivo."
+    },
+    "dataCollection": {
+      "title": "1. Información que recopilamos",
+      "description": "La aplicación TaskLap almacena únicamente la siguiente información en su dispositivo:",
+      "items": [
+        "Títulos y contenido de tareas",
+        "Nombres de listas de verificación",
+        "Estado completado/incompleto",
+        "Fechas de creación y actualización",
+        "Configuración de idioma",
+        "Configuración de orden de clasificación"
+      ]
+    },
+    "noDataCollection": {
+      "title": "2. Información que no recopilamos",
+      "description": "No recopilamos ninguna de la siguiente información:",
+      "items": [
+        "Información personal (nombre, dirección de correo electrónico, número de teléfono, etc.)",
+        "Información de ubicación",
+        "Acceso a fotos o cámara",
+        "Información de contacto",
+        "Información de identificación del dispositivo",
+        "Datos de análisis de uso"
+      ]
+    },
+    "dataStorage": {
+      "title": "3. Almacenamiento y Gestión de Datos",
+      "subtitle": "Almacenamiento Local Completo:",
+      "items": [
+        "Todos los datos se almacenan únicamente en la base de datos SQLite de su dispositivo",
+        "Sin transmisión a servidores externos",
+        "Sin funciones de sincronización en la nube",
+        "No se requiere conexión a Internet",
+        "Cuando elimine la aplicación, todos los datos se eliminan completamente"
+      ]
+    },
+    "dataSharing": {
+      "title": "4. Compartir Datos",
+      "description": "No compartimos sus datos con ninguno de los siguientes:",
+      "items": [
+        "Empresas de publicidad",
+        "Empresas de análisis",
+        "Otras aplicaciones",
+        "Plataformas de redes sociales",
+        "Otros terceros"
+      ]
+    },
+    "security": {
+      "title": "5. Seguridad",
+      "description": "Dado que sus datos se gestionan únicamente en su dispositivo, están protegidos por la configuración de seguridad de su dispositivo (código de acceso, autenticación por huella dactilar, etc.)."
+    },
+    "advertising": {
+      "title": "6. Publicidad",
+      "description": "La aplicación TaskLap no muestra ninguna publicidad."
+    },
+    "ageRequirement": {
+      "title": "7. Requisito de edad",
+      "description": "La aplicación TaskLap está destinada a usuarios de 13 años en adelante. Los usuarios menores de 13 años deben usar esta aplicación con el consentimiento de los padres."
+    },
+    "contact": {
+      "title": "8. Contacto",
+      "description": "Si tiene alguna pregunta sobre esta política de privacidad, no dude en contactarnos:",
+      "email": "privacy@tasklap.com"
+    },
+    "changes": {
+      "title": "9. Cambios en la Política",
+      "description": "Esta política de privacidad puede actualizarse en respuesta a cambios en los requisitos legales o adiciones de funciones de la aplicación. Cuando haya cambios importantes, le notificaremos con anticipación a través de la aplicación o el sitio web."
+    }
+  },
+  "common": {
+    "downloadNow": "Descargar ahora",
+    "comingSoon": "En preparación",
+    "version": "Versión",
+    "applicationInProgress": "📱 Actualmente en revisión de la tienda de aplicaciones. ¡Disponible pronto!",
+    "qrCodeInProgress": "El código QR está en preparación",
+    "todo": "Todo",
+    "checklist": "Lista de verificación",
+    "settings": "Configuración",
+    "darkLightMode": "Soporte de Modo Oscuro y Claro",
+    "toggleTheme": "Cambiar tema",
+    "darkMode": "Modo Oscuro",
+    "lightMode": "Modo Claro",
+    "screenshot": "Captura de pantalla",
+    "modeSwitch": "Cambio de modo",
+    "dark": "Oscuro",
+    "light": "Claro"
+  },
+  "languages": {
+    "ja": "日本語",
+    "en": "English",
+    "fr": "Français",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "pt": "Português",
+    "de": "Deutsch"
+  },
+  "productivity": {
+    "title": "Funciones para maximizar la productividad"
+  },
+  "header": {
+    "comments": {
+      "logo": "Usa el icono real de la aplicación TaskLap",
+      "icon": "Icono transparente TaskLap",
+      "theme": "Botón de cambio de tema",
+      "language": "Cambio de idioma",
+      "download": "Botón de descarga"
+    }
+  },
+  "contact": {
+    "badge": "Contáctanos",
+    "title": "Ponte en Contacto",
+    "subtitle": "Nos encantaría saber de ti. Envíanos un mensaje sobre TaskLap y responderemos lo antes posible.",
+    "info": {
+      "title": "Información de Contacto",
+      "email": {
+        "title": "Dirección de Email",
+        "description": "Envíanos un email directamente"
+      },
+      "response": {
+        "title": "Tiempo de Respuesta",
+        "description": "Responderemos en 24 horas"
+      },
+      "support": {
+        "title": "Soporte",
+        "description": "Estamos aquí para ayudar con preguntas técnicas"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Revisa nuestras preguntas frecuentes antes de contactarnos.",
+      "link": "Ver FAQ"
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Ingresa tu nombre"
+      },
+      "email": {
+        "label": "Dirección de Email",
+        "placeholder": "tu@email.com"
+      },
+      "subject": {
+        "label": "Asunto",
+        "placeholder": "¿De qué se trata?"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos sobre tu pregunta o comentario..."
+      },
+      "privacy": "Tu información solo se utilizará para responder a tu consulta.",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "error": "Error al enviar el mensaje. Por favor, inténtelo de nuevo más tarde."
+    },
+    "success": {
+      "title": "¡Mensaje Enviado Exitosamente!",
+      "message": "¡Gracias por contactarnos! Te responderemos en 24 horas.",
+      "sendAnother": "Enviar Otro Mensaje"
+    }
+  }
+}

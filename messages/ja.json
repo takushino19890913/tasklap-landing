@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "title": "TaskLap - シンプルなTodo、チェックリストアプリ。",
+    "description": "シンプルで使いやすいタスク管理アプリ。フォーカスモード、チェックリスト機能搭載。",
+    "keywords": "タスク管理,Todo,チェックリスト,フォーカス,集中,アプリ"
+  },
+  "navigation": {
+    "features": "機能",
+    "focusMode": "フォーカスモード",
+    "checklist": "チェックリスト",
+    "useCases": "使用例",
+    "download": "ダウンロード",
+    "language": "言語",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "シンプルなTodo、チェックリストアプリ。",
+    "subtitle": "シンプルで使いやすいタスク管理",
+    "description": "直感的な操作でタスクを効率的に管理。フォーカスモード、チェックリスト機能、8言語対応で、あなたの日常をサポートします。",
+    "downloadAppStore": "App Storeからダウンロード",
+    "downloadGooglePlay": "Google Playで手に入れよう",
+    "availableOn": "利用可能プラットフォーム",
+    "version": "バージョン 1.0.0",
+    "badges": {
+      "ratingPreparation": "評価準備中",
+      "multilingualSupport": "8言語対応",
+      "freeDownload": "無料ダウンロード"
+    },
+    "viewFeatures": "機能を見る",
+    "simpleTaskManagement": "シンプルなタスク管理"
+  },
+  "focusMode": {
+    "title": "フォーカスモード",
+    "subtitle": "一つのタスクに集中する表示モード",
+    "description": "フォーカスモードは、気を散らす要素を排除し、一つのタスクだけに集中できる表示モードです。",
+    "featureIntro": "TaskLap機能紹介",
+    "workCategory": "仕事",
+    "completed": "完了",
+    "congratulations": "お疲れ様でした！",
+    "tasksCompleted": "個のタスクを完了しました",
+    "skip": "スキップ",
+    "complete": "完了",
+    "tryTapping": "「完了」または「スキップ」ボタンをタップして体験",
+    "actualScreenCaption": "🎯 実際のTaskLapのフォーカスモード画面",
+    "benefitsSubtitle": "フォーカスモードで集中しやすい環境を提供します",
+    "features": {
+      "oneTask": {
+        "title": "一画面一タスク",
+        "description": "マルチタスクの誘惑を完全排除"
+      },
+      "simpleChoice": {
+        "title": "シンプル選択",
+        "description": "完了かスキップの2択のみ"
+      },
+      "beautifulProgress": {
+        "title": "美しい進捗",
+        "description": "達成感を高めるビジュアルフィードバック"
+      },
+      "smartContinue": {
+        "title": "スマート継続",
+        "description": "次のタスクへ自動遷移"
+      }
+    },
+    "benefits": {
+      "title": "フォーカスモードの効果",
+      "items": {
+        "decisionFatigue": "決断疲れの軽減",
+        "focusDuration": "集中力の持続時間向上",
+        "completionRate": "タスク完了率の向上",
+        "stressReduction": "ストレス軽減"
+      }
+    }
+  },
+  "checklist": {
+    "title": "再利用できるチェックリスト",
+    "subtitle": "一度作ったリストを何度でも使える",
+    "description": "旅行準備、買い物リスト、作業チェックなど、繰り返し使うチェックリストを簡単に管理。完了後はワンクリックでリセットして再利用できます。",
+    "featureIntro": "チェックリスト機能",
+    "checklistTitle": "チェックリスト",
+    "travelListTitle": "旅行準備リスト",
+    "resetTitle": "リセット",
+    "resetting": "リセット中...",
+    "resetDescription": "チェックリストを再利用できるようにしています",
+    "completedTitle": "完了！お疲れ様でした",
+    "resetQuestion": "リセットして再利用しますか？",
+    "resetAndReuse": "リセットして再利用",
+    "newItemPlaceholder": "新しい項目を入力...",
+    "sampleItems": {
+      "passport": "パスポート",
+      "ticket": "航空券",
+      "hotelConfirmation": "ホテル予約確認",
+      "travelInsurance": "海外旅行保険",
+      "currency": "現地通貨準備"
+    },
+    "instructions": "項目をタップ、追加、完了後リセットボタンで再利用",
+    "resetInstructions": "完了後はリセットボタンで全てのチェックを外し、同じリストを再利用できます。",
+    "experienceTitle": "📝 チェックリスト機能を体験",
+    "simpleCheckFeature": "シンプルなチェック機能",
+    "simpleCheckDescription": "タップ一つで項目にチェックを入れたり外したり。直感的な操作で快適に使えます。",
+    "addItemsAnytime": "いつでも項目追加",
+    "addItemsDescription": "必要な時にいつでも新しい項目を追加。リストは自由に編集できます。",
+    "oneClickReset": "ワンクリックでリセット",
+    "convenientFor": "こんな時に便利",
+    "useCases": {
+      "travelPrep": "旅行準備の持ち物チェック",
+      "shoppingList": "買い物リストの管理",
+      "regularTasks": "定期的な作業のチェック",
+      "eventPrep": "イベント準備の確認"
+    }
+  },
+  "features": {
+    "title": "主な機能",
+    "subtitle": "シンプルで実用的な機能",
+    "focusMode": {
+      "title": "フォーカスモード",
+      "description": "一つのタスクに集中して、効率的に作業",
+      "detail": "集中しやすい表示、完了/スキップの2択",
+      "oneTaskFocus": "一つのタスクに集中",
+      "completeOrSkip": "完了/スキップ"
+    },
+    "design": {
+      "title": "美しいデザイン",
+      "description": "直感的で洗練されたインターフェース",
+      "detail": "ダークモード対応、滑らかなアニメーション"
+    },
+    "checklist": {
+      "title": "チェックリスト機能",
+      "description": "再利用可能なタスクテンプレート",
+      "detail": "グループ管理、インスタンス化、リセット機能",
+      "management": "チェックリスト管理",
+      "progressTracking": "進捗追跡"
+    },
+    "multilingual": {
+      "title": "8言語対応",
+      "description": "世界中のユーザーに対応",
+      "detail": "自動言語検出、完全ローカライズ"
+    },
+    "simple": {
+      "title": "シンプル設定",
+      "description": "インストール後すぐに使用開始",
+      "detail": "アカウント不要、複雑な設定なし"
+    },
+    "reliable": {
+      "title": "安定動作",
+      "description": "確実で快適な操作",
+      "detail": "レスポンシブデザイン、スムーズな動作"
+    },
+    "cta": {
+      "title": "今すぐTaskLapで生産性を向上させましょう",
+      "description": "フォーカスモードとチェックリスト機能で、あなたのタスク管理を革新します"
+    }
+  },
+  "useCases": {
+    "title": "活用シーン",
+    "subtitle": "様々な場面でTaskLapが活躍",
+    "featureIntro": "様々なシーンで活躍",
+    "findYourWay": "あなたの使い方を見つけよう",
+    "supportProductivity": "朝の集中時間から習慣形成まで、TaskLapがあなたの生産性向上をサポートします",
+    "inProgress": "進行中",
+    "completed": "完了",
+    "morning": {
+      "title": "朝の集中時間",
+      "description": "重要タスクにフォーカスモードで集中",
+      "scenario": "朝6:00 - 重要タスクの集中処理",
+      "tasks": {
+        "presentation": "プレゼン資料の最終確認",
+        "emails": "重要メールの返信",
+        "priorities": "今日の優先タスク設定"
+      },
+      "features": {
+        "focusMode": "フォーカスモード",
+        "singleTask": "1タスク集中",
+        "progressVisualization": "進捗可視化"
+      },
+      "cta": "☀️ 朝の集中リストを作ろう"
+    },
+    "project": {
+      "title": "仕事のプロジェクト",
+      "description": "チェックリストで確実な進捗管理",
+      "scenario": "プロジェクト管理 - チェックリスト活用",
+      "tasks": {
+        "requirements": "要件定義完了",
+        "uiReview": "UI設計レビュー",
+        "devSetup": "開発環境構築"
+      },
+      "features": {
+        "checklist": "チェックリスト",
+        "projectManagement": "プロジェクト管理",
+        "progressTracking": "進捗追跡"
+      },
+      "cta": "📊 プロジェクトリストを作ろう"
+    },
+    "travel": {
+      "title": "旅行・イベント準備",
+      "description": "パッキングリスト、準備チェックリスト",
+      "scenario": "旅行準備 - パッキングチェックリスト",
+      "tasks": {
+        "passportCheck": "パスポート確認",
+        "medicine": "薬・常備品準備",
+        "souvenirList": "お土産リスト作成"
+      },
+      "features": {
+        "reusableTemplate": "再利用テンプレート",
+        "groupManagement": "グループ管理",
+        "resetFunction": "リセット機能"
+      },
+      "cta": "✈️ 旅行チェックリストを作ろう"
+    },
+    "habit": {
+      "title": "習慣形成",
+      "description": "ルーチンタスクの継続的実行",
+      "scenario": "習慣形成 - 毎日のルーチン",
+      "tasks": {
+        "meditation": "朝の瞑想 10分",
+        "reading": "読書 30分",
+        "workout": "筋トレ 20分"
+      },
+      "features": {
+        "routineManagement": "ルーチン管理",
+        "continuityTracking": "継続性追跡",
+        "motivationBoost": "モチベーション向上"
+      },
+      "cta": "🎯 習慣リストを作ろう"
+    },
+    "cta": "今すぐ使い始める"
+  },
+  "technical": {
+    "title": "確実で高速な動作",
+    "subtitle": "信頼できる技術基盤",
+    "localFirst": {
+      "title": "ローカル優先",
+      "description": "高速動作とオフライン対応"
+    },
+    "dataSafety": {
+      "title": "データ安全性",
+      "description": "7日間のゴミ箱機能"
+    },
+    "future": {
+      "title": "将来性",
+      "description": "クラウド同期機能を開発予定"
+    },
+    "platform": {
+      "title": "信頼技術",
+      "description": "React Native + Expo の安定したプラットフォーム"
+    },
+    "requirements": {
+      "title": "動作環境",
+      "ios": "iOS 16.0以降、iPhone・iPad対応",
+      "android": "Android 8.0 (API level 26)以降",
+      "size": "容量: 約50MB"
+    }
+  },
+  "download": {
+    "title": "今すぐTaskLapで集中力を変えよう",
+    "subtitle": "無料、登録不要、即座に利用開始",
+    "description": "今すぐ無料でダウンロードして、日常のタスクを効率的に管理しましょう。",
+    "whyChoose": "なぜTaskLapを選ぶのか？",
+    "appStats": "アプリ統計",
+    "storeSubmission": "📱 アプリストア申請中。まもなく利用開始予定！",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadTitle": "今すぐダウンロード",
+    "qrCode": "QRコードでダウンロード",
+    "version": "バージョン 1.0.0",
+    "lastUpdate": "最終更新: 2024年12月",
+    "rating": "評価: (準備中)",
+    "features": {
+      "instant": {
+        "title": "即座に利用開始",
+        "description": "アカウント登録不要、ダウンロード後すぐに使える"
+      },
+      "free": {
+        "title": "完全無料",
+        "description": "隠れた料金なし、すべての機能が無料で利用可能"
+      },
+      "multilingual": {
+        "title": "8言語対応",
+        "description": "日本語を含む8つの言語で完全ローカライズ"
+      }
+    },
+    "stats": {
+      "downloads": "ダウンロード数",
+      "rating": "ユーザー評価",
+      "size": "アプリサイズ",
+      "version": "バージョン"
+    }
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "quickLinks": "クイックリンク",
+    "legal": "法的事項",
+    "privacy": "プライバシーポリシー",
+    "version": "バージョン",
+    "copyright": "© 2024 TaskLap. All rights reserved.",
+    "appDescription": "ワンクリックで集中、効率的にタスクを管理するシンプルなアプリ。",
+    "supportMessage": "8言語対応、オフライン使用、完全無料。",
+    "multilingualSupport": "8言語対応"
+  },
+  "meta": {
+    "title": "TaskLap - フォーカスモードで集中力を変える、タスク管理アプリ",
+    "description": "一つのタスクに集中できるフォーカスモード搭載。オフライン動作、8言語対応、美しいデザインのタスク管理アプリ。",
+    "keywords": "タスク管理,フォーカス,集中力,オフライン,チェックリスト,Todo"
+  },
+  "privacy": {
+    "title": "TaskLap プライバシーポリシー",
+    "lastUpdated": "最終更新日：2024年12月",
+    "keyPoint": {
+      "title": "重要：TaskLapは完全にプライベートなアプリです",
+      "description": "お客様のデータは外部に送信されることはありません。すべてのデータはお客様のデバイス内でのみ管理されます。"
+    },
+    "dataCollection": {
+      "title": "1. 収集する情報",
+      "description": "TaskLapアプリは以下の情報のみをお客様のデバイス内に保存します：",
+      "items": [
+        "タスクのタイトルと内容",
+        "チェックリストの名前",
+        "完了/未完了の状態",
+        "作成日時と更新日時",
+        "言語設定",
+        "ソート順序の設定"
+      ]
+    },
+    "noDataCollection": {
+      "title": "2. 収集しない情報",
+      "description": "以下の情報は一切収集いたしません：",
+      "items": [
+        "個人情報（名前、メールアドレス、電話番号等）",
+        "位置情報",
+        "写真やカメラへのアクセス",
+        "連絡先情報",
+        "デバイス識別情報",
+        "使用状況の分析データ"
+      ]
+    },
+    "dataStorage": {
+      "title": "3. データの保存と管理",
+      "subtitle": "完全ローカル保存：",
+      "items": [
+        "全てのデータはお客様のデバイス内のSQLiteデータベースにのみ保存されます",
+        "外部サーバーへの送信は一切ありません",
+        "クラウド同期機能はありません",
+        "インターネット接続は不要です",
+        "アプリを削除すると、全てのデータが完全に削除されます"
+      ]
+    },
+    "dataSharing": {
+      "title": "4. データの共有",
+      "description": "お客様のデータを以下のいずれとも共有することはありません：",
+      "items": [
+        "広告会社",
+        "分析会社",
+        "他のアプリケーション",
+        "ソーシャルメディアプラットフォーム",
+        "その他の第三者"
+      ]
+    },
+    "security": {
+      "title": "5. セキュリティ",
+      "description": "お客様のデータはデバイス内でのみ管理されるため、デバイスのセキュリティ設定（パスコード、指紋認証等）によって保護されます。"
+    },
+    "ads": {
+      "title": "6. 広告について",
+      "description": "TaskLapアプリには広告は表示されません。"
+    },
+    "ageRestriction": {
+      "title": "7. 年齢制限",
+      "description": "TaskLapアプリは13歳以上の方を対象としています。13歳未満の方は保護者の同意のもとでご利用ください。"
+    },
+    "contact": {
+      "title": "8. お問い合わせ",
+      "description": "このプライバシーポリシーについてご質問がある場合は、以下までお気軽にお問い合わせください：",
+      "email": "メール"
+    },
+    "policyChanges": {
+      "title": "9. ポリシーの変更",
+      "description": "このプライバシーポリシーは、法的要件の変更やアプリの機能追加に応じて更新される場合があります。重要な変更がある場合は、アプリ内またはウェブサイトで事前にお知らせいたします。"
+    },
+    "finalNote": "このプライバシーポリシーは、お客様のプライバシーを最大限に尊重し、データの完全な制御をお客様に提供することを目的としています。"
+  },
+  "common": {
+    "downloadNow": "今すぐダウンロード",
+    "comingSoon": "準備中",
+    "version": "バージョン",
+    "applicationInProgress": "📱 現在アプリストアへの申請中です。まもなく利用開始予定！",
+    "qrCodeInProgress": "QRコードは準備中です",
+    "todo": "Todo",
+    "checklist": "チェックリスト",
+    "settings": "設定",
+    "darkLightMode": "ダークモード・ライトモード搭載",
+    "toggleTheme": "テーマを切り替え",
+    "darkMode": "ダークモード",
+    "lightMode": "ライトモード",
+    "screenshot": "スクリーンショット",
+    "modeSwitch": "モード切り替え",
+    "dark": "ダーク",
+    "light": "ライト"
+  },
+  "languages": {
+    "ja": "日本語",
+    "en": "English",
+    "fr": "Français",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "pt": "Português",
+    "de": "Deutsch"
+  },
+  "productivity": {
+    "title": "生産性を最大化する機能"
+  },
+  "header": {
+    "comments": {
+      "logo": "TaskLapアプリの実際のアイコンを使用",
+      "icon": "TaskLapの透過アイコン",
+      "theme": "テーマ切り替えボタン",
+      "language": "言語切り替え",
+      "download": "ダウンロードボタン"
+    }
+  },
+  "contact": {
+    "badge": "お問い合わせ",
+    "title": "お気軽にお問い合わせください",
+    "subtitle": "TaskLapに関するご質問、ご要望、フィードバックをお待ちしています。できる限り迅速に回答いたします。",
+    "info": {
+      "title": "お問い合わせ情報",
+      "email": {
+        "title": "メールアドレス",
+        "description": "直接メールを送信できます"
+      },
+      "response": {
+        "title": "回答時間",
+        "description": "24時間以内に回答いたします"
+      },
+      "support": {
+        "title": "サポート",
+        "description": "技術的な質問にもお答えします"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "お問い合わせの前に、よくある質問をご確認ください。",
+      "link": "FAQを見る"
+    },
+    "form": {
+      "title": "メッセージを送信",
+      "name": {
+        "label": "お名前",
+        "placeholder": "お名前を入力してください"
+      },
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "your@email.com"
+      },
+      "subject": {
+        "label": "件名",
+        "placeholder": "お問い合わせの件名"
+      },
+      "message": {
+        "label": "メッセージ",
+        "placeholder": "ご質問やご要望をお聞かせください..."
+      },
+      "privacy": "送信いただいた情報は、お問い合わせへの回答のみに使用いたします。",
+      "send": "メッセージを送信",
+      "sending": "送信中...",
+      "error": "メッセージの送信に失敗しました。しばらく時間をおいてから再度お試しください。"
+    },
+    "success": {
+      "title": "メッセージを送信しました！",
+      "message": "お問い合わせありがとうございます。24時間以内に回答いたします。",
+      "sendAnother": "新しいメッセージを送信"
+    }
+  }
+}
