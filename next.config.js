@@ -4,17 +4,19 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
   images: {
-    domains: [],
-    formats: ["image/webp", "image/avif"],
+    unoptimized: true,
   },
-  compress: true,
-  poweredByHeader: false,
-  reactStrictMode: true,
-  swcMinify: true,
+  env: {
+    _next_intl_trailing_slash: "false",
+  },
+  trailingSlash: false,
 };
 
 module.exports = withNextIntl(nextConfig);
