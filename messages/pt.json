@@ -65,6 +65,14 @@
     },
     "benefits": {
       "title": "Efeitos do modo Foco",
+      "singleTask": {
+        "title": "Concentrar em uma tarefa",
+        "description": "Eliminação completa da tentação de multitarefa"
+      },
+      "simpleChoice": {
+        "title": "Escolha simples",
+        "description": "Apenas duas opções: concluir ou pular"
+      },
       "items": {
         "decisionFatigue": "Redução da fadiga de decisão",
         "focusDuration": "Melhoria da duração da concentração",
@@ -106,6 +114,16 @@
     "addItemsDescription": "Adicione novos itens quando precisar. As listas podem ser editadas livremente.",
     "oneClickReset": "Reiniciar com um clique",
     "convenientFor": "Útil nestas situações",
+    "benefits": {
+      "reusable": {
+        "title": "Listas de verificação reutilizáveis",
+        "description": "Use as listas que você cria repetidamente"
+      },
+      "flexible": {
+        "title": "Gestão flexível",
+        "description": "Adicione ou edite itens livremente conforme necessário"
+      }
+    },
     "useCases": {
       "travelPrep": "Verificação de itens de viagem",
       "shoppingList": "Gerenciamento de lista de compras",
@@ -147,6 +165,10 @@
       "description": "Uso imediato após instalação",
       "shortDescription": "Início imediato",
       "detail": "Nenhuma conta necessária, sem configuração complexa"
+    },
+    "efficient": {
+      "title": "Trabalho eficiente",
+      "description": "Recursos que melhoram a produtividade"
     },
     "reliable": {
       "title": "Funcionamento estável",

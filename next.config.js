@@ -1,6 +1,6 @@
 const createNextIntlPlugin = require("next-intl/plugin");
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -13,9 +13,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  env: {
-    _next_intl_trailing_slash: "false",
-  },
+
   trailingSlash: false,
 };
 
