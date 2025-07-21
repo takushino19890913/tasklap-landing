@@ -34,6 +34,8 @@
     "subtitle": "A display mode to focus on one task",
     "description": "Focus Mode is a display mode that eliminates distractions and allows you to concentrate on just one task.",
     "featureIntro": "TaskLap Feature",
+    "experienceTitle": "🎯 Experience Focus Mode",
+    "experienceDescription": "Focus on one task at a time for efficient and productive work",
     "workCategory": "Work",
     "completed": "completed",
     "congratulations": "Great job!",
@@ -63,6 +65,14 @@
     },
     "benefits": {
       "title": "Benefits of Focus Mode",
+      "singleTask": {
+        "title": "Focus on One Task",
+        "description": "Completely eliminate multitasking temptations"
+      },
+      "simpleChoice": {
+        "title": "Simple Choice",
+        "description": "Only two options: complete or skip"
+      },
       "items": {
         "decisionFatigue": "Reduce decision fatigue",
         "focusDuration": "Improve focus duration",
@@ -95,6 +105,9 @@
     "instructions": "Tap items, add, and reset after completion for reuse",
     "resetInstructions": "After completion, use the reset button to uncheck all items and reuse the same list.",
     "experienceTitle": "📝 Experience Checklist Features",
+    "experienceDescription": "Manage tasks efficiently with reusable checklists that you can use over and over",
+    "actualScreenCaption": "📝 Actual TaskLap Checklist Screen",
+    "tryInteracting": "Tap items, add, complete then reset button to reuse",
     "simpleCheckFeature": "Simple Check Feature",
     "simpleCheckDescription": "Tap once to check or uncheck items. Enjoy intuitive and comfortable operation.",
     "addItemsAnytime": "Add Items Anytime",
@@ -106,6 +119,16 @@
       "shoppingList": "Shopping list management",
       "regularTasks": "Regular task checking",
       "eventPrep": "Event preparation confirmation"
+    },
+    "benefits": {
+      "reusable": {
+        "title": "Reusable Checklists",
+        "description": "Use lists you create over and over"
+      },
+      "flexible": {
+        "title": "Flexible List Management",
+        "description": "Add or edit items anytime"
+      }
     }
   },
   "features": {
@@ -114,6 +137,7 @@
     "focusMode": {
       "title": "Focus Mode",
       "description": "Concentrate on one task for efficient work",
+      "shortDescription": "Focus on one task",
       "detail": "Focus-friendly display, two choices: complete/skip",
       "oneTaskFocus": "Focus on one task",
       "completeOrSkip": "Complete/Skip"
@@ -126,6 +150,7 @@
     "checklist": {
       "title": "Checklist Feature",
       "description": "Reusable task templates",
+      "shortDescription": "Reusable checklists",
       "detail": "Group management, instantiation, reset function",
       "management": "Checklist management",
       "progressTracking": "Progress tracking"
@@ -138,12 +163,17 @@
     "simple": {
       "title": "Simple Setup",
       "description": "Start using immediately after installation",
+      "shortDescription": "Start immediately",
       "detail": "No account required, no complex settings"
     },
     "reliable": {
       "title": "Stable Operation",
       "description": "Reliable and comfortable operation",
       "detail": "Responsive design, smooth performance"
+    },
+    "efficient": {
+      "title": "Efficient Work",
+      "description": "Features that boost productivity"
     },
     "cta": {
       "title": "Boost Your Productivity with TaskLap Now",
@@ -218,7 +248,10 @@
       "features": {
         "routineManagement": "Routine management",
         "continuityTracking": "Continuity tracking",
-        "motivationBoost": "Motivation boost"
+        "motivationBoost": "Motivation boost",
+        "dailyHabits": "Daily habits",
+        "routineTasks": "Routine tasks",
+        "continuousExecution": "Continuous execution"
       },
       "cta": "🎯 Create habit list"
     },

@@ -34,6 +34,8 @@
     "subtitle": "Modo de visualización para concentrarse en una sola tarea",
     "description": "El modo Enfoque elimina las distracciones y permite concentrarse en una sola tarea.",
     "featureIntro": "Presentación de funciones de TaskLap",
+    "experienceTitle": "🎯 Experimenta el Modo Enfoque",
+    "experienceDescription": "Concéntrate en una tarea a la vez para un trabajo eficiente y productivo",
     "workCategory": "Trabajo",
     "completed": "Completado",
     "congratulations": "¡Buen trabajo!",
@@ -63,6 +65,14 @@
     },
     "benefits": {
       "title": "Efectos del modo Enfoque",
+      "singleTask": {
+        "title": "Concentrarse en una tarea",
+        "description": "Eliminación completa de la tentación de multitarea"
+      },
+      "simpleChoice": {
+        "title": "Elección simple",
+        "description": "Solo dos opciones: completar o saltar"
+      },
       "items": {
         "decisionFatigue": "Reducción de la fatiga de decisión",
         "focusDuration": "Mejora de la duración de la concentración",
@@ -95,6 +105,9 @@
     "instructions": "Toque nos itens, agregue, luego use el botón de reinicio después de completar",
     "resetInstructions": "Después de completar, use el botón de reinicio para desmarcar todos los elementos y reutilizar la misma lista.",
     "experienceTitle": "📝 Experimente la funcionalidad de lista de verificación",
+    "experienceDescription": "Gestiona tareas eficientemente con listas de verificación reutilizables",
+    "actualScreenCaption": "📝 Pantalla real de lista de verificación de TaskLap",
+    "tryInteracting": "Toca elementos, agrega, completa luego botón reset para reutilizar",
     "simpleCheckFeature": "Función de verificación simple",
     "simpleCheckDescription": "Marque o desmarque elementos con un toque. Interfaz intuitiva para uso cómodo.",
     "addItemsAnytime": "Agregar elementos en cualquier momento",
@@ -106,6 +119,16 @@
       "shoppingList": "Gestión de lista de compras",
       "regularTasks": "Verificación de tareas regulares",
       "eventPrep": "Confirmación de preparación de eventos"
+    },
+    "benefits": {
+      "reusable": {
+        "title": "Listas de verificación reutilizables",
+        "description": "Use las listas que cree una y otra vez"
+      },
+      "flexible": {
+        "title": "Gestión flexible de listas",
+        "description": "Agregue o edite elementos en cualquier momento"
+      }
     }
   },
   "features": {
@@ -114,6 +137,7 @@
     "focusMode": {
       "title": "Modo Enfoque",
       "description": "Concentrarse en una tarea para trabajar eficientemente",
+      "shortDescription": "Concentrarse en una tarea",
       "detail": "Pantalla que facilita la concentración, 2 opciones: completar/saltar",
       "oneTaskFocus": "Concentrarse en una tarea",
       "completeOrSkip": "Completar/Saltar"
@@ -126,6 +150,7 @@
     "checklist": {
       "title": "Funcionalidad de lista de verificación",
       "description": "Plantillas de tareas reutilizables",
+      "shortDescription": "Listas reutilizables",
       "detail": "Gestión de grupos, instanciación, función de reiniciar",
       "management": "Gestión de listas de verificación",
       "progressTracking": "Seguimiento de progreso"
@@ -138,12 +163,17 @@
     "simple": {
       "title": "Configuración simple",
       "description": "Uso inmediato después de la instalación",
+      "shortDescription": "Inicio inmediato",
       "detail": "No se requiere cuenta, sin configuración compleja"
     },
     "reliable": {
       "title": "Funcionamiento estable",
       "description": "Operación confiable y cómoda",
       "detail": "Diseño responsive, funcionamiento suave"
+    },
+    "efficient": {
+      "title": "Trabajo eficiente",
+      "description": "Características que mejoran la productividad"
     },
     "cta": {
       "title": "Mejore su productividad con TaskLap ahora",
@@ -218,7 +248,10 @@
       "features": {
         "routineManagement": "Gestión de rutina",
         "continuityTracking": "Seguimiento de continuidad",
-        "motivationBoost": "Mejora de motivación"
+        "motivationBoost": "Mejora de motivación",
+        "dailyHabits": "Hábitos diarios",
+        "routineTasks": "Tareas rutinarias",
+        "continuousExecution": "Ejecución continua"
       },
       "cta": "🎯 Crear lista de hábitos"
     },

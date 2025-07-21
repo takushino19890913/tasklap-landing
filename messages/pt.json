@@ -34,6 +34,8 @@
     "subtitle": "Modo de exibição para focar em uma única tarefa",
     "description": "O modo Foco elimina distrações e permite concentrar-se em uma única tarefa.",
     "featureIntro": "Apresentação de recursos do TaskLap",
+    "experienceTitle": "🎯 Experimente o Modo Foco",
+    "experienceDescription": "Foque em uma tarefa por vez para um trabalho eficiente e produtivo",
     "workCategory": "Trabalho",
     "completed": "Concluído",
     "congratulations": "Bom trabalho!",
@@ -95,6 +97,9 @@
     "instructions": "Toque nos itens, adicione, depois use o botão de reiniciar após completar",
     "resetInstructions": "Após completar, use o botão de reiniciar para desmarcar todos os itens e reutilizar a mesma lista.",
     "experienceTitle": "📝 Experimente a funcionalidade de lista de verificação",
+    "experienceDescription": "Gerencie tarefas eficientemente com listas de verificação reutilizáveis",
+    "actualScreenCaption": "📝 Tela real de lista de verificação do TaskLap",
+    "tryInteracting": "Toque nos itens, adicione, complete depois botão reset para reutilizar",
     "simpleCheckFeature": "Função de verificação simples",
     "simpleCheckDescription": "Marque ou desmarque itens com um toque. Interface intuitiva para uso confortável.",
     "addItemsAnytime": "Adicionar itens a qualquer momento",
@@ -114,6 +119,7 @@
     "focusMode": {
       "title": "Modo Foco",
       "description": "Concentrar-se em uma tarefa para trabalhar eficientemente",
+      "shortDescription": "Concentrar em uma tarefa",
       "detail": "Exibição que facilita concentração, 2 opções: concluir/pular",
       "oneTaskFocus": "Concentrar-se em uma tarefa",
       "completeOrSkip": "Concluir/Pular"
@@ -126,6 +132,7 @@
     "checklist": {
       "title": "Funcionalidade de lista de verificação",
       "description": "Modelos de tarefas reutilizáveis",
+      "shortDescription": "Listas reutilizáveis",
       "detail": "Gerenciamento de grupos, instanciação, função de reiniciar",
       "management": "Gerenciamento de listas de verificação",
       "progressTracking": "Acompanhamento de progresso"
@@ -138,6 +145,7 @@
     "simple": {
       "title": "Configuração simples",
       "description": "Uso imediato após instalação",
+      "shortDescription": "Início imediato",
       "detail": "Nenhuma conta necessária, sem configuração complexa"
     },
     "reliable": {
@@ -218,7 +226,10 @@
       "features": {
         "routineManagement": "Gerenciamento de rotina",
         "continuityTracking": "Acompanhamento de continuidade",
-        "motivationBoost": "Melhoria de motivação"
+        "motivationBoost": "Melhoria de motivação",
+        "dailyHabits": "Hábitos diários",
+        "routineTasks": "Tarefas rotineiras",
+        "continuousExecution": "Execução contínua"
       },
       "cta": "🎯 Criar lista de hábitos"
     },

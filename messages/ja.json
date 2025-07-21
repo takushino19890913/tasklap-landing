@@ -35,6 +35,7 @@
     "description": "フォーカスモードは、気を散らす要素を排除し、一つのタスクだけに集中できる表示モードです。",
     "featureIntro": "TaskLap機能紹介",
     "experienceTitle": "🎯 フォーカスモードを体験",
+    "experienceDescription": "一つのタスクに集中して、効率的に作業を進めることができます",
     "workCategory": "仕事",
     "completed": "完了",
     "congratulations": "お疲れ様でした！",
@@ -106,6 +107,7 @@
     "actualScreenCaption": "📝 実際のTaskLapのチェックリスト画面",
     "tryInteracting": "項目をタップ、追加、完了後リセットボタンで再利用",
     "experienceTitle": "📝 チェックリスト機能を体験",
+    "experienceDescription": "再利用可能なチェックリストで、効率的にタスクを管理できます",
     "simpleCheckFeature": "シンプルなチェック機能",
     "simpleCheckDescription": "タップ一つで項目にチェックを入れたり外したり。直感的な操作で快適に使えます。",
     "addItemsAnytime": "いつでも項目追加",
@@ -135,6 +137,7 @@
     "focusMode": {
       "title": "フォーカスモード",
       "description": "一つのタスクに集中して、効率的に作業",
+      "shortDescription": "一つのタスクに集中",
       "detail": "集中しやすい表示、完了/スキップの2択",
       "oneTaskFocus": "一つのタスクに集中",
       "completeOrSkip": "完了/スキップ"
@@ -147,6 +150,7 @@
     "checklist": {
       "title": "チェックリスト機能",
       "description": "再利用可能なタスクテンプレート",
+      "shortDescription": "再利用可能なリスト",
       "detail": "グループ管理、インスタンス化、リセット機能",
       "management": "チェックリスト管理",
       "progressTracking": "進捗追跡"
@@ -159,12 +163,17 @@
     "simple": {
       "title": "シンプル設定",
       "description": "インストール後すぐに使用開始",
+      "shortDescription": "即座に利用開始",
       "detail": "アカウント不要、複雑な設定なし"
     },
     "reliable": {
       "title": "安定動作",
       "description": "確実で快適な操作",
       "detail": "レスポンシブデザイン、スムーズな動作"
+    },
+    "efficient": {
+      "title": "効率的な作業",
+      "description": "生産性を向上させる機能"
     },
     "cta": {
       "title": "今すぐTaskLapで生産性を向上させましょう",
@@ -239,7 +248,10 @@
       "features": {
         "routineManagement": "ルーチン管理",
         "continuityTracking": "継続性追跡",
-        "motivationBoost": "モチベーション向上"
+        "motivationBoost": "モチベーション向上",
+        "dailyHabits": "毎日の習慣",
+        "routineTasks": "ルーチンタスク",
+        "continuousExecution": "継続的実行"
       },
       "cta": "🎯 習慣リストを作ろう"
     },

@@ -34,6 +34,8 @@
     "subtitle": "Anzeigemodus zur Konzentration auf eine Aufgabe",
     "description": "Der Fokus-Modus eliminiert Ablenkungen und ermöglicht die Konzentration auf eine einzige Aufgabe.",
     "featureIntro": "TaskLap Funktionsübersicht",
+    "experienceTitle": "🎯 Erleben Sie den Fokus-Modus",
+    "experienceDescription": "Konzentrieren Sie sich auf eine Aufgabe zur Zeit für effizientes und produktives Arbeiten",
     "workCategory": "Arbeit",
     "completed": "Erledigt",
     "congratulations": "Gute Arbeit!",
@@ -63,6 +65,14 @@
     },
     "benefits": {
       "title": "Effekte des Fokus-Modus",
+      "singleTask": {
+        "title": "Auf eine Aufgabe konzentrieren",
+        "description": "Vollständige Eliminierung der Multitasking-Versuchung"
+      },
+      "simpleChoice": {
+        "title": "Einfache Wahl",
+        "description": "Nur zwei Optionen: erledigen oder überspringen"
+      },
       "items": {
         "decisionFatigue": "Reduzierung von Entscheidungsmüdigkeit",
         "focusDuration": "Verbesserung der Konzentrationsdauer",
@@ -95,6 +105,9 @@
     "instructions": "Tippen Sie auf Elemente, fügen Sie hinzu, verwenden Sie dann die Reset-Taste nach Abschluss",
     "resetInstructions": "Nach Abschluss verwenden Sie die Reset-Taste, um alle Häkchen zu entfernen und dieselbe Liste wiederzuverwenden.",
     "experienceTitle": "📝 Erleben Sie die Checklisten-Funktionalität",
+    "experienceDescription": "Verwalten Sie Aufgaben effizient mit wiederverwendbaren Checklisten",
+    "actualScreenCaption": "📝 Echter TaskLap Checklisten-Bildschirm",
+    "tryInteracting": "Elemente antippen, hinzufügen, abschließen dann Reset-Taste für Wiederverwendung",
     "simpleCheckFeature": "Einfache Häkchen-Funktion",
     "simpleCheckDescription": "Häkchen setzen oder entfernen mit einem Tap. Intuitive Bedienung für komfortable Nutzung.",
     "addItemsAnytime": "Elemente jederzeit hinzufügen",
@@ -106,6 +119,16 @@
       "shoppingList": "Verwaltung von Einkaufslisten",
       "regularTasks": "Überprüfung regelmäßiger Arbeiten",
       "eventPrep": "Bestätigung der Eventplanung"
+    },
+    "benefits": {
+      "reusable": {
+        "title": "Wiederverwendbare Checklisten",
+        "description": "Verwenden Sie die Listen, die Sie erstellen, immer wieder"
+      },
+      "flexible": {
+        "title": "Flexible Listenverwaltung",
+        "description": "Elemente jederzeit hinzufügen oder bearbeiten"
+      }
     }
   },
   "features": {
@@ -114,6 +137,7 @@
     "focusMode": {
       "title": "Fokus-Modus",
       "description": "Konzentration auf eine Aufgabe für effizientes Arbeiten",
+      "shortDescription": "Auf eine Aufgabe konzentrieren",
       "detail": "Konzentrationsfördernde Anzeige, 2 Optionen: erledigen/überspringen",
       "oneTaskFocus": "Konzentration auf eine Aufgabe",
       "completeOrSkip": "Erledigen/Überspringen"
@@ -126,6 +150,7 @@
     "checklist": {
       "title": "Checklisten-Funktionalität",
       "description": "Wiederverwendbare Aufgabenvorlagen",
+      "shortDescription": "Wiederverwendbare Listen",
       "detail": "Gruppenverwaltung, Instanziierung, Reset-Funktion",
       "management": "Checklisten-Verwaltung",
       "progressTracking": "Fortschrittsverfolgung"
@@ -138,12 +163,17 @@
     "simple": {
       "title": "Einfache Einstellungen",
       "description": "Sofortige Nutzung nach Installation",
+      "shortDescription": "Sofortiger Start",
       "detail": "Kein Konto erforderlich, keine komplexen Einstellungen"
     },
     "reliable": {
       "title": "Stabiler Betrieb",
       "description": "Zuverlässige und komfortable Bedienung",
       "detail": "Responsive Design, reibungsloser Betrieb"
+    },
+    "efficient": {
+      "title": "Effiziente Arbeit",
+      "description": "Funktionen, die die Produktivität steigern"
     },
     "cta": {
       "title": "Verbessern Sie Ihre Produktivität mit TaskLap jetzt",
@@ -218,7 +248,10 @@
       "features": {
         "routineManagement": "Routine-Verwaltung",
         "continuityTracking": "Kontinuitätsverfolgung",
-        "motivationBoost": "Motivationsverbesserung"
+        "motivationBoost": "Motivationsverbesserung",
+        "dailyHabits": "Tägliche Gewohnheiten",
+        "routineTasks": "Routine-Aufgaben",
+        "continuousExecution": "Kontinuierliche Ausführung"
       },
       "cta": "🎯 Gewohnheitsliste erstellen"
     },

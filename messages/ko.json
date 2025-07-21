@@ -34,6 +34,8 @@
     "subtitle": "하나의 작업에 집중하는 표시 모드",
     "description": "집중 모드는 주의를 산만하게 하는 요소를 제거하고, 하나의 작업에만 집중할 수 있는 표시 모드입니다.",
     "featureIntro": "TaskLap 기능 소개",
+    "experienceTitle": "🎯 포커스 모드 체험",
+    "experienceDescription": "한 번에 하나의 작업에 집중하여 효율적이고 생산적으로 작업하세요",
     "workCategory": "작업",
     "completed": "완료",
     "congratulations": "수고하셨습니다!",
@@ -63,6 +65,14 @@
     },
     "benefits": {
       "title": "집중 모드의 효과",
+      "singleTask": {
+        "title": "하나의 작업에 집중",
+        "description": "멀티태스킹의 유혹을 완전 차단"
+      },
+      "simpleChoice": {
+        "title": "간단한 선택",
+        "description": "완료 또는 건너뛰기 두 가지 선택만"
+      },
       "items": {
         "decisionFatigue": "결정 피로 감소",
         "focusDuration": "집중력 지속 시간 향상",
@@ -95,6 +105,9 @@
     "instructions": "항목을 탭, 추가, 완료 후 리셋 버튼으로 재사용",
     "resetInstructions": "완료 후 리셋 버튼으로 모든 체크를 해제하고 같은 목록을 재사용할 수 있습니다.",
     "experienceTitle": "📝 체크리스트 기능을 체험",
+    "experienceDescription": "재사용 가능한 체크리스트로 효율적으로 작업을 관리하세요",
+    "actualScreenCaption": "📝 실제 TaskLap 체크리스트 화면",
+    "tryInteracting": "항목 탭, 추가, 완료 후 리셋 버튼으로 재사용",
     "simpleCheckFeature": "간단한 체크 기능",
     "simpleCheckDescription": "탭 하나로 항목에 체크를 넣거나 빼기. 직관적인 조작으로 편리하게 사용할 수 있습니다.",
     "addItemsAnytime": "언제든지 항목 추가",
@@ -106,6 +119,16 @@
       "shoppingList": "쇼핑 리스트 관리",
       "regularTasks": "정기적인 작업 체크",
       "eventPrep": "이벤트 준비 확인"
+    },
+    "benefits": {
+      "reusable": {
+        "title": "재사용 가능한 체크리스트",
+        "description": "생성한 리스트를 반복해서 사용하세요"
+      },
+      "flexible": {
+        "title": "유연한 리스트 관리",
+        "description": "언제든지 항목을 추가하거나 편집하세요"
+      }
     }
   },
   "features": {
@@ -114,6 +137,7 @@
     "focusMode": {
       "title": "집중 모드",
       "description": "하나의 작업에 집중하여 효율적으로 작업",
+      "shortDescription": "하나의 작업에 집중",
       "detail": "집중하기 쉬운 표시, 완료/건너뛰기 2가지 선택",
       "oneTaskFocus": "하나의 작업에 집중",
       "completeOrSkip": "완료/건너뛰기"
@@ -126,6 +150,7 @@
     "checklist": {
       "title": "체크리스트 기능",
       "description": "재사용 가능한 작업 템플릿",
+      "shortDescription": "재사용 가능한 리스트",
       "detail": "그룹 관리, 인스턴스화, 리셋 기능",
       "management": "체크리스트 관리",
       "progressTracking": "진행 상황 추적"
@@ -138,12 +163,17 @@
     "simple": {
       "title": "간단한 설정",
       "description": "설치 후 즉시 사용 시작",
+      "shortDescription": "즉시 시작",
       "detail": "계정 불필요, 복잡한 설정 없음"
     },
     "reliable": {
       "title": "안정적인 동작",
       "description": "확실하고 편안한 조작",
       "detail": "반응형 디자인, 부드러운 동작"
+    },
+    "efficient": {
+      "title": "효율적인 작업",
+      "description": "생산성을 향상시키는 기능"
     },
     "cta": {
       "title": "지금 TaskLap으로 생산성을 향상시키세요",
@@ -218,7 +248,10 @@
       "features": {
         "routineManagement": "루틴 관리",
         "continuityTracking": "지속성 추적",
-        "motivationBoost": "동기 부여 향상"
+        "motivationBoost": "동기 부여 향상",
+        "dailyHabits": "일일 습관",
+        "routineTasks": "루틴 작업",
+        "continuousExecution": "지속적 실행"
       },
       "cta": "🎯 습관 리스트 만들기"
     },
