@@ -130,9 +130,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <span className="text-neutral-400 dark:text-neutral-500 text-sm">
-                  {t("footer.version")}: 1.0.0
-                </span>
+                <Link
+                  href={`/${locale}/version-history`}
+                  className="text-neutral-300 dark:text-neutral-400 hover:text-primary-400 dark:hover:text-primary-300 transition-colors text-sm"
+                >
+                  {t("footer.versionHistory")}
+                </Link>
               </li>
               <li>
                 <span className="text-neutral-400 dark:text-neutral-500 text-sm">

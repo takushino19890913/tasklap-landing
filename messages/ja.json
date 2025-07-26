@@ -294,8 +294,8 @@
     "googlePlay": "Google Play",
     "downloadTitle": "今すぐダウンロード",
     "qrCode": "QRコードでダウンロード",
-    "version": "バージョン 1.0.0",
-    "lastUpdate": "最終更新: 2024年12月",
+    "version": "バージョン 1.0.1",
+    "lastUpdate": "最終更新: 2025年7月",
     "rating": "評価: (準備中)",
     "features": {
       "instant": {
@@ -323,6 +323,7 @@
     "quickLinks": "クイックリンク",
     "legal": "法的事項",
     "privacy": "プライバシーポリシー",
+    "versionHistory": "バージョン履歴",
     "version": "バージョン",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "ワンクリックで集中、効率的にタスクを管理するシンプルなアプリ。",
@@ -414,7 +415,6 @@
     "downloadNow": "今すぐダウンロード",
     "comingSoon": "準備中",
     "version": "バージョン",
-    "applicationInProgress": "📱 現在アプリストアへの申請中です。まもなく利用開始予定！",
     "qrCodeInProgress": "QRコードは準備中です",
     "todo": "Todo",
     "checklist": "チェックリスト",
@@ -501,6 +501,34 @@
       "title": "メッセージを送信しました！",
       "message": "お問い合わせありがとうございます。24時間以内に回答いたします。",
       "sendAnother": "新しいメッセージを送信"
+    }
+  },
+  "versionHistory": {
+    "title": "バージョン履歴",
+    "updateContent": "更新内容",
+    "inDevelopment": "開発中",
+    "developmentTitle": "開発中",
+    "developmentText": "TaskLapは継続的に改善されています。\n新機能や改善点があるたびに、こちらでお知らせします。",
+    "v1_0_1": {
+      "date": "2025年7月",
+      "changes": {
+        "trashDarkMode": "ゴミ箱ページのダークモード対応",
+        "uiImprovements": "UI/UXの改善と統一",
+        "bugFixes": "軽微なバグ修正"
+      }
+    },
+    "v1_0_0": {
+      "date": "2025年7月",
+      "changes": {
+        "initialRelease": "初回リリース",
+        "basicTaskManagement": "基本的なタスク管理機能",
+        "checklistFeature": "チェックリスト機能",
+        "focusMode": "フォーカスモード",
+        "darkMode": "ダークモード切り替え機能",
+        "multiLanguage": "多言語対応（日本語、英語、中国語、韓国語、ドイツ語、フランス語、スペイン語、ポルトガル語）",
+        "taskReordering": "タスクの並び替え機能",
+        "groupManagement": "グループ管理機能"
+      }
     }
   }
 }

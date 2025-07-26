@@ -312,20 +312,22 @@
       "rating": "User Rating",
       "size": "App Size",
       "version": "Version"
-    }
+    },
+    "qrCode": "Download with QR Code",
+    "version": "Version 1.0.1",
+    "lastUpdate": "Last Updated: July 2025"
   },
   "footer": {
-    "copyright": "© 2024 TaskLap",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "contact": "Contact",
-    "madeWith": "Made by: ",
-    "appDescription": "Simple Todo & Checklist App.",
-    "supportMessage": "Easy-to-use task management to support your daily life.",
-    "multilingualSupport": "8 Languages Support",
+    "madeWith": "Made with",
     "quickLinks": "Quick Links",
     "legal": "Legal",
-    "version": "Version: 1.0.0"
+    "privacy": "Privacy Policy",
+    "versionHistory": "Version History",
+    "version": "Version",
+    "copyright": "© 2024 TaskLap. All rights reserved.",
+    "appDescription": "One-click focus, efficiently manage tasks with a simple app.",
+    "supportMessage": "8 languages supported, offline use, completely free.",
+    "multilingualSupport": "8 Languages Supported"
   },
   "meta": {
     "title": "TaskLap - Transform Your Focus with Task Management App",
@@ -412,13 +414,12 @@
     "downloadNow": "Download Now",
     "comingSoon": "Coming Soon",
     "version": "Version",
-    "applicationInProgress": "📱 Currently under app store review. Available soon!",
-    "qrCodeInProgress": "QR Code is being prepared",
+    "qrCodeInProgress": "QR Code is in progress",
     "todo": "Todo",
     "checklist": "Checklist",
     "settings": "Settings",
-    "darkLightMode": "Dark & Light Mode Support",
-    "toggleTheme": "Toggle theme",
+    "darkLightMode": "Dark/Light Mode Support",
+    "toggleTheme": "Toggle Theme",
     "darkMode": "Dark Mode",
     "lightMode": "Light Mode",
     "screenshot": "Screenshot",
@@ -449,9 +450,9 @@
     }
   },
   "contact": {
-    "badge": "Contact Us",
-    "title": "Get in Touch",
-    "subtitle": "We'd love to hear from you. Send us a message about TaskLap and we'll respond as soon as possible.",
+    "badge": "Contact",
+    "title": "Feel free to contact us",
+    "subtitle": "We welcome your questions, requests, and feedback about TaskLap. We will respond as quickly as possible.",
     "info": {
       "title": "Contact Information",
       "email": {
@@ -460,20 +461,20 @@
       },
       "response": {
         "title": "Response Time",
-        "description": "We'll respond within 24 hours"
+        "description": "We respond within 24 hours"
       },
       "support": {
         "title": "Support",
-        "description": "We're here to help with technical questions"
+        "description": "We also answer technical questions"
       }
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Check our FAQ before reaching out.",
+      "description": "Please check our FAQ before contacting us.",
       "link": "View FAQ"
     },
     "form": {
-      "title": "Send us a Message",
+      "title": "Send Message",
       "name": {
         "label": "Name",
         "placeholder": "Enter your name"
@@ -484,21 +485,49 @@
       },
       "subject": {
         "label": "Subject",
-        "placeholder": "What is this about?"
+        "placeholder": "Subject of your inquiry"
       },
       "message": {
         "label": "Message",
-        "placeholder": "Tell us about your question or feedback..."
+        "placeholder": "Please tell us your questions or requests..."
       },
-      "privacy": "Your information will only be used to respond to your inquiry.",
+      "privacy": "The information you submit will only be used to respond to your inquiry.",
       "send": "Send Message",
       "sending": "Sending...",
       "error": "Failed to send message. Please try again later."
     },
     "success": {
-      "title": "Message Sent Successfully!",
-      "message": "Thanks for reaching out! We'll get back to you within 24 hours.",
-      "sendAnother": "Send Another Message"
+      "title": "Message sent!",
+      "message": "Thank you for your inquiry. We will respond within 24 hours.",
+      "sendAnother": "Send another message"
+    }
+  },
+  "versionHistory": {
+    "title": "Version History",
+    "updateContent": "Update Content",
+    "inDevelopment": "In Development",
+    "developmentTitle": "In Development",
+    "developmentText": "TaskLap is continuously being improved.\nWe will notify you here whenever there are new features or improvements.",
+    "v1_0_1": {
+      "date": "July 2025",
+      "changes": {
+        "trashDarkMode": "Dark mode support for trash page",
+        "uiImprovements": "UI/UX improvements and unification",
+        "bugFixes": "Minor bug fixes"
+      }
+    },
+    "v1_0_0": {
+      "date": "July 2025",
+      "changes": {
+        "initialRelease": "Initial release",
+        "basicTaskManagement": "Basic task management features",
+        "checklistFeature": "Checklist functionality",
+        "focusMode": "Focus Mode",
+        "darkMode": "Dark mode toggle feature",
+        "multiLanguage": "Multi-language support (Japanese, English, Chinese, Korean, German, French, Spanish, Portuguese)",
+        "taskReordering": "Task reordering functionality",
+        "groupManagement": "Group management features"
+      }
     }
   }
 }

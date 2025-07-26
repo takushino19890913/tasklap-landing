@@ -312,7 +312,10 @@
       "version": "Version"
     },
     "appStats": "App-Statistiken",
-    "storeSubmission": "📱 Derzeit wird die App-Store-Genehmigung beantragt. Bald verfügbar!"
+    "storeSubmission": "📱 Derzeit wird die App-Store-Genehmigung beantragt. Bald verfügbar!",
+    "qrCode": "Mit QR-Code herunterladen",
+    "version": "Version 1.0.1",
+    "lastUpdate": "Zuletzt aktualisiert: Juli 2025"
   },
   "footer": {
     "madeWith": "Made with",
@@ -320,6 +323,7 @@
     "legal": "Rechtliche Angelegenheiten",
     "privacy": "Datenschutzrichtlinie",
     "version": "Version",
+    "versionHistory": "Versionshistorie",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "Einfache App zum Fokussieren und effizienten Verwalten von Aufgaben.",
     "supportMessage": "Unterstützung für 8 Sprachen, Offline-Nutzung, völlig kostenlos.",
@@ -410,7 +414,6 @@
     "downloadNow": "Jetzt herunterladen",
     "comingSoon": "In Vorbereitung",
     "version": "Version",
-    "applicationInProgress": "📱 Derzeit wird die App-Store-Genehmigung beantragt. Bald verfügbar!",
     "qrCodeInProgress": "QR-Code wird vorbereitet",
     "todo": "Todo",
     "checklist": "Checkliste",
@@ -497,6 +500,34 @@
       "title": "Nachricht Erfolgreich Gesendet!",
       "message": "Danke, dass Sie uns kontaktiert haben! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
       "sendAnother": "Weitere Nachricht Senden"
+    }
+  },
+  "versionHistory": {
+    "title": "Versionshistorie",
+    "updateContent": "Update-Inhalt",
+    "inDevelopment": "In Entwicklung",
+    "developmentTitle": "In Entwicklung",
+    "developmentText": "TaskLap wird kontinuierlich verbessert.\nWir werden Sie hier informieren, sobald es neue Funktionen oder Verbesserungen gibt.",
+    "v1_0_1": {
+      "date": "Juli 2025",
+      "changes": {
+        "trashDarkMode": "Dark Mode Unterstützung für Papierkorb-Seite",
+        "uiImprovements": "UI/UX-Verbesserungen und Vereinheitlichung",
+        "bugFixes": "Kleinere Fehlerbehebungen"
+      }
+    },
+    "v1_0_0": {
+      "date": "Juli 2025",
+      "changes": {
+        "initialRelease": "Erstveröffentlichung",
+        "basicTaskManagement": "Grundlegende Aufgabenverwaltungsfunktionen",
+        "checklistFeature": "Checklisten-Funktionalität",
+        "focusMode": "Fokus-Modus",
+        "darkMode": "Dark Mode Umschaltfunktion",
+        "multiLanguage": "Mehrsprachige Unterstützung (Japanisch, Englisch, Chinesisch, Koreanisch, Deutsch, Französisch, Spanisch, Portugiesisch)",
+        "taskReordering": "Aufgaben-Neuordnungsfunktion",
+        "groupManagement": "Gruppenverwaltungsfunktionen"
+      }
     }
   }
 }

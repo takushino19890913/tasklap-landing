@@ -312,13 +312,17 @@
       "version": "Versão"
     },
     "appStats": "Estatísticas do aplicativo",
-    "storeSubmission": "📱 Atualmente em análise na loja de aplicativos. Disponível em breve!"
+    "storeSubmission": "📱 Atualmente em análise na loja de aplicativos. Disponível em breve!",
+    "qrCode": "Baixar com código QR",
+    "version": "Versão 1.0.1",
+    "lastUpdate": "Última atualização: Julho 2025"
   },
   "footer": {
     "madeWith": "Made with",
     "quickLinks": "Links rápidos",
     "legal": "Assuntos legais",
-    "privacy": "Política de privacidade",
+    "privacy": "Política de Privacidade",
+    "versionHistory": "Histórico de versões",
     "version": "Versão",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "Aplicativo simples para focar e gerenciar tarefas de forma eficiente.",
@@ -410,7 +414,6 @@
     "downloadNow": "Baixar agora",
     "comingSoon": "Em preparação",
     "version": "Versão",
-    "applicationInProgress": "📱 Atualmente em análise na loja de aplicativos. Disponível em breve!",
     "qrCodeInProgress": "O código QR está sendo preparado",
     "todo": "Todo",
     "checklist": "Lista de verificação",
@@ -497,6 +500,34 @@
       "title": "Mensagem Enviada com Sucesso!",
       "message": "Obrigado por entrar em contato! Responderemos em 24 horas.",
       "sendAnother": "Enviar Outra Mensagem"
+    }
+  },
+  "versionHistory": {
+    "title": "Histórico de versões",
+    "updateContent": "Conteúdo da atualização",
+    "inDevelopment": "Em desenvolvimento",
+    "developmentTitle": "Em desenvolvimento",
+    "developmentText": "TaskLap está sendo continuamente melhorado.\nNotificaremos você aqui sempre que houver novos recursos ou melhorias.",
+    "v1_0_1": {
+      "date": "Julho 2025",
+      "changes": {
+        "trashDarkMode": "Suporte ao modo escuro para página de lixeira",
+        "uiImprovements": "Melhorias e unificação de UI/UX",
+        "bugFixes": "Correções de bugs menores"
+      }
+    },
+    "v1_0_0": {
+      "date": "Julho 2025",
+      "changes": {
+        "initialRelease": "Lançamento inicial",
+        "basicTaskManagement": "Recursos básicos de gerenciamento de tarefas",
+        "checklistFeature": "Funcionalidade de lista de verificação",
+        "focusMode": "Modo Foco",
+        "darkMode": "Recurso de alternância de modo escuro",
+        "multiLanguage": "Suporte multilíngue (japonês, inglês, chinês, coreano, alemão, francês, espanhol, português)",
+        "taskReordering": "Funcionalidade de reordenação de tarefas",
+        "groupManagement": "Recursos de gerenciamento de grupos"
+      }
     }
   }
 }

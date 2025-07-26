@@ -487,6 +487,29 @@ export default function HeroSection() {
     }
   };
 
+  const getAppStoreUrl = () => {
+    switch (locale) {
+      case "ja":
+        return "https://apps.apple.com/jp/app/tasklap/id6748891669";
+      case "en":
+        return "https://apps.apple.com/us/app/tasklap/id6748891669";
+      case "fr":
+        return "https://apps.apple.com/fr/app/tasklap/id6748891669";
+      case "ko":
+        return "https://apps.apple.com/kr/app/tasklap/id6748891669";
+      case "zh":
+        return "https://apps.apple.com/cn/app/tasklap/id6748891669";
+      case "es":
+        return "https://apps.apple.com/es/app/tasklap/id6748891669";
+      case "pt":
+        return "https://apps.apple.com/br/app/tasklap/id6748891669";
+      case "de":
+        return "https://apps.apple.com/de/app/tasklap/id6748891669";
+      default:
+        return "https://apps.apple.com/us/app/tasklap/id6748891669";
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center section-warm overflow-hidden pt-14 sm:pt-16">
       {/* TaskLapアプリ風の背景装飾 */}
@@ -593,9 +616,11 @@ export default function HeroSection() {
             {/* 公式ストアバッジ */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-3 sm:pt-4 items-center lg:items-start lg:justify-start justify-center">
               <a
-                href="#"
+                href={getAppStoreUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block transition-transform hover:scale-105"
-                aria-label="App Store からダウンロード（申請中）"
+                aria-label="App Store からダウンロード"
               >
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
@@ -605,8 +630,8 @@ export default function HeroSection() {
               </a>
               <a
                 href="#"
-                className="block transition-transform hover:scale-105"
-                aria-label="Get it on Google Play（申請中）"
+                className="block transition-transform hover:scale-105 opacity-50 cursor-not-allowed"
+                aria-label="Google Play（準備中）"
               >
                 <img
                   src="https://raw.githubusercontent.com/pioug/google-play-badges/main/svg/English.svg"
@@ -614,15 +639,6 @@ export default function HeroSection() {
                   className="h-[36px] sm:h-[48px] w-auto"
                 />
               </a>
-            </div>
-
-            {/* 申請中メッセージ */}
-            <div className="pt-3 sm:pt-4">
-              <div className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-700">
-                <span className="text-xs sm:text-sm text-primary-700 dark:text-primary-300">
-                  {t("common.applicationInProgress")}
-                </span>
-              </div>
             </div>
 
             {/* 機能確認ボタン */}

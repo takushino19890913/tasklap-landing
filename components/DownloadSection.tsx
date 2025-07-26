@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import Image from "next/image";
+import { useParams } from "next/navigation";
 import {
   Smartphone,
   Star,
@@ -16,10 +17,45 @@ import {
   Award,
   Target,
   List,
+  ExternalLink,
 } from "lucide-react";
 
 export default function DownloadSection() {
   const t = useTranslations();
+  const params = useParams();
+  const locale = params.locale as string;
+
+  // App Store URL with locale support
+  const getAppStoreUrl = () => {
+    const localeMap: { [key: string]: string } = {
+      ja: "jp",
+      en: "us",
+      zh: "cn",
+      ko: "kr",
+      de: "de",
+      fr: "fr",
+      es: "es",
+      pt: "br",
+    };
+    const country = localeMap[locale] || "us";
+    return `https://apps.apple.com/${country}/app/tasklap/id6748891669`;
+  };
+
+  // QR Code image path based on locale
+  const getQrCodePath = () => {
+    const localeMap: { [key: string]: string } = {
+      ja: "ja",
+      en: "en",
+      zh: "zh",
+      ko: "ko",
+      de: "de",
+      fr: "fr",
+      es: "es",
+      pt: "pt",
+    };
+    const qrLocale = localeMap[locale] || "en";
+    return `/qr-codes/app-store-${qrLocale}.png`;
+  };
 
   return (
     <section
@@ -40,9 +76,11 @@ export default function DownloadSection() {
         {/* Store Badges */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 justify-center items-center mb-6 sm:mb-8 md:mb-12">
           <a
-            href="#"
+            href={getAppStoreUrl()}
+            target="_blank"
+            rel="noopener noreferrer"
             className="block transition-transform hover:scale-105"
-            aria-label="App Store からダウンロード（申請中）"
+            aria-label="App Store からダウンロード"
           >
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
@@ -52,8 +90,8 @@ export default function DownloadSection() {
           </a>
           <a
             href="#"
-            className="block transition-transform hover:scale-105"
-            aria-label="Get it on Google Play（申請中）"
+            className="block transition-transform hover:scale-105 opacity-50 cursor-not-allowed"
+            aria-label="Google Play（準備中）"
           >
             <img
               src="https://raw.githubusercontent.com/pioug/google-play-badges/main/svg/English.svg"
@@ -63,12 +101,59 @@ export default function DownloadSection() {
           </a>
         </div>
 
-        {/* Application Status */}
+        {/* QR Code Section */}
         <div className="mb-6 sm:mb-8 md:mb-12">
-          <div className="inline-flex items-center px-3 sm:px-4 py-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-700">
-            <span className="text-xs sm:text-sm text-primary-700 dark:text-primary-300">
-              {t("common.applicationInProgress")}
-            </span>
+          <div className="inline-flex flex-col items-center space-y-4 p-6 bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700">
+            <div className="flex items-center space-x-2 text-neutral-600 dark:text-neutral-400">
+              <QrCode className="w-5 h-5" />
+              <span className="text-sm font-medium">
+                {t("download.qrCode")}
+              </span>
+            </div>
+            <div className="w-32 h-32 bg-white p-2 rounded-lg border border-neutral-300 dark:border-neutral-600 flex items-center justify-center">
+              <Image
+                src={getQrCodePath()}
+                alt="App Store QR Code"
+                width={128}
+                height={128}
+                className="w-full h-full object-contain"
+                priority
+                onError={(e) => {
+                  console.error(
+                    "QR code image failed to load:",
+                    getQrCodePath()
+                  );
+                  // フォールバックとしてテキストを表示
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = "none";
+                  const parent = target.parentElement;
+                  if (parent) {
+                    parent.innerHTML =
+                      '<span class="text-xs text-neutral-500 dark:text-neutral-400 text-center">QR Code<br />Loading...</span>';
+                  }
+                }}
+              />
+            </div>
+            <a
+              href={getAppStoreUrl()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors text-sm"
+            >
+              <span>App Store で開く</span>
+              <ExternalLink className="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+
+        {/* App Info */}
+        <div className="mb-6 sm:mb-8 md:mb-12">
+          <div className="inline-flex items-center space-x-4 text-sm text-neutral-600 dark:text-neutral-400">
+            <span>{t("download.version")}: 1.0.1</span>
+            <span>•</span>
+            <span>{t("download.lastUpdate")}: 2025年7月</span>
+            <span>•</span>
+            <span>サイズ: 31.7 MB</span>
           </div>
         </div>
 
