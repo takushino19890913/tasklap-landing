@@ -20,7 +20,7 @@
     "downloadAppStore": "Baixar na App Store",
     "downloadGooglePlay": "Baixar no Google Play",
     "availableOn": "Disponível em",
-    "version": "Versão 1.0.0",
+    "version": "Versão 1.0.2",
     "badges": {
       "ratingPreparation": "Avaliação pendente",
       "multilingualSupport": "8 idiomas",
@@ -314,8 +314,8 @@
     "appStats": "Estatísticas do aplicativo",
     "storeSubmission": "📱 Atualmente em análise na loja de aplicativos. Disponível em breve!",
     "qrCode": "Baixar com código QR",
-    "version": "Versão 1.0.1",
-    "lastUpdate": "Última atualização: Julho 2025"
+    "version": "Versão 1.0.2",
+    "lastUpdate": "Última atualização: abril de 2026"
   },
   "footer": {
     "madeWith": "Made with",
@@ -527,6 +527,14 @@
         "multiLanguage": "Suporte multilíngue (japonês, inglês, chinês, coreano, alemão, francês, espanhol, português)",
         "taskReordering": "Funcionalidade de reordenação de tarefas",
         "groupManagement": "Recursos de gerenciamento de grupos"
+      }
+    },
+    "v1_0_2": {
+      "date": "Abril de 2026",
+      "changes": {
+        "environmentDatabaseFix": "Correção do destino de migração de banco de dados por ambiente",
+        "groupScopeSeparation": "Separação dos grupos de Todo e checklist",
+        "testStability": "Estabilização do ambiente de execução de testes"
       }
     }
   }

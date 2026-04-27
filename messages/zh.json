@@ -20,7 +20,7 @@
     "downloadAppStore": "从App Store下载",
     "downloadGooglePlay": "在Google Play获取",
     "availableOn": "可用平台",
-    "version": "版本 1.0.0",
+    "version": "版本 1.0.2",
     "badges": {
       "ratingPreparation": "评分准备中",
       "multilingualSupport": "8种语言",
@@ -314,8 +314,8 @@
     "appStats": "应用统计",
     "storeSubmission": "�� 正在向应用商店申请中。即将开始使用！",
     "qrCode": "二维码下载",
-    "version": "版本 1.0.1",
-    "lastUpdate": "最后更新: 2025年7月"
+    "version": "版本 1.0.2",
+    "lastUpdate": "最后更新：2026年4月"
   },
   "footer": {
     "madeWith": "Made with",
@@ -527,6 +527,14 @@
         "multiLanguage": "多语言支持（日语、英语、中文、韩语、德语、法语、西班牙语、葡萄牙语）",
         "taskReordering": "任务重新排序功能",
         "groupManagement": "组管理功能"
+      }
+    },
+    "v1_0_2": {
+      "date": "2026年4月",
+      "changes": {
+        "environmentDatabaseFix": "修复按环境区分的数据库迁移目标",
+        "groupScopeSeparation": "分离 Todo 和清单分组",
+        "testStability": "稳定测试执行环境"
       }
     }
   }

@@ -20,7 +20,7 @@
     "downloadAppStore": "App Store에서 다운로드",
     "downloadGooglePlay": "Google Play에서 다운로드",
     "availableOn": "사용 가능한 플랫폼",
-    "version": "버전 1.0.0",
+    "version": "버전 1.0.2",
     "badges": {
       "ratingPreparation": "평가 준비 중",
       "multilingualSupport": "8개 언어",
@@ -312,8 +312,8 @@
       "version": "버전"
     },
     "qrCode": "QR 코드로 다운로드",
-    "version": "버전 1.0.1",
-    "lastUpdate": "최종 업데이트: 2025년 7월",
+    "version": "버전 1.0.2",
+    "lastUpdate": "최종 업데이트: 2026년 4월",
     "appStats": "앱 통계",
     "storeSubmission": "📱 앱스토어 신청 중. 곧 이용 시작 예정!"
   },
@@ -527,6 +527,14 @@
         "multiLanguage": "다국어 지원 (일본어, 영어, 중국어, 한국어, 독일어, 프랑스어, 스페인어, 포르투갈어)",
         "taskReordering": "작업 순서 변경 기능",
         "groupManagement": "그룹 관리 기능"
+      }
+    },
+    "v1_0_2": {
+      "date": "2026년 4월",
+      "changes": {
+        "environmentDatabaseFix": "환경별 데이터베이스 마이그레이션 대상 수정",
+        "groupScopeSeparation": "Todo와 체크리스트 그룹 분리",
+        "testStability": "테스트 실행 환경 안정화"
       }
     }
   }

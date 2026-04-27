@@ -20,7 +20,7 @@
     "downloadAppStore": "Download on the App Store",
     "downloadGooglePlay": "Get it on Google Play",
     "availableOn": "Available on",
-    "version": "Version 1.0.0",
+    "version": "Version 1.0.2",
     "badges": {
       "ratingPreparation": "Rating Pending",
       "multilingualSupport": "8 Languages",
@@ -314,8 +314,8 @@
       "version": "Version"
     },
     "qrCode": "Download with QR Code",
-    "version": "Version 1.0.1",
-    "lastUpdate": "Last Updated: July 2025"
+    "version": "Version 1.0.2",
+    "lastUpdate": "Last updated: April 2026"
   },
   "footer": {
     "madeWith": "Made with",
@@ -527,6 +527,14 @@
         "multiLanguage": "Multi-language support (Japanese, English, Chinese, Korean, German, French, Spanish, Portuguese)",
         "taskReordering": "Task reordering functionality",
         "groupManagement": "Group management features"
+      }
+    },
+    "v1_0_2": {
+      "date": "April 2026",
+      "changes": {
+        "environmentDatabaseFix": "Fixed environment-specific database migration targeting",
+        "groupScopeSeparation": "Separated Todo and checklist groups",
+        "testStability": "Stabilized the test execution environment"
       }
     }
   }

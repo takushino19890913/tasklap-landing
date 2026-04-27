@@ -149,9 +149,9 @@ export default function DownloadSection() {
         {/* App Info */}
         <div className="mb-6 sm:mb-8 md:mb-12">
           <div className="inline-flex items-center space-x-4 text-sm text-neutral-600 dark:text-neutral-400">
-            <span>{t("download.version")}: 1.0.1</span>
+            <span>{t("download.version")}</span>
             <span>•</span>
-            <span>{t("download.lastUpdate")}: 2025年7月</span>
+            <span>{t("download.lastUpdate")}</span>
             <span>•</span>
             <span>サイズ: 31.7 MB</span>
           </div>

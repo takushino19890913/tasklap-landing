@@ -20,7 +20,7 @@
     "downloadAppStore": "App Storeからダウンロード",
     "downloadGooglePlay": "Google Playで手に入れよう",
     "availableOn": "利用可能プラットフォーム",
-    "version": "バージョン 1.0.0",
+    "version": "バージョン 1.0.2",
     "badges": {
       "ratingPreparation": "評価準備中",
       "multilingualSupport": "8言語対応",
@@ -294,8 +294,8 @@
     "googlePlay": "Google Play",
     "downloadTitle": "今すぐダウンロード",
     "qrCode": "QRコードでダウンロード",
-    "version": "バージョン 1.0.1",
-    "lastUpdate": "最終更新: 2025年7月",
+    "version": "バージョン 1.0.2",
+    "lastUpdate": "最終更新: 2026年4月",
     "rating": "評価: (準備中)",
     "features": {
       "instant": {
@@ -528,6 +528,14 @@
         "multiLanguage": "多言語対応（日本語、英語、中国語、韓国語、ドイツ語、フランス語、スペイン語、ポルトガル語）",
         "taskReordering": "タスクの並び替え機能",
         "groupManagement": "グループ管理機能"
+      }
+    },
+    "v1_0_2": {
+      "date": "2026年4月",
+      "changes": {
+        "environmentDatabaseFix": "環境別データベースのマイグレーション対象を修正",
+        "groupScopeSeparation": "Todoとチェックリストのグループを分離",
+        "testStability": "テスト実行環境の安定化"
       }
     }
   }
