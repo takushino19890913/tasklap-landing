@@ -40,6 +40,51 @@ export default function VersionHistoryContent() {
 
       {/* Version History */}
       <div className="space-y-8">
+        {/* Version 1.1.0 */}
+        <div className="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-8">
+          <div className="flex items-center space-x-3 mb-6">
+            <div className="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-lg">1.1.0</span>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-100">
+                Version 1.1.0
+              </h3>
+              <div className="flex items-center space-x-2 text-neutral-600 dark:text-neutral-400">
+                <CalendarDays className="w-4 h-4" />
+                <span>{t("v1_1_0.date")}</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-3">
+            <div className="flex items-start space-x-3">
+              <div className="w-2 h-2 bg-orange-600 rounded-full mt-2 flex-shrink-0"></div>
+              <span className="text-neutral-700 dark:text-neutral-300">
+                {t("v1_1_0.changes.todayTab")}
+              </span>
+            </div>
+            <div className="flex items-start space-x-3">
+              <div className="w-2 h-2 bg-orange-600 rounded-full mt-2 flex-shrink-0"></div>
+              <span className="text-neutral-700 dark:text-neutral-300">
+                {t("v1_1_0.changes.scheduledTodos")}
+              </span>
+            </div>
+            <div className="flex items-start space-x-3">
+              <div className="w-2 h-2 bg-orange-600 rounded-full mt-2 flex-shrink-0"></div>
+              <span className="text-neutral-700 dark:text-neutral-300">
+                {t("v1_1_0.changes.carryoverReview")}
+              </span>
+            </div>
+            <div className="flex items-start space-x-3">
+              <div className="w-2 h-2 bg-orange-600 rounded-full mt-2 flex-shrink-0"></div>
+              <span className="text-neutral-700 dark:text-neutral-300">
+                {t("v1_1_0.changes.todoFilters")}
+              </span>
+            </div>
+          </div>
+        </div>
+
         {/* Version 1.0.2 */}
         <div className="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-8">
           <div className="flex items-center space-x-3 mb-6">

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "TaskLap - 간단한 할 일, 체크리스트 앱.",
-    "description": "간단하고 사용하기 쉬운 작업 관리 앱. 집중 모드, 체크리스트 기능 탑재.",
+    "description": "A simple task management app with a Today view, scheduled Todos, Focus Mode, and reusable checklists.",
     "keywords": "작업 관리,할 일,체크리스트,집중,포커스,앱"
   },
   "navigation": {
@@ -16,11 +16,11 @@
   "hero": {
     "title": "간단한 할 일, 체크리스트 앱.",
     "subtitle": "간단하고 사용하기 쉬운 작업 관리",
-    "description": "직관적인 조작으로 작업을 효율적으로 관리. 집중 모드, 체크리스트 기능, 8개 언어 지원으로 일상을 지원합니다.",
+    "description": "Plan what to do today with the Today tab, organize Todos by date and group, and stay focused with checklists and Focus Mode.",
     "downloadAppStore": "App Store에서 다운로드",
     "downloadGooglePlay": "Google Play에서 다운로드",
     "availableOn": "사용 가능한 플랫폼",
-    "version": "버전 1.0.2",
+    "version": "Version 1.1.0",
     "badges": {
       "ratingPreparation": "평가 준비 중",
       "multilingualSupport": "8개 언어",
@@ -177,7 +177,15 @@
     },
     "cta": {
       "title": "지금 TaskLap으로 생산성을 향상시키세요",
-      "description": "집중 모드와 체크리스트 기능으로 여러분의 작업 관리를 혁신합니다"
+      "description": "Use Today, scheduled Todos, Focus Mode, and reusable checklists to move through the day with less friction."
+    },
+    "today": {
+      "title": "Today Tab",
+      "description": "See only the Todos planned for today"
+    },
+    "organize": {
+      "title": "Schedule & Organize",
+      "description": "Manage Todos by date and group"
     }
   },
   "useCases": {
@@ -312,7 +320,7 @@
       "version": "버전"
     },
     "qrCode": "QR 코드로 다운로드",
-    "version": "버전 1.0.2",
+    "version": "Version 1.1.0",
     "lastUpdate": "최종 업데이트: 2026년 4월",
     "appStats": "앱 통계",
     "storeSubmission": "📱 앱스토어 신청 중. 곧 이용 시작 예정!"
@@ -322,7 +330,7 @@
     "quickLinks": "빠른 링크",
     "legal": "법적 사항",
     "privacy": "개인정보처리방침",
-    "version": "버전",
+    "version": "Version 1.1.0",
     "versionHistory": "버전 히스토리",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "한 번에 집중하고 효율적으로 작업을 관리하는 간단한 앱.",
@@ -535,6 +543,15 @@
         "environmentDatabaseFix": "환경별 데이터베이스 마이그레이션 대상 수정",
         "groupScopeSeparation": "Todo와 체크리스트 그룹 분리",
         "testStability": "테스트 실행 환경 안정화"
+      }
+    },
+    "v1_1_0": {
+      "date": "May 2026",
+      "changes": {
+        "todayTab": "Added a Today tab for Todos planned for today",
+        "scheduledTodos": "Added scheduled dates for Todo planning",
+        "carryoverReview": "Added daily carryover review for unfinished scheduled Todos",
+        "todoFilters": "Improved Todo filters and date/group editing flows"
       }
     }
   }

@@ -4,14 +4,9 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import {
   Target,
-  Palette,
   ListChecks,
-  Globe,
-  Settings,
-  CheckCircle,
-  List,
-  Smartphone,
-  Zap,
+  CalendarCheck,
+  ListFilter,
 } from "lucide-react";
 
 export default function FeaturesSection() {
@@ -26,6 +21,13 @@ export default function FeaturesSection() {
       bgColor: "bg-orange-50 dark:bg-orange-900/20",
     },
     {
+      icon: CalendarCheck,
+      title: t("features.today.title"),
+      description: t("features.today.description"),
+      color: "from-amber-400 to-orange-500",
+      bgColor: "bg-amber-50 dark:bg-amber-900/20",
+    },
+    {
       icon: ListChecks,
       title: t("features.checklist.title"),
       description: t("features.checklist.description"),
@@ -33,18 +35,11 @@ export default function FeaturesSection() {
       bgColor: "bg-blue-50 dark:bg-blue-900/20",
     },
     {
-      icon: Smartphone,
-      title: t("features.simple.title"),
-      description: t("features.simple.description"),
+      icon: ListFilter,
+      title: t("features.organize.title"),
+      description: t("features.organize.description"),
       color: "from-green-500 to-emerald-600",
       bgColor: "bg-green-50 dark:bg-green-900/20",
-    },
-    {
-      icon: Zap,
-      title: t("features.efficient.title"),
-      description: t("features.efficient.description"),
-      color: "from-purple-500 to-pink-600",
-      bgColor: "bg-purple-50 dark:bg-purple-900/20",
     },
   ];
 
