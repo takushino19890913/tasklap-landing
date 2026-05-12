@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "TaskLap - 简单的待办事项、清单应用。",
-    "description": "A simple task management app with a Today view, scheduled Todos, Focus Mode, and reusable checklists.",
+    "description": "A simple task management app with Today, grouped Todos, Focus Mode, and reusable checklists.",
     "keywords": "任务管理,待办事项,清单,专注,集中,应用"
   },
   "navigation": {
@@ -16,11 +16,11 @@
   "hero": {
     "title": "简单的待办事项、清单应用。",
     "subtitle": "简单易用的任务管理",
-    "description": "Plan what to do today with the Today tab, organize Todos by date and group, and stay focused with checklists and Focus Mode.",
+    "description": "Review today’s Todos, organize work by group, start Focus Mode from a group, and sort unfinished carryover tasks one by one.",
     "downloadAppStore": "从App Store下载",
     "downloadGooglePlay": "在Google Play获取",
     "availableOn": "可用平台",
-    "version": "Version 1.1.0",
+    "version": "Version 1.1.1",
     "badges": {
       "ratingPreparation": "评分准备中",
       "multilingualSupport": "8种语言",
@@ -177,7 +177,7 @@
     },
     "cta": {
       "title": "立即使用TaskLap提高生产力",
-      "description": "Use Today, scheduled Todos, Focus Mode, and reusable checklists to move through the day with less friction."
+      "description": "Use Today, grouped Todos, Focus Mode, and reusable checklists to move through the day with less friction."
     },
     "today": {
       "title": "Today Tab",
@@ -185,7 +185,7 @@
     },
     "organize": {
       "title": "Schedule & Organize",
-      "description": "Manage Todos by date and group"
+      "description": "Manage Todos with group views and scheduled dates"
     }
   },
   "useCases": {
@@ -322,7 +322,7 @@
     "appStats": "应用统计",
     "storeSubmission": "�� 正在向应用商店申请中。即将开始使用！",
     "qrCode": "二维码下载",
-    "version": "Version 1.1.0",
+    "version": "Version 1.1.1",
     "lastUpdate": "最后更新：2026年4月"
   },
   "footer": {
@@ -330,7 +330,7 @@
     "quickLinks": "快速链接",
     "legal": "法律事项",
     "privacy": "隐私政策",
-    "version": "Version 1.1.0",
+    "version": "Version 1.1.1",
     "versionHistory": "版本历史",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "一键专注，高效管理任务的简洁应用。",
@@ -552,6 +552,15 @@
         "scheduledTodos": "Added scheduled dates for Todo planning",
         "carryoverReview": "Added daily carryover review for unfinished scheduled Todos",
         "todoFilters": "Improved Todo filters and date/group editing flows"
+      }
+    },
+    "v1_1_1": {
+      "date": "May 2026",
+      "changes": {
+        "groupedTodo": "Improved Todo and Today views with clearer group sections",
+        "groupFocus": "Added group menu actions for adding tasks and starting Focus Mode",
+        "carryoverFlow": "Improved carryover review with a full-screen one-by-one flow",
+        "dragStability": "Improved empty group visibility and cross-group drag stability"
       }
     }
   }

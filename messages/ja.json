@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "TaskLap - シンプルなTodo、チェックリストアプリ。",
-    "description": "今日やるTodoをすぐ確認できる、シンプルで使いやすいタスク管理アプリ。フォーカスモード、チェックリスト機能搭載。",
+    "description": "Todayタブ、Group別整理、フォーカスモード、チェックリスト機能を備えたシンプルなタスク管理アプリ。",
     "keywords": "タスク管理,Todo,チェックリスト,フォーカス,集中,アプリ"
   },
   "navigation": {
@@ -16,11 +16,11 @@
   "hero": {
     "title": "シンプルなTodo、チェックリストアプリ。",
     "subtitle": "シンプルで使いやすいタスク管理",
-    "description": "Todayタブで今日やることを確認し、予定日とグループでTodoを整理。フォーカスモード、チェックリスト機能、8言語対応で日常をサポートします。",
+    "description": "Todayタブで今日やることを確認し、Group別にTodoを整理。Groupから直接タスク追加やFocus Modeを開始でき、持ち越しレビューで未完了Todoも迷わず仕分けできます。",
     "downloadAppStore": "App Storeからダウンロード",
     "downloadGooglePlay": "Google Playで手に入れよう",
     "availableOn": "利用可能プラットフォーム",
-    "version": "バージョン 1.1.0",
+    "version": "バージョン 1.1.1",
     "badges": {
       "ratingPreparation": "評価準備中",
       "multilingualSupport": "8言語対応",
@@ -177,7 +177,7 @@
     },
     "cta": {
       "title": "今すぐTaskLapで生産性を向上させましょう",
-      "description": "Todayタブ、予定日、フォーカスモード、チェックリスト機能で、今日やることを迷わず進められます"
+      "description": "Todayタブ、Group別整理、フォーカスモード、チェックリスト機能で、今日やることを迷わず進められます"
     },
     "today": {
       "title": "Todayタブ",
@@ -185,7 +185,7 @@
     },
     "organize": {
       "title": "予定と整理",
-      "description": "予定日とグループでTodoを管理"
+      "description": "Group別表示と予定日でTodoを管理"
     }
   },
   "useCases": {
@@ -302,7 +302,7 @@
     "googlePlay": "Google Play",
     "downloadTitle": "今すぐダウンロード",
     "qrCode": "QRコードでダウンロード",
-    "version": "バージョン 1.1.0",
+    "version": "バージョン 1.1.1",
     "lastUpdate": "最終更新: 2026年4月",
     "rating": "評価: (準備中)",
     "features": {
@@ -332,7 +332,7 @@
     "legal": "法的事項",
     "privacy": "プライバシーポリシー",
     "versionHistory": "バージョン履歴",
-    "version": "バージョン 1.1.0",
+    "version": "バージョン 1.1.1",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "ワンクリックで集中、効率的にタスクを管理するシンプルなアプリ。",
     "supportMessage": "8言語対応、オフライン使用、完全無料。",
@@ -553,6 +553,15 @@
         "scheduledTodos": "Todoに予定日を設定できるように改善",
         "carryoverReview": "前日までの未完了Todoを毎朝確認できる持ち越しレビューを追加",
         "todoFilters": "Todo画面の表示条件を整理し、予定日・グループの変更導線を改善"
+      }
+    },
+    "v1_1_1": {
+      "date": "2026年5月",
+      "changes": {
+        "groupedTodo": "TodoとTodayをGroup別に整理して見やすく改善",
+        "groupFocus": "Groupメニューからタスク追加とFocus Mode開始ができる導線を追加",
+        "carryoverFlow": "前日までの未完了Todoを一件ずつ仕分けるフルスクリーンレビューに改善",
+        "dragStability": "空のGroup表示とGroup間ドラッグ移動の安定性を改善"
       }
     }
   }

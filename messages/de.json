@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "TaskLap - Einfache Todo- und Checklisten-App.",
-    "description": "A simple task management app with a Today view, scheduled Todos, Focus Mode, and reusable checklists.",
+    "description": "A simple task management app with Today, grouped Todos, Focus Mode, and reusable checklists.",
     "keywords": "aufgabenverwaltung,todo,checkliste,fokus,konzentration,app"
   },
   "navigation": {
@@ -16,11 +16,11 @@
   "hero": {
     "title": "Einfache Todo- und Checklisten-App.",
     "subtitle": "Einfache und benutzerfreundliche Aufgabenverwaltung",
-    "description": "Plan what to do today with the Today tab, organize Todos by date and group, and stay focused with checklists and Focus Mode.",
+    "description": "Review today’s Todos, organize work by group, start Focus Mode from a group, and sort unfinished carryover tasks one by one.",
     "downloadAppStore": "Im App Store herunterladen",
     "downloadGooglePlay": "Bei Google Play herunterladen",
     "availableOn": "Verfügbar auf",
-    "version": "Version 1.1.0",
+    "version": "Version 1.1.1",
     "badges": {
       "ratingPreparation": "Bewertung ausstehend",
       "multilingualSupport": "8 Sprachen",
@@ -177,7 +177,7 @@
     },
     "cta": {
       "title": "Verbessern Sie Ihre Produktivität mit TaskLap jetzt",
-      "description": "Use Today, scheduled Todos, Focus Mode, and reusable checklists to move through the day with less friction."
+      "description": "Use Today, grouped Todos, Focus Mode, and reusable checklists to move through the day with less friction."
     },
     "today": {
       "title": "Today Tab",
@@ -185,7 +185,7 @@
     },
     "organize": {
       "title": "Schedule & Organize",
-      "description": "Manage Todos by date and group"
+      "description": "Manage Todos with group views and scheduled dates"
     }
   },
   "useCases": {
@@ -322,7 +322,7 @@
     "appStats": "App-Statistiken",
     "storeSubmission": "📱 Derzeit wird die App-Store-Genehmigung beantragt. Bald verfügbar!",
     "qrCode": "Mit QR-Code herunterladen",
-    "version": "Version 1.1.0",
+    "version": "Version 1.1.1",
     "lastUpdate": "Letzte Aktualisierung: April 2026"
   },
   "footer": {
@@ -330,7 +330,7 @@
     "quickLinks": "Schnelllinks",
     "legal": "Rechtliche Angelegenheiten",
     "privacy": "Datenschutzrichtlinie",
-    "version": "Version 1.1.0",
+    "version": "Version 1.1.1",
     "versionHistory": "Versionshistorie",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "Einfache App zum Fokussieren und effizienten Verwalten von Aufgaben.",
@@ -552,6 +552,15 @@
         "scheduledTodos": "Added scheduled dates for Todo planning",
         "carryoverReview": "Added daily carryover review for unfinished scheduled Todos",
         "todoFilters": "Improved Todo filters and date/group editing flows"
+      }
+    },
+    "v1_1_1": {
+      "date": "May 2026",
+      "changes": {
+        "groupedTodo": "Improved Todo and Today views with clearer group sections",
+        "groupFocus": "Added group menu actions for adding tasks and starting Focus Mode",
+        "carryoverFlow": "Improved carryover review with a full-screen one-by-one flow",
+        "dragStability": "Improved empty group visibility and cross-group drag stability"
       }
     }
   }
