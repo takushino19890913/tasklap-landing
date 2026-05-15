@@ -20,7 +20,7 @@
     "downloadAppStore": "App Store에서 다운로드",
     "downloadGooglePlay": "Google Play에서 다운로드",
     "availableOn": "사용 가능한 플랫폼",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "badges": {
       "ratingPreparation": "평가 준비 중",
       "multilingualSupport": "8개 언어",
@@ -320,7 +320,7 @@
       "version": "버전"
     },
     "qrCode": "QR 코드로 다운로드",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "lastUpdate": "최종 업데이트: 2026년 4월",
     "appStats": "앱 통계",
     "storeSubmission": "📱 앱스토어 신청 중. 곧 이용 시작 예정!"
@@ -330,7 +330,7 @@
     "quickLinks": "빠른 링크",
     "legal": "법적 사항",
     "privacy": "개인정보처리방침",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "versionHistory": "버전 히스토리",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "한 번에 집중하고 효율적으로 작업을 관리하는 간단한 앱.",
@@ -561,6 +561,16 @@
         "groupFocus": "Added group menu actions for adding tasks and starting Focus Mode",
         "carryoverFlow": "Improved carryover review with a full-screen one-by-one flow",
         "dragStability": "Improved empty group visibility and cross-group drag stability"
+      }
+    },
+    "v1_1_2": {
+      "date": "2026년 5월",
+      "changes": {
+        "categoryFilters": "Todo와 Check Lists에 다중 선택 카테고리 필터 추가",
+        "inboxDisplay": "Inbox와 빈 카테고리 표시 개선",
+        "bulkAdd": "줄바꿈 텍스트 붙여넣기로 여러 항목 추가",
+        "darkModeContrast": "다크 모드 선택/강조 텍스트 대비 개선",
+        "compactLists": "더 조밀한 목록 행과 반투명 내비게이션으로 더 많은 항목 표시"
       }
     }
   }

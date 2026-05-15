@@ -20,7 +20,7 @@
     "downloadAppStore": "从App Store下载",
     "downloadGooglePlay": "在Google Play获取",
     "availableOn": "可用平台",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "badges": {
       "ratingPreparation": "评分准备中",
       "multilingualSupport": "8种语言",
@@ -322,7 +322,7 @@
     "appStats": "应用统计",
     "storeSubmission": "�� 正在向应用商店申请中。即将开始使用！",
     "qrCode": "二维码下载",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "lastUpdate": "最后更新：2026年4月"
   },
   "footer": {
@@ -330,7 +330,7 @@
     "quickLinks": "快速链接",
     "legal": "法律事项",
     "privacy": "隐私政策",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "versionHistory": "版本历史",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "一键专注，高效管理任务的简洁应用。",
@@ -561,6 +561,16 @@
         "groupFocus": "Added group menu actions for adding tasks and starting Focus Mode",
         "carryoverFlow": "Improved carryover review with a full-screen one-by-one flow",
         "dragStability": "Improved empty group visibility and cross-group drag stability"
+      }
+    },
+    "v1_1_2": {
+      "date": "2026年5月",
+      "changes": {
+        "categoryFilters": "为 Todo 和 Check Lists 添加多选类别筛选",
+        "inboxDisplay": "优化 Inbox 和空类别显示",
+        "bulkAdd": "支持从换行文本批量添加项目",
+        "darkModeContrast": "改善深色模式下选中和高亮文字对比度",
+        "compactLists": "更紧凑的列表行和半透明导航，一次显示更多任务"
       }
     }
   }

@@ -20,7 +20,7 @@
     "downloadAppStore": "Im App Store herunterladen",
     "downloadGooglePlay": "Bei Google Play herunterladen",
     "availableOn": "Verfügbar auf",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "badges": {
       "ratingPreparation": "Bewertung ausstehend",
       "multilingualSupport": "8 Sprachen",
@@ -322,7 +322,7 @@
     "appStats": "App-Statistiken",
     "storeSubmission": "📱 Derzeit wird die App-Store-Genehmigung beantragt. Bald verfügbar!",
     "qrCode": "Mit QR-Code herunterladen",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "lastUpdate": "Letzte Aktualisierung: April 2026"
   },
   "footer": {
@@ -330,7 +330,7 @@
     "quickLinks": "Schnelllinks",
     "legal": "Rechtliche Angelegenheiten",
     "privacy": "Datenschutzrichtlinie",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "versionHistory": "Versionshistorie",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "Einfache App zum Fokussieren und effizienten Verwalten von Aufgaben.",
@@ -561,6 +561,16 @@
         "groupFocus": "Added group menu actions for adding tasks and starting Focus Mode",
         "carryoverFlow": "Improved carryover review with a full-screen one-by-one flow",
         "dragStability": "Improved empty group visibility and cross-group drag stability"
+      }
+    },
+    "v1_1_2": {
+      "date": "Mai 2026",
+      "changes": {
+        "categoryFilters": "Mehrfachauswahl für Kategorien in Todo und Check Lists hinzugefügt",
+        "inboxDisplay": "Inbox- und leere Kategorieansicht verbessert",
+        "bulkAdd": "Mehrere Einträge aus zeilengetrenntem Text erstellen",
+        "darkModeContrast": "Kontrast im Dunkelmodus verbessert",
+        "compactLists": "Kompaktere Listen und transparentere Navigation fuer mehr sichtbaren Inhalt"
       }
     }
   }

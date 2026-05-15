@@ -20,7 +20,7 @@
     "downloadAppStore": "Download on the App Store",
     "downloadGooglePlay": "Get it on Google Play",
     "availableOn": "Available on",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "badges": {
       "ratingPreparation": "Rating Pending",
       "multilingualSupport": "8 Languages",
@@ -322,7 +322,7 @@
       "version": "Version"
     },
     "qrCode": "Download with QR Code",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "lastUpdate": "Last updated: April 2026"
   },
   "footer": {
@@ -331,7 +331,7 @@
     "legal": "Legal",
     "privacy": "Privacy Policy",
     "versionHistory": "Version History",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "One-click focus, efficiently manage tasks with a simple app.",
     "supportMessage": "8 languages supported, offline use, completely free.",
@@ -561,6 +561,16 @@
         "groupFocus": "Added group menu actions for adding tasks and starting Focus Mode",
         "carryoverFlow": "Improved carryover review with a full-screen one-by-one flow",
         "dragStability": "Improved empty group visibility and cross-group drag stability"
+      }
+    },
+    "v1_1_2": {
+      "date": "May 2026",
+      "changes": {
+        "categoryFilters": "Added multi-select category filters for Todo and Check Lists",
+        "inboxDisplay": "Refined Inbox and empty-category display",
+        "bulkAdd": "Added bulk creation from newline-separated pasted text",
+        "darkModeContrast": "Improved dark-mode selected and highlighted text contrast",
+        "compactLists": "Compact list rows and translucent navigation show more tasks at once"
       }
     }
   }

@@ -20,7 +20,7 @@
     "downloadAppStore": "Descargar en App Store",
     "downloadGooglePlay": "Descargar en Google Play",
     "availableOn": "Disponible en",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "badges": {
       "ratingPreparation": "Evaluación pendiente",
       "multilingualSupport": "8 idiomas",
@@ -322,7 +322,7 @@
     "appStats": "Estadísticas de la aplicación",
     "storeSubmission": "📱 Actualmente en revisión de la tienda de aplicaciones. ¡Disponible pronto!",
     "qrCode": "Descargar con código QR",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "lastUpdate": "Última actualización: abril de 2026"
   },
   "footer": {
@@ -331,7 +331,7 @@
     "legal": "Asuntos legales",
     "privacy": "Política de Privacidad",
     "versionHistory": "Historial de versiones",
-    "version": "Version 1.1.1",
+    "version": "Version 1.1.2",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "Aplicación simple para concentrarse y gestionar tareas de manera eficiente.",
     "supportMessage": "Soporte para 8 idiomas, uso sin conexión, completamente gratis.",
@@ -561,6 +561,16 @@
         "groupFocus": "Added group menu actions for adding tasks and starting Focus Mode",
         "carryoverFlow": "Improved carryover review with a full-screen one-by-one flow",
         "dragStability": "Improved empty group visibility and cross-group drag stability"
+      }
+    },
+    "v1_1_2": {
+      "date": "Mayo de 2026",
+      "changes": {
+        "categoryFilters": "Filtros de categoría con selección múltiple para Todo y Check Lists",
+        "inboxDisplay": "Vista de Inbox y categorías vacías mejorada",
+        "bulkAdd": "Creación múltiple desde texto pegado separado por líneas",
+        "darkModeContrast": "Contraste mejorado en modo oscuro",
+        "compactLists": "Filas de lista más compactas y navegación translúcida para ver más tareas"
       }
     }
   }

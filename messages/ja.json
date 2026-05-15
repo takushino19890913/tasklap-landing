@@ -20,7 +20,7 @@
     "downloadAppStore": "App Storeからダウンロード",
     "downloadGooglePlay": "Google Playで手に入れよう",
     "availableOn": "利用可能プラットフォーム",
-    "version": "バージョン 1.1.1",
+    "version": "バージョン 1.1.2",
     "badges": {
       "ratingPreparation": "評価準備中",
       "multilingualSupport": "8言語対応",
@@ -302,7 +302,7 @@
     "googlePlay": "Google Play",
     "downloadTitle": "今すぐダウンロード",
     "qrCode": "QRコードでダウンロード",
-    "version": "バージョン 1.1.1",
+    "version": "バージョン 1.1.2",
     "lastUpdate": "最終更新: 2026年4月",
     "rating": "評価: (準備中)",
     "features": {
@@ -332,7 +332,7 @@
     "legal": "法的事項",
     "privacy": "プライバシーポリシー",
     "versionHistory": "バージョン履歴",
-    "version": "バージョン 1.1.1",
+    "version": "バージョン 1.1.2",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "ワンクリックで集中、効率的にタスクを管理するシンプルなアプリ。",
     "supportMessage": "8言語対応、オフライン使用、完全無料。",
@@ -562,6 +562,16 @@
         "groupFocus": "Groupメニューからタスク追加とFocus Mode開始ができる導線を追加",
         "carryoverFlow": "前日までの未完了Todoを一件ずつ仕分けるフルスクリーンレビューに改善",
         "dragStability": "空のGroup表示とGroup間ドラッグ移動の安定性を改善"
+      }
+    },
+    "v1_1_2": {
+      "date": "2026年5月",
+      "changes": {
+        "categoryFilters": "Todoとチェックリストに複数選択カテゴリー表示を追加",
+        "inboxDisplay": "Inbox表示と空カテゴリー表示を整理",
+        "bulkAdd": "改行区切りの貼り付けから複数アイテムを一括追加",
+        "darkModeContrast": "ダークモードの選択状態とハイライトの可読性を改善",
+        "compactLists": "リスト行をコンパクト化し、透過ナビで表示領域を拡大"
       }
     }
   }
