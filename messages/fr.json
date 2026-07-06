@@ -344,79 +344,124 @@
   },
   "privacy": {
     "title": "Politique de Confidentialité TaskLap",
-    "lastUpdated": "Dernière mise à jour : Décembre 2024",
+    "lastUpdated": "Dernière mise à jour : 5 juillet 2026",
+    "changesSummary": {
+      "title": "Résumé des modifications (révision de juillet 2026)",
+      "description": "Cette politique a été révisée pour TaskLap v1.2.0, qui introduit une fonction facultative de synchronisation de compte. Les principales modifications sont :",
+      "items": [
+        "Uniquement si vous vous connectez, les données de synchronisation sont désormais stockées dans Google Firebase (cloud)",
+        "Ajout des informations de compte (identifiant et adresse e-mail via Apple / Google) et du contenu utilisateur synchronisé aux informations que nous collectons",
+        "Ajout d'une nouvelle section « Suppression de votre compte et de vos données »",
+        "Si vous ne vous connectez pas, tout fonctionne comme avant : toutes les données restent uniquement sur votre appareil (aucune transmission vers le cloud)"
+      ]
+    },
     "keyPoint": {
-      "title": "Important : TaskLap est une application entièrement privée",
-      "description": "Vos données ne sont jamais envoyées à l'extérieur. Toutes les données sont gérées uniquement dans votre appareil."
+      "title": "Important : la synchronisation est facultative. Tant que vous ne vous connectez pas, vos données restent uniquement sur votre appareil",
+      "description": "TaskLap fonctionne entièrement en local par défaut et n'envoie jamais vos données à qui que ce soit. Ce n'est que lorsque vous choisissez de vous connecter pour synchroniser entre appareils que vos données de synchronisation sont stockées dans Google Firebase. Nous ne collectons jamais de données à des fins publicitaires ou de suivi."
     },
     "dataCollection": {
       "title": "1. Informations que nous collectons",
-      "description": "L'application TaskLap stocke uniquement les informations suivantes sur votre appareil :",
-      "items": [
+      "description": "TaskLap traite les informations suivantes :",
+      "localSubtitle": "Tous les utilisateurs (stockées uniquement sur votre appareil) :",
+      "localItems": [
         "Titres et contenu des tâches",
-        "Noms des listes de contrôle",
-        "Statut terminé/non terminé",
-        "Dates de création et de mise à jour",
-        "Paramètres de langue",
-        "Paramètres d'ordre de tri"
+        "Noms et éléments des checklists",
+        "Groupes et leur organisation",
+        "Statut d'achèvement, dates de création et de mise à jour",
+        "Paramètres de l'app (langue, ordre de tri, etc.)"
+      ],
+      "syncSubtitle": "Uniquement si vous vous connectez (stockées dans le cloud pour la synchronisation) :",
+      "syncItems": [
+        "Informations de compte : votre identifiant utilisateur et votre adresse e-mail issus de la connexion avec Apple ou Google",
+        "Contenu utilisateur synchronisé : tâches, checklists, groupes et certains paramètres"
       ]
     },
     "noDataCollection": {
       "title": "2. Informations que nous ne collectons pas",
       "description": "Nous ne collectons aucune des informations suivantes :",
       "items": [
-        "Informations personnelles (nom, adresse e-mail, numéro de téléphone, etc.)",
         "Informations de localisation",
-        "Accès aux photos ou à la caméra",
-        "Informations de contact",
-        "Informations d'identification de l'appareil",
+        "Accès aux photos ou à l'appareil photo",
+        "Informations de contacts",
+        "Identifiants publicitaires ou données de suivi",
         "Données d'analyse d'utilisation"
       ]
     },
     "dataStorage": {
-      "title": "3. Stockage et Gestion des Données",
-      "subtitle": "Stockage Local Complet :",
+      "title": "3. Où vos données sont stockées",
+      "localSubtitle": "Sur votre appareil (toujours) :",
+      "localItems": [
+        "Toutes les données sont stockées dans une base de données SQLite sur votre appareil",
+        "L'app fonctionne entièrement hors ligne ; une connexion internet n'est pas requise"
+      ],
+      "cloudSubtitle": "Dans le cloud (uniquement si vous vous connectez) :",
+      "cloudItems": [
+        "Les données de synchronisation sont stockées dans Google Firebase (Firebase Authentication / Cloud Firestore, exploité sur Google Cloud)",
+        "Seules les données nécessaires à la synchronisation sont stockées dans le cloud",
+        "Vous pouvez modifier hors ligne ; les changements se synchronisent dès votre retour en ligne"
+      ]
+    },
+    "dataUse": {
+      "title": "4. Comment nous utilisons vos données",
+      "description": "Les données stockées dans le cloud sont utilisées uniquement pour synchroniser votre contenu entre vos appareils.",
       "items": [
-        "Toutes les données sont stockées uniquement dans la base de données SQLite de votre appareil",
-        "Aucune transmission vers des serveurs externes",
-        "Aucune fonctionnalité de synchronisation cloud",
-        "Aucune connexion Internet requise",
-        "Lorsque vous supprimez l'application, toutes les données sont complètement supprimées"
+        "Jamais utilisées à des fins publicitaires",
+        "Aucun suivi ni analyse comportementale",
+        "Jamais vendues ni partagées avec des tiers"
+      ]
+    },
+    "withoutSignIn": {
+      "title": "5. Si vous ne vous connectez pas",
+      "description": "Si vous ne vous connectez pas, TaskLap fonctionne entièrement en local, comme avant. Toutes les données sont stockées uniquement sur votre appareil et rien n'est jamais envoyé vers le cloud. La suppression de l'app efface complètement toutes les données de l'appareil."
+    },
+    "accountDeletion": {
+      "title": "6. Suppression de votre compte et de vos données",
+      "description": "Vous pouvez supprimer votre compte à tout moment depuis Réglages → Synchronisation (Settings → Sync) dans l'app. La suppression de votre compte efface toutes vos données stockées dans le cloud (Firebase).",
+      "items": [
+        "La suppression du compte efface toutes vos données cloud, y compris les informations de compte et le contenu synchronisé",
+        "Les données de votre appareil sont conservées après la suppression du compte et restent pleinement utilisables hors ligne",
+        "Si vous vous déconnectez seulement, vos données cloud sont conservées et restaurées lors de votre prochaine connexion"
       ]
     },
     "dataSharing": {
-      "title": "4. Partage de Données",
-      "description": "Nous ne partageons vos données avec aucun des éléments suivants :",
+      "title": "7. Partage des données",
+      "description": "Nous ne partageons ni ne vendons vos données à aucun des acteurs suivants :",
       "items": [
-        "Sociétés de publicité",
+        "Sociétés publicitaires",
         "Sociétés d'analyse",
         "Autres applications",
-        "Plateformes de médias sociaux",
+        "Plateformes de réseaux sociaux",
         "Autres tiers"
-      ]
+      ],
+      "note": "Nous utilisons Google Firebase (Google LLC) comme infrastructure cloud pour stocker les données de synchronisation. Firebase ne traite vos données que pour fournir le service de synchronisation."
     },
     "security": {
-      "title": "5. Sécurité",
-      "description": "Puisque vos données sont gérées uniquement sur votre appareil, elles sont protégées par les paramètres de sécurité de votre appareil (code d'accès, authentification par empreinte digitale, etc.)."
+      "title": "8. Sécurité",
+      "description": "Vos données sont protégées de la manière suivante :",
+      "items": [
+        "Les données cloud sont isolées par utilisateur ; les Firestore Security Rules garantissent que vous seul pouvez accéder à vos données",
+        "Toutes les communications sont chiffrées en transit (HTTPS/TLS)",
+        "Les données sur votre appareil sont protégées par les paramètres de sécurité de votre appareil (code d'accès, biométrie, etc.)"
+      ]
     },
     "ads": {
-      "title": "6. Publicité",
+      "title": "9. Publicité",
       "description": "L'application TaskLap n'affiche aucune publicité."
     },
     "ageRestriction": {
-      "title": "7. Exigence d'âge",
+      "title": "10. Exigence d'âge",
       "description": "L'application TaskLap est destinée aux utilisateurs âgés de 13 ans et plus. Les utilisateurs de moins de 13 ans doivent utiliser cette application avec le consentement des parents."
     },
     "contact": {
-      "title": "8. Contact",
+      "title": "11. Contact",
       "description": "Si vous avez des questions concernant cette politique de confidentialité, n'hésitez pas à nous contacter :",
       "email": "Email"
     },
     "policyChanges": {
-      "title": "9. Modifications de la Politique",
-      "description": "Cette politique de confidentialité peut être mise à jour en réponse aux changements des exigences légales ou aux ajouts de fonctionnalités de l'application. En cas de changements importants, nous vous en informerons à l'avance via l'application ou le site web."
+      "title": "12. Modifications de la Politique",
+      "description": "Cette politique de confidentialité peut être mise à jour en réponse à des évolutions des exigences légales ou à l'ajout de fonctionnalités. En cas de changement important, nous vous en informerons à l'avance via l'app ou le site web. La révision la plus récente (juillet 2026) reflète l'introduction de la fonction facultative de synchronisation de compte."
     },
-    "finalNote": "Cette politique de confidentialité vise à respecter pleinement votre vie privée et à vous fournir un contrôle complet sur vos données."
+    "finalNote": "TaskLap respecte votre vie privée selon un principe simple : local par défaut, cloud uniquement si vous le choisissez — et vous gardez à tout moment le contrôle total de vos données."
   },
   "common": {
     "downloadNow": "Télécharger maintenant",
@@ -571,6 +616,15 @@
         "bulkAdd": "Ajout groupé depuis du texte collé avec retours à la ligne",
         "darkModeContrast": "Contraste amélioré en mode sombre",
         "compactLists": "Listes plus compactes et navigation translucide pour afficher plus de tâches"
+      }
+    },
+    "v1_2_0": {
+      "date": "Juillet 2026",
+      "changes": {
+        "accountSync": "Ajout de la synchronisation de compte (connexion avec Apple / Google)",
+        "multiDevice": "Les tâches, checklists et groupes se synchronisent désormais entre vos appareils",
+        "offlineEditing": "Modifiez hors ligne : les changements se synchronisent automatiquement au retour en ligne",
+        "conflictResolution": "Examinez et résolvez les conflits de modification entre appareils directement dans l'app"
       }
     }
   }

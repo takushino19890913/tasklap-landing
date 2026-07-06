@@ -344,79 +344,124 @@
   },
   "privacy": {
     "title": "TaskLap Privacy Policy",
-    "lastUpdated": "Last Updated: December 2024",
+    "lastUpdated": "Last Updated: July 5, 2026",
+    "changesSummary": {
+      "title": "Summary of Changes (July 2026 Revision)",
+      "description": "This policy has been revised for TaskLap v1.2.0, which introduces an optional account sync feature. The main changes are:",
+      "items": [
+        "Only if you sign in, sync data is now stored in Google Firebase (cloud)",
+        "Added account information (identifier and email address via Apple / Google) and synced user content to the information we collect",
+        "Added a new \"Deleting Your Account and Data\" section",
+        "If you do not sign in, everything works as before: all data stays only on your device (zero cloud transmission)"
+      ]
+    },
     "keyPoint": {
-      "title": "Important: TaskLap is a completely private app",
-      "description": "Your data is never sent externally. All data is managed only within your device."
+      "title": "Important: Sync is optional. Unless you sign in, your data stays only on your device",
+      "description": "TaskLap works fully locally by default and never sends your data anywhere. Only when you optionally sign in to sync across devices is your sync data stored in Google Firebase. We never collect data for advertising or tracking."
     },
     "dataCollection": {
       "title": "1. Information We Collect",
-      "description": "TaskLap app stores only the following information on your device:",
-      "items": [
+      "description": "TaskLap handles the following information:",
+      "localSubtitle": "All users (stored only on your device):",
+      "localItems": [
         "Task titles and content",
-        "Checklist names",
-        "Completion/incomplete status",
-        "Creation and update dates",
-        "Language settings",
-        "Sort order settings"
+        "Checklist names and items",
+        "Groups and their organization",
+        "Completion status, creation and update dates",
+        "App settings (language, sort order, etc.)"
+      ],
+      "syncSubtitle": "Only if you sign in (stored in the cloud for sync):",
+      "syncItems": [
+        "Account information: your user identifier and email address from Apple or Google Sign-In",
+        "Synced user content: tasks, checklists, groups, and some settings"
       ]
     },
     "noDataCollection": {
       "title": "2. Information We Do Not Collect",
       "description": "We do not collect any of the following information:",
       "items": [
-        "Personal information (name, email address, phone number, etc.)",
         "Location information",
         "Photo or camera access",
         "Contact information",
-        "Device identification information",
+        "Advertising identifiers or tracking data",
         "Usage analytics data"
       ]
     },
     "dataStorage": {
-      "title": "3. Data Storage and Management",
-      "subtitle": "Complete Local Storage:",
+      "title": "3. Where Your Data Is Stored",
+      "localSubtitle": "On your device (always):",
+      "localItems": [
+        "All data is stored in a SQLite database on your device",
+        "The app works fully offline; an internet connection is not required"
+      ],
+      "cloudSubtitle": "In the cloud (only if you sign in):",
+      "cloudItems": [
+        "Sync data is stored in Google Firebase (Firebase Authentication / Cloud Firestore, operated on Google Cloud)",
+        "Only the data needed for sync is stored in the cloud",
+        "You can edit offline; changes sync when you are back online"
+      ]
+    },
+    "dataUse": {
+      "title": "4. How We Use Your Data",
+      "description": "Data stored in the cloud is used solely to sync your content across your devices.",
       "items": [
-        "All data is stored only in the SQLite database on your device",
-        "No external server transmission whatsoever",
-        "No cloud sync features",
-        "No internet connection required",
-        "When you delete the app, all data is completely removed"
+        "Never used for advertising",
+        "No tracking or behavioral analysis",
+        "Never sold or shared with third parties"
+      ]
+    },
+    "withoutSignIn": {
+      "title": "5. If You Do Not Sign In",
+      "description": "If you do not sign in, TaskLap works fully locally, just as before. All data is stored only on your device and nothing is ever sent to the cloud. Deleting the app completely removes all data on the device."
+    },
+    "accountDeletion": {
+      "title": "6. Deleting Your Account and Data",
+      "description": "You can delete your account at any time from Settings → Sync in the app. Deleting your account removes all of your data stored in the cloud (Firebase).",
+      "items": [
+        "Account deletion removes all your cloud data, including account information and synced content",
+        "Data on your device remains after account deletion and stays fully usable offline",
+        "If you only sign out, your cloud data is kept and restored when you sign in again"
       ]
     },
     "dataSharing": {
-      "title": "4. Data Sharing",
-      "description": "We do not share your data with any of the following:",
+      "title": "7. Data Sharing",
+      "description": "We do not share or sell your data to any of the following:",
       "items": [
         "Advertising companies",
         "Analytics companies",
         "Other applications",
         "Social media platforms",
         "Other third parties"
-      ]
+      ],
+      "note": "We use Google Firebase (Google LLC) as our cloud infrastructure to store sync data. Firebase processes your data only to provide the sync service."
     },
     "security": {
-      "title": "5. Security",
-      "description": "Since your data is managed only on your device, it is protected by your device's security settings (passcode, fingerprint authentication, etc.)."
+      "title": "8. Security",
+      "description": "Your data is protected as follows:",
+      "items": [
+        "Cloud data is isolated per user; Firestore Security Rules ensure that only you can access your data",
+        "All communication is encrypted in transit (HTTPS/TLS)",
+        "Data on your device is protected by your device's security settings (passcode, biometrics, etc.)"
+      ]
     },
     "ads": {
-      "title": "6. Advertising",
+      "title": "9. Advertising",
       "description": "TaskLap app does not display any advertisements."
     },
     "ageRestriction": {
-      "title": "7. Age Requirement",
+      "title": "10. Age Requirement",
       "description": "TaskLap app is intended for users aged 13 and above. Users under 13 should use this app with parental consent."
     },
     "contact": {
-      "title": "8. Contact",
+      "title": "11. Contact",
       "description": "If you have any questions about this privacy policy, please feel free to contact us:",
       "email": "Email"
     },
     "policyChanges": {
-      "title": "9. Policy Changes",
-      "description": "This privacy policy may be updated in response to changes in legal requirements or additions to app features. When there are significant changes, we will notify you in advance through the app or website."
+      "title": "12. Policy Changes",
+      "description": "This privacy policy may be updated in response to changes in legal requirements or additions to app features. When there are significant changes, we will notify you in advance through the app or website. The most recent revision (July 2026) reflects the introduction of the optional account sync feature."
     },
-    "finalNote": "This privacy policy is designed to respect your privacy to the fullest and provide you with complete control over your data."
+    "finalNote": "TaskLap respects your privacy with a simple principle: local by default, cloud only when you choose — and you keep full control of your data at all times."
   },
   "common": {
     "downloadNow": "Download Now",
@@ -571,6 +616,15 @@
         "bulkAdd": "Added bulk creation from newline-separated pasted text",
         "darkModeContrast": "Improved dark-mode selected and highlighted text contrast",
         "compactLists": "Compact list rows and translucent navigation show more tasks at once"
+      }
+    },
+    "v1_2_0": {
+      "date": "July 2026",
+      "changes": {
+        "accountSync": "Added account sync (Sign in with Apple / Google)",
+        "multiDevice": "Tasks, checklists, and groups now sync across your devices",
+        "offlineEditing": "Edit offline — changes sync automatically when you're back online",
+        "conflictResolution": "Review and resolve cross-device edit conflicts right in the app"
       }
     }
   }
