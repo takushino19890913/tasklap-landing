@@ -618,6 +618,12 @@
         "compactLists": "Filas de lista más compactas y navegación translúcida para ver más tareas"
       }
     },
+    "v1_2_1": {
+      "date": "Julio de 2026",
+      "changes": {
+        "bugFixes": "Corrección de errores"
+      }
+    },
     "v1_2_0": {
       "date": "Julio de 2026",
       "changes": {

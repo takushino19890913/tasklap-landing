@@ -618,6 +618,12 @@
         "compactLists": "Kompaktere Listen und transparentere Navigation fuer mehr sichtbaren Inhalt"
       }
     },
+    "v1_2_1": {
+      "date": "Juli 2026",
+      "changes": {
+        "bugFixes": "Fehlerbehebungen"
+      }
+    },
     "v1_2_0": {
       "date": "Juli 2026",
       "changes": {
