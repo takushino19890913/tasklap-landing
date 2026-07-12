@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
-import { Inter, Noto_Sans_JP } from "next/font/google";
+import { Manrope, Zen_Kaku_Gothic_New } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "../components/ThemeProvider";
 
-const inter = Inter({
+const manrope = Manrope({
   subsets: ["latin"],
-  variable: "--font-inter",
+  weight: ["500", "700", "800"],
+  variable: "--font-manrope",
   display: "swap",
 });
 
-const notoSansJP = Noto_Sans_JP({
+const zenKaku = Zen_Kaku_Gothic_New({
   subsets: ["latin"],
-  variable: "--font-noto-sans-jp",
+  weight: ["500", "700"],
+  variable: "--font-zen-kaku",
   display: "swap",
 });
 
@@ -74,14 +76,14 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`${inter.variable} ${notoSansJP.variable}`}
+      className={`${manrope.variable} ${zenKaku.variable}`}
       suppressHydrationWarning
     >
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${inter.className} antialiased`}>
+      <body className="antialiased">
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

@@ -20,7 +20,7 @@
     "downloadAppStore": "从App Store下载",
     "downloadGooglePlay": "在Google Play获取",
     "availableOn": "可用平台",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "badges": {
       "ratingPreparation": "评分准备中",
       "multilingualSupport": "8种语言",
@@ -322,15 +322,15 @@
     "appStats": "应用统计",
     "storeSubmission": "�� 正在向应用商店申请中。即将开始使用！",
     "qrCode": "二维码下载",
-    "version": "Version 1.1.2",
-    "lastUpdate": "最后更新：2026年4月"
+    "version": "Version 1.2.2",
+    "lastUpdate": "最后更新：2026年7月"
   },
   "footer": {
     "madeWith": "Made with",
     "quickLinks": "快速链接",
     "legal": "法律事项",
     "privacy": "隐私政策",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "versionHistory": "版本历史",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "一键专注，高效管理任务的简洁应用。",
@@ -632,6 +632,114 @@
         "offlineEditing": "支持离线编辑，恢复联网后自动同步",
         "conflictResolution": "设备间的编辑冲突可直接在应用内查看并解决"
       }
+    },
+    "v1_2_3": {
+      "date": "2026年7月",
+      "changes": {
+        "autoSync": "支持自动同步——更改会自动同步到云端",
+        "inboxDefault": "“Inbox”分组现在始终固定在列表顶部",
+        "quickGroupCreate": "可从任务详情直接创建新分组",
+        "syncStability": "提升了同步稳定性与向后兼容性"
+      }
+    },
+    "v1_2_2": {
+      "date": "2026年7月",
+      "changes": {
+        "bugFixes": "错误修复"
+      }
     }
+  },
+  "v2": {
+    "nav": {
+      "features": "功能",
+      "download": "下载",
+      "language": "Change language",
+      "theme": "Change theme",
+      "cta": "App Store"
+    },
+    "hero": {
+      "kicker": "简单的待办与清单",
+      "h1": "今天，一次做好一件事。",
+      "sub": "TaskLap 是一款简单到不会迷路的任务管理应用。用分组整理，再通过专注模式集中处理眼前的一件事。",
+      "trust": "免费 · 无需账号即可开始 · 8种语言",
+      "demoLabel": "体验专注模式",
+      "demoTasks": [
+        "喝一杯水",
+        "回复一封邮件",
+        "整理桌面"
+      ],
+      "demoDone": "辛苦了！🎉 全部完成。",
+      "reset": "再来一次",
+      "demoSkip": "跳过",
+      "demoComplete": "完成"
+    },
+    "statement": {
+      "h2": "待办清单，简单就好。",
+      "sub": "功能越多，事情反而越难完成。TaskLap 是帮助你专注于今天这一件事的工具。"
+    },
+    "chapters": [
+      {
+        "kicker": "GROUP",
+        "title": "工作与生活，各有归处。",
+        "body": "按分组整理待办，一眼查看数量，可折叠、拖动排序，也可直接在分组中添加任务。",
+        "alt": "TaskLap GROUP"
+      },
+      {
+        "kicker": "FOCUS MODE",
+        "title": "一个屏幕，一项任务。",
+        "body": "专注模式只显示眼前的任务。完成或跳过，两个选择减少决策疲劳。",
+        "alt": "TaskLap FOCUS MODE"
+      },
+      {
+        "kicker": "CHECKLIST",
+        "title": "把重复流程变成模板。",
+        "body": "旅行物品、每周计划、购物清单。创建一次，反复使用。",
+        "alt": "TaskLap CHECKLIST"
+      },
+      {
+        "kicker": "ROUTINE",
+        "title": "一键重置晨间习惯。",
+        "body": "完成后重置，明天继续。进度百分比一目了然，让重复更有趣。",
+        "alt": "TaskLap ROUTINE"
+      }
+    ],
+    "bento": [
+      {
+        "title": "结转回顾",
+        "body": "早晨统一整理昨天剩下的任务，未完成事项不会丢失。"
+      },
+      {
+        "title": "明暗主题",
+        "body": "两种柔和外观，适合一天中的任何时刻。"
+      },
+      {
+        "title": "支持8种语言",
+        "body": "日语、英语、韩语、德语、西班牙语、法语、葡萄牙语、中文。"
+      },
+      {
+        "title": "完全免费",
+        "body": "没有隐藏收费，所有功能完整可用。"
+      },
+      {
+        "title": "注册可选",
+        "body": "无需账号即可直接使用。只有需要多设备同步时才登录。"
+      },
+      {
+        "title": "轻快流畅",
+        "body": "快速打开，快速记录。工具的速度同样重要。"
+      }
+    ],
+    "download": {
+      "h2": "现在，完成今天的一件事。",
+      "sub": "TaskLap 完全免费。下载即可开始使用。",
+      "qr": "扫码下载"
+    },
+    "playSoon": "Google Play — 即将推出",
+    "footer": {
+      "privacy": "隐私政策",
+      "history": "版本历史",
+      "contact": "联系我们"
+    },
+    "scroll": "向下滚动"
   }
 }

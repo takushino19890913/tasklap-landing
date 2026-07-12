@@ -20,7 +20,7 @@
     "downloadAppStore": "Baixar na App Store",
     "downloadGooglePlay": "Baixar no Google Play",
     "availableOn": "Disponível em",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "badges": {
       "ratingPreparation": "Avaliação pendente",
       "multilingualSupport": "8 idiomas",
@@ -322,8 +322,8 @@
     "appStats": "Estatísticas do aplicativo",
     "storeSubmission": "📱 Atualmente em análise na loja de aplicativos. Disponível em breve!",
     "qrCode": "Baixar com código QR",
-    "version": "Version 1.1.2",
-    "lastUpdate": "Última atualização: abril de 2026"
+    "version": "Version 1.2.2",
+    "lastUpdate": "Última atualização: julho de 2026"
   },
   "footer": {
     "madeWith": "Made with",
@@ -331,7 +331,7 @@
     "legal": "Assuntos legais",
     "privacy": "Política de Privacidade",
     "versionHistory": "Histórico de versões",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "Aplicativo simples para focar e gerenciar tarefas de forma eficiente.",
     "supportMessage": "Suporte para 8 idiomas, uso offline, completamente gratuito.",
@@ -632,6 +632,114 @@
         "offlineEditing": "Edite offline: as alterações sincronizam automaticamente quando você voltar a ficar online",
         "conflictResolution": "Revise e resolva conflitos de edição entre dispositivos diretamente no app"
       }
+    },
+    "v1_2_3": {
+      "date": "Julho de 2026",
+      "changes": {
+        "autoSync": "Sincronização automática — as alterações agora são enviadas à nuvem automaticamente",
+        "inboxDefault": "O grupo Inbox agora fica sempre fixado no topo da lista",
+        "quickGroupCreate": "Crie um novo grupo na hora a partir dos detalhes da tarefa",
+        "syncStability": "Mais estabilidade de sincronização e compatibilidade futura"
+      }
+    },
+    "v1_2_2": {
+      "date": "julho de 2026",
+      "changes": {
+        "bugFixes": "Correções de bugs"
+      }
     }
+  },
+  "v2": {
+    "nav": {
+      "features": "Recursos",
+      "download": "Download",
+      "language": "Change language",
+      "theme": "Change theme",
+      "cta": "App Store"
+    },
+    "hero": {
+      "kicker": "Tarefas e listas simples",
+      "h1": "Hoje, uma coisa de cada vez.",
+      "sub": "TaskLap é um gerenciador de tarefas tão simples que você nunca se perde. Organize em grupos e use o Modo Foco para se concentrar no que está à sua frente.",
+      "trust": "Grátis · Comece sem conta · 8 idiomas",
+      "demoLabel": "Experimente o modo foco",
+      "demoTasks": [
+        "Beber um copo de água",
+        "Responder a um e-mail",
+        "Arrumar a mesa"
+      ],
+      "demoDone": "Bom trabalho! 🎉 Tudo concluído.",
+      "reset": "Mais uma vez",
+      "demoSkip": "Pular",
+      "demoComplete": "Concluir"
+    },
+    "statement": {
+      "h2": "Uma lista de tarefas deve ser simples.",
+      "sub": "Quanto mais recursos, menos se faz. TaskLap ajuda você a focar em uma coisa hoje."
+    },
+    "chapters": [
+      {
+        "kicker": "GROUP",
+        "title": "Um lugar para o trabalho e outro para a vida.",
+        "body": "Organize tarefas em grupos, veja quantidades, recolha e reordene arrastando. Adicione direto do grupo.",
+        "alt": "TaskLap GROUP"
+      },
+      {
+        "kicker": "FOCUS MODE",
+        "title": "Uma tela, uma tarefa.",
+        "body": "O Modo Foco mostra apenas a tarefa atual. Concluir ou pular: duas escolhas e menos cansaço.",
+        "alt": "TaskLap FOCUS MODE"
+      },
+      {
+        "kicker": "CHECKLIST",
+        "title": "Transforme rotinas em modelos.",
+        "body": "Bagagem, planos semanais, compras. Crie uma lista uma vez e reutilize sempre.",
+        "alt": "TaskLap CHECKLIST"
+      },
+      {
+        "kicker": "ROUTINE",
+        "title": "Reinicie sua rotina matinal com um toque.",
+        "body": "Ao terminar, reinicie para amanhã. Acompanhe o progresso em porcentagem.",
+        "alt": "TaskLap ROUTINE"
+      }
+    ],
+    "bento": [
+      {
+        "title": "Revisão de pendências",
+        "body": "Organize pela manhã o que sobrou de ontem. Nenhuma tarefa pendente se perde."
+      },
+      {
+        "title": "Temas claro e escuro",
+        "body": "Dois visuais suaves para qualquer hora do dia."
+      },
+      {
+        "title": "8 idiomas",
+        "body": "Japonês, inglês, coreano, alemão, espanhol, francês, português e chinês."
+      },
+      {
+        "title": "Totalmente grátis",
+        "body": "Sem cobranças ocultas. Todos os recursos incluídos."
+      },
+      {
+        "title": "Cadastro opcional",
+        "body": "Use na hora, sem conta. Entre apenas se quiser sincronizar entre dispositivos."
+      },
+      {
+        "title": "Rápido e leve",
+        "body": "Abra rápido e escreva rápido. Velocidade importa."
+      }
+    ],
+    "download": {
+      "h2": "Agora, conclua uma coisa hoje.",
+      "sub": "TaskLap é grátis. Baixe e comece na hora.",
+      "qr": "Escaneie para baixar"
+    },
+    "playSoon": "Google Play — em breve",
+    "footer": {
+      "privacy": "Política de Privacidade",
+      "history": "Histórico de Versões",
+      "contact": "Contato"
+    },
+    "scroll": "Rolar"
   }
 }
