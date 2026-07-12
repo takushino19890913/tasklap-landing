@@ -646,7 +646,7 @@
       "kicker": "Simple to-dos & checklists",
       "h1": "One thing at a time, today.",
       "sub": "TaskLap is a task manager so simple you never get lost. Organize with groups, then use Focus Mode to concentrate on the one thing in front of you.",
-      "trust": "Free · No account needed · 8 languages",
+      "trust": "Free · Start without an account · 8 languages",
       "demoLabel": "Try Focus Mode",
       "demoTasks": [
         "Drink a glass of water",
@@ -706,8 +706,8 @@
         "body": "No hidden fees. Every feature included."
       },
       {
-        "title": "No account",
-        "body": "Download and start right away. No sign-up."
+        "title": "Sign-up optional",
+        "body": "Use it right away, no account needed. Sign in only when you want to sync across devices."
       },
       {
         "title": "Fast & light",

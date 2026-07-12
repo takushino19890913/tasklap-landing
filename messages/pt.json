@@ -646,7 +646,7 @@
       "kicker": "Tarefas e listas simples",
       "h1": "Hoje, uma coisa de cada vez.",
       "sub": "TaskLap é um gerenciador de tarefas tão simples que você nunca se perde. Organize em grupos e use o Modo Foco para se concentrar no que está à sua frente.",
-      "trust": "Grátis · Sem conta · 8 idiomas",
+      "trust": "Grátis · Comece sem conta · 8 idiomas",
       "demoLabel": "Experimente o modo foco",
       "demoTasks": [
         "Beber um copo de água",
@@ -706,8 +706,8 @@
         "body": "Sem cobranças ocultas. Todos os recursos incluídos."
       },
       {
-        "title": "Sem conta",
-        "body": "Baixe e comece na hora. Sem cadastro."
+        "title": "Cadastro opcional",
+        "body": "Use na hora, sem conta. Entre apenas se quiser sincronizar entre dispositivos."
       },
       {
         "title": "Rápido e leve",

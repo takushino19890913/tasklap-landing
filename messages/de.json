@@ -646,7 +646,7 @@
       "kicker": "Einfache Aufgaben & Checklisten",
       "h1": "Heute eins nach dem anderen.",
       "sub": "TaskLap ist ein so einfacher Aufgabenmanager, dass du nie den Überblick verlierst. Organisiere mit Gruppen und konzentriere dich im Fokusmodus auf genau eine Sache.",
-      "trust": "Kostenlos · Kein Konto · 8 Sprachen",
+      "trust": "Kostenlos · Start ohne Konto · 8 Sprachen",
       "demoLabel": "Fokusmodus ausprobieren",
       "demoTasks": [
         "Ein Glas Wasser trinken",
@@ -706,8 +706,8 @@
         "body": "Keine versteckten Kosten. Alle Funktionen sind enthalten."
       },
       {
-        "title": "Kein Konto",
-        "body": "Herunterladen und sofort loslegen. Keine Registrierung."
+        "title": "Registrierung optional",
+        "body": "Sofort nutzbar, ganz ohne Konto. Anmelden nur, wenn du über mehrere Geräte synchronisieren möchtest."
       },
       {
         "title": "Schnell & leicht",
