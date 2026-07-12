@@ -20,7 +20,7 @@
     "downloadAppStore": "从App Store下载",
     "downloadGooglePlay": "在Google Play获取",
     "availableOn": "可用平台",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "badges": {
       "ratingPreparation": "评分准备中",
       "multilingualSupport": "8种语言",
@@ -322,15 +322,15 @@
     "appStats": "应用统计",
     "storeSubmission": "�� 正在向应用商店申请中。即将开始使用！",
     "qrCode": "二维码下载",
-    "version": "Version 1.1.2",
-    "lastUpdate": "最后更新：2026年4月"
+    "version": "Version 1.2.2",
+    "lastUpdate": "最后更新：2026年7月"
   },
   "footer": {
     "madeWith": "Made with",
     "quickLinks": "快速链接",
     "legal": "法律事项",
     "privacy": "隐私政策",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "versionHistory": "版本历史",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "一键专注，高效管理任务的简洁应用。",
@@ -631,6 +631,21 @@
         "multiDevice": "任务、清单和分组现可在多台设备间同步",
         "offlineEditing": "支持离线编辑，恢复联网后自动同步",
         "conflictResolution": "设备间的编辑冲突可直接在应用内查看并解决"
+      }
+    },
+    "v1_2_3": {
+      "date": "2026年7月",
+      "changes": {
+        "autoSync": "支持自动同步——更改会自动同步到云端",
+        "inboxDefault": "“Inbox”分组现在始终固定在列表顶部",
+        "quickGroupCreate": "可从任务详情直接创建新分组",
+        "syncStability": "提升了同步稳定性与向后兼容性"
+      }
+    },
+    "v1_2_2": {
+      "date": "2026年7月",
+      "changes": {
+        "bugFixes": "错误修复"
       }
     }
   },

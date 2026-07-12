@@ -20,7 +20,7 @@
     "downloadAppStore": "Baixar na App Store",
     "downloadGooglePlay": "Baixar no Google Play",
     "availableOn": "Disponível em",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "badges": {
       "ratingPreparation": "Avaliação pendente",
       "multilingualSupport": "8 idiomas",
@@ -322,8 +322,8 @@
     "appStats": "Estatísticas do aplicativo",
     "storeSubmission": "📱 Atualmente em análise na loja de aplicativos. Disponível em breve!",
     "qrCode": "Baixar com código QR",
-    "version": "Version 1.1.2",
-    "lastUpdate": "Última atualização: abril de 2026"
+    "version": "Version 1.2.2",
+    "lastUpdate": "Última atualização: julho de 2026"
   },
   "footer": {
     "madeWith": "Made with",
@@ -331,7 +331,7 @@
     "legal": "Assuntos legais",
     "privacy": "Política de Privacidade",
     "versionHistory": "Histórico de versões",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "Aplicativo simples para focar e gerenciar tarefas de forma eficiente.",
     "supportMessage": "Suporte para 8 idiomas, uso offline, completamente gratuito.",
@@ -631,6 +631,21 @@
         "multiDevice": "Tarefas, listas de verificação e grupos agora sincronizam entre os seus dispositivos",
         "offlineEditing": "Edite offline: as alterações sincronizam automaticamente quando você voltar a ficar online",
         "conflictResolution": "Revise e resolva conflitos de edição entre dispositivos diretamente no app"
+      }
+    },
+    "v1_2_3": {
+      "date": "Julho de 2026",
+      "changes": {
+        "autoSync": "Sincronização automática — as alterações agora são enviadas à nuvem automaticamente",
+        "inboxDefault": "O grupo Inbox agora fica sempre fixado no topo da lista",
+        "quickGroupCreate": "Crie um novo grupo na hora a partir dos detalhes da tarefa",
+        "syncStability": "Mais estabilidade de sincronização e compatibilidade futura"
+      }
+    },
+    "v1_2_2": {
+      "date": "julho de 2026",
+      "changes": {
+        "bugFixes": "Correções de bugs"
       }
     }
   },

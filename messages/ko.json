@@ -20,7 +20,7 @@
     "downloadAppStore": "App Store에서 다운로드",
     "downloadGooglePlay": "Google Play에서 다운로드",
     "availableOn": "사용 가능한 플랫폼",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "badges": {
       "ratingPreparation": "평가 준비 중",
       "multilingualSupport": "8개 언어",
@@ -320,8 +320,8 @@
       "version": "버전"
     },
     "qrCode": "QR 코드로 다운로드",
-    "version": "Version 1.1.2",
-    "lastUpdate": "최종 업데이트: 2026년 4월",
+    "version": "Version 1.2.2",
+    "lastUpdate": "최종 업데이트: 2026년 7월",
     "appStats": "앱 통계",
     "storeSubmission": "📱 앱스토어 신청 중. 곧 이용 시작 예정!"
   },
@@ -330,7 +330,7 @@
     "quickLinks": "빠른 링크",
     "legal": "법적 사항",
     "privacy": "개인정보처리방침",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "versionHistory": "버전 히스토리",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "한 번에 집중하고 효율적으로 작업을 관리하는 간단한 앱.",
@@ -631,6 +631,21 @@
         "multiDevice": "여러 기기에서 작업・체크리스트・그룹이 동기화됩니다",
         "offlineEditing": "오프라인 편집 지원. 온라인 복귀 시 자동으로 동기화",
         "conflictResolution": "기기 간 편집 충돌은 앱 내에서 검토하고 해결할 수 있습니다"
+      }
+    },
+    "v1_2_3": {
+      "date": "2026년 7월",
+      "changes": {
+        "autoSync": "자동 동기화 지원 — 변경 사항이 자동으로 클라우드에 반영됩니다",
+        "inboxDefault": "'Inbox' 그룹을 항상 목록 맨 위에 고정",
+        "quickGroupCreate": "작업 상세에서 바로 새 그룹을 만들 수 있습니다",
+        "syncStability": "동기화 안정성 및 향후 버전과의 호환성 향상"
+      }
+    },
+    "v1_2_2": {
+      "date": "2026년 7월",
+      "changes": {
+        "bugFixes": "버그 수정"
       }
     }
   },

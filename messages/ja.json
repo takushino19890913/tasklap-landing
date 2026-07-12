@@ -20,7 +20,7 @@
     "downloadAppStore": "App Storeからダウンロード",
     "downloadGooglePlay": "Google Playで手に入れよう",
     "availableOn": "利用可能プラットフォーム",
-    "version": "バージョン 1.1.2",
+    "version": "バージョン 1.2.2",
     "badges": {
       "ratingPreparation": "評価準備中",
       "multilingualSupport": "8言語対応",
@@ -302,8 +302,8 @@
     "googlePlay": "Google Play",
     "downloadTitle": "今すぐダウンロード",
     "qrCode": "QRコードでダウンロード",
-    "version": "バージョン 1.1.2",
-    "lastUpdate": "最終更新: 2026年4月",
+    "version": "バージョン 1.2.2",
+    "lastUpdate": "最終更新: 2026年7月",
     "rating": "評価: (準備中)",
     "features": {
       "instant": {
@@ -332,7 +332,7 @@
     "legal": "法的事項",
     "privacy": "プライバシーポリシー",
     "versionHistory": "バージョン履歴",
-    "version": "バージョン 1.1.2",
+    "version": "バージョン 1.2.2",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "ワンクリックで集中、効率的にタスクを管理するシンプルなアプリ。",
     "supportMessage": "8言語対応、オフライン使用、完全無料。",
@@ -632,6 +632,21 @@
         "multiDevice": "複数の端末でタスク・チェックリスト・グループが同期されるように",
         "offlineEditing": "オフラインでの編集に対応。オンライン復帰時に自動で同期",
         "conflictResolution": "端末間で編集が競合した場合は、アプリ内でレビューして解決可能"
+      }
+    },
+    "v1_2_3": {
+      "date": "2026年7月",
+      "changes": {
+        "autoSync": "自動同期に対応 — 変更が自動でクラウドに反映されるようになりました",
+        "inboxDefault": "「Inbox」グループを常にリストの先頭に固定",
+        "quickGroupCreate": "タスク詳細からその場で新しいグループを作成できるように",
+        "syncStability": "同期の安定性と将来バージョンとの互換性を向上"
+      }
+    },
+    "v1_2_2": {
+      "date": "2026年7月",
+      "changes": {
+        "bugFixes": "バグ修正"
       }
     }
   },

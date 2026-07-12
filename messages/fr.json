@@ -20,7 +20,7 @@
     "downloadAppStore": "Télécharger sur l'App Store",
     "downloadGooglePlay": "Disponible sur Google Play",
     "availableOn": "Disponible sur",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "badges": {
       "ratingPreparation": "Évaluation en attente",
       "multilingualSupport": "8 langues",
@@ -320,8 +320,8 @@
       "version": "Version"
     },
     "qrCode": "Télécharger avec QR Code",
-    "version": "Version 1.1.2",
-    "lastUpdate": "Dernière mise à jour : avril 2026",
+    "version": "Version 1.2.2",
+    "lastUpdate": "Dernière mise à jour : juillet 2026",
     "appStats": "Statistiques de l'application",
     "storeSubmission": "📱 Actuellement en examen par l'app store. Disponible bientôt!"
   },
@@ -331,7 +331,7 @@
     "legal": "Mentions légales",
     "privacy": "Politique de Confidentialité",
     "versionHistory": "Historique des versions",
-    "version": "Version 1.1.2",
+    "version": "Version 1.2.2",
     "copyright": "© 2024 TaskLap. All rights reserved.",
     "appDescription": "Application simple pour se concentrer et gérer efficacement les tâches.",
     "supportMessage": "Support de 8 langues, utilisation hors ligne, entièrement gratuit.",
@@ -631,6 +631,21 @@
         "multiDevice": "Les tâches, checklists et groupes se synchronisent désormais entre vos appareils",
         "offlineEditing": "Modifiez hors ligne : les changements se synchronisent automatiquement au retour en ligne",
         "conflictResolution": "Examinez et résolvez les conflits de modification entre appareils directement dans l'app"
+      }
+    },
+    "v1_2_3": {
+      "date": "Juillet 2026",
+      "changes": {
+        "autoSync": "Synchronisation automatique — les modifications sont désormais envoyées au cloud automatiquement",
+        "inboxDefault": "Le groupe Inbox est désormais toujours épinglé en haut de la liste",
+        "quickGroupCreate": "Créez un nouveau groupe directement depuis les détails d'une tâche",
+        "syncStability": "Stabilité de la synchronisation et compatibilité future améliorées"
+      }
+    },
+    "v1_2_2": {
+      "date": "juillet 2026",
+      "changes": {
+        "bugFixes": "Corrections de bugs"
       }
     }
   },
