@@ -3,8 +3,8 @@ import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales } from "../../../i18n";
 import type { Locale } from "../../../i18n";
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
+import SiteHeader from "../../../components/v2/SiteHeader";
+import FooterV2 from "../../../components/v2/FooterV2";
 import VersionHistoryContent from "../../../components/VersionHistoryContent";
 
 interface PageProps {
@@ -41,10 +41,10 @@ export default function VersionHistoryPage({ params: { locale } }: PageProps) {
   setRequestLocale(locale);
 
   return (
-    <main className="min-h-screen bg-neutral-50 dark:bg-neutral-900">
-      <Header />
+    <main className="v2-page min-h-screen pt-20">
+      <SiteHeader />
       <VersionHistoryContent />
-      <Footer />
+      <FooterV2 />
     </main>
   );
 }

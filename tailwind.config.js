@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        bg: "var(--bg)", surface: "var(--surface)", "surface-2": "var(--surface-2)", ink: "var(--ink)", muted: "var(--muted)", "v2-accent": "var(--accent)", line: "var(--line)",
         // TaskLapアプリのオレンジ色をメインカラーに
         primary: {
           50: "#fff7ed",
@@ -110,8 +111,9 @@ module.exports = {
           "linear-gradient(135deg, #1e293b 0%, #334155 30%, #475569 100%)",
       },
       fontFamily: {
-        sans: ["Inter", "Noto Sans JP", "system-ui", "sans-serif"],
-        display: ["Inter", "Noto Sans JP", "system-ui", "sans-serif"],
+        sans: ["var(--font-manrope)", "var(--font-zen-kaku)", "Apple SD Gothic Neo", "PingFang SC", "system-ui", "sans-serif"],
+        manrope: ["var(--font-manrope)", "system-ui", "sans-serif"],
+        display: ["var(--font-manrope)", "var(--font-zen-kaku)", "system-ui", "sans-serif"],
       },
       screens: {
         xs: "475px",

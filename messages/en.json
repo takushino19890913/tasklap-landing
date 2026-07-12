@@ -633,5 +633,96 @@
         "conflictResolution": "Review and resolve cross-device edit conflicts right in the app"
       }
     }
+  },
+  "v2": {
+    "nav": {
+      "features": "Features",
+      "download": "Download",
+      "language": "Change language",
+      "theme": "Change theme",
+      "cta": "App Store"
+    },
+    "hero": {
+      "kicker": "Simple to-dos & checklists",
+      "h1": "One thing at a time, today.",
+      "sub": "TaskLap is a task manager so simple you never get lost. Organize with groups, then use Focus Mode to concentrate on the one thing in front of you.",
+      "trust": "Free · No account needed · 8 languages",
+      "demoLabel": "Try tapping",
+      "demoTasks": [
+        "Drink a glass of water",
+        "Reply to one email",
+        "Clear your desk"
+      ],
+      "demoDone": "Nice work! 🎉 That's your first step today.",
+      "reset": "Once more"
+    },
+    "statement": {
+      "h2": "A to-do list should be simple.",
+      "sub": "The more features you add, the less gets done. TaskLap is a tool for focusing on today's one thing."
+    },
+    "chapters": [
+      {
+        "kicker": "GROUP",
+        "title": "A place for work, and a place for life.",
+        "body": "Organize to-dos into groups. See counts at a glance, collapse, and reorder by drag. Add tasks straight from a group.",
+        "alt": "TaskLap GROUP screen"
+      },
+      {
+        "kicker": "FOCUS MODE",
+        "title": "One screen, one task.",
+        "body": "Focus Mode shows only the task in front of you. Complete or skip — just two choices. Less decision fatigue, lighter next steps.",
+        "alt": "TaskLap FOCUS MODE screen"
+      },
+      {
+        "kicker": "CHECKLIST",
+        "title": "Turn repeat routines into templates.",
+        "body": "Packing lists, weekly plans, groceries. Build a checklist once, reuse it forever.",
+        "alt": "TaskLap CHECKLIST screen"
+      },
+      {
+        "kicker": "ROUTINE",
+        "title": "Reset your morning routine in one tap.",
+        "body": "When a list is done, reset it for tomorrow. Progress shows as a percentage. Daily repetition gets a little more fun.",
+        "alt": "TaskLap ROUTINE screen"
+      }
+    ],
+    "bento": [
+      {
+        "title": "Carry-over review",
+        "body": "Sort yesterday's leftovers in the morning. Unfinished tasks never get lost."
+      },
+      {
+        "title": "Light & dark themes",
+        "body": "Two gentle looks for any time of day."
+      },
+      {
+        "title": "8 languages",
+        "body": "Japanese, English, Korean, German, Spanish, French, Portuguese, Chinese."
+      },
+      {
+        "title": "Completely free",
+        "body": "No hidden fees. Every feature included."
+      },
+      {
+        "title": "No account",
+        "body": "Download and start right away. No sign-up."
+      },
+      {
+        "title": "Fast & light",
+        "body": "Open quickly, write quickly. Speed matters in a tool."
+      }
+    ],
+    "download": {
+      "h2": "Now, go finish one thing today.",
+      "sub": "TaskLap is free. Download it and start right away.",
+      "qr": "Scan to download"
+    },
+    "playSoon": "Google Play — coming soon",
+    "footer": {
+      "privacy": "Privacy Policy",
+      "history": "Version History",
+      "contact": "Contact"
+    },
+    "scroll": "Scroll"
   }
 }

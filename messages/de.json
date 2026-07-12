@@ -633,5 +633,96 @@
         "conflictResolution": "Bearbeitungskonflikte zwischen Geräten direkt in der App prüfen und lösen"
       }
     }
+  },
+  "v2": {
+    "nav": {
+      "features": "Funktionen",
+      "download": "Download",
+      "language": "Change language",
+      "theme": "Change theme",
+      "cta": "App Store"
+    },
+    "hero": {
+      "kicker": "Einfache Aufgaben & Checklisten",
+      "h1": "Heute eins nach dem anderen.",
+      "sub": "TaskLap ist ein so einfacher Aufgabenmanager, dass du nie den Überblick verlierst. Organisiere mit Gruppen und konzentriere dich im Fokusmodus auf genau eine Sache.",
+      "trust": "Kostenlos · Kein Konto · 8 Sprachen",
+      "demoLabel": "Zum Ausprobieren tippen",
+      "demoTasks": [
+        "Ein Glas Wasser trinken",
+        "Eine E-Mail beantworten",
+        "Schreibtisch aufräumen"
+      ],
+      "demoDone": "Gut gemacht! 🎉 Der erste Schritt für heute ist geschafft.",
+      "reset": "Noch einmal"
+    },
+    "statement": {
+      "h2": "Eine Aufgabenliste sollte einfach sein.",
+      "sub": "Je mehr Funktionen, desto weniger wird erledigt. TaskLap hilft dir, dich auf die eine Sache von heute zu konzentrieren."
+    },
+    "chapters": [
+      {
+        "kicker": "GROUP",
+        "title": "Ein Ort für Arbeit, einer fürs Leben.",
+        "body": "Ordne Aufgaben in Gruppen, sieh Anzahlen sofort, klappe sie ein und sortiere sie per Drag-and-drop.",
+        "alt": "TaskLap GROUP"
+      },
+      {
+        "kicker": "FOCUS MODE",
+        "title": "Ein Bildschirm, eine Aufgabe.",
+        "body": "Der Fokusmodus zeigt nur die aktuelle Aufgabe. Erledigen oder überspringen – zwei einfache Entscheidungen.",
+        "alt": "TaskLap FOCUS MODE"
+      },
+      {
+        "kicker": "CHECKLIST",
+        "title": "Wiederholungen werden Vorlagen.",
+        "body": "Packlisten, Wochenpläne, Einkäufe: einmal erstellen und immer wieder verwenden.",
+        "alt": "TaskLap CHECKLIST"
+      },
+      {
+        "kicker": "ROUTINE",
+        "title": "Morgenroutine mit einem Tippen zurücksetzen.",
+        "body": "Setze fertige Listen für morgen zurück. Der Fortschritt ist sofort in Prozent sichtbar.",
+        "alt": "TaskLap ROUTINE"
+      }
+    ],
+    "bento": [
+      {
+        "title": "Überträge prüfen",
+        "body": "Sortiere die Reste von gestern am Morgen. Unerledigte Aufgaben gehen nicht verloren."
+      },
+      {
+        "title": "Helles & dunkles Design",
+        "body": "Zwei angenehme Ansichten für jede Tageszeit."
+      },
+      {
+        "title": "8 Sprachen",
+        "body": "Japanisch, Englisch, Koreanisch, Deutsch, Spanisch, Französisch, Portugiesisch, Chinesisch."
+      },
+      {
+        "title": "Völlig kostenlos",
+        "body": "Keine versteckten Kosten. Alle Funktionen sind enthalten."
+      },
+      {
+        "title": "Kein Konto",
+        "body": "Herunterladen und sofort loslegen. Keine Registrierung."
+      },
+      {
+        "title": "Schnell & leicht",
+        "body": "Schnell öffnen, schnell schreiben. Bei einem Werkzeug zählt Geschwindigkeit."
+      }
+    ],
+    "download": {
+      "h2": "Erledige jetzt eine Sache heute.",
+      "sub": "TaskLap ist kostenlos. Lade es herunter und lege sofort los.",
+      "qr": "Zum Download scannen"
+    },
+    "playSoon": "Google Play — bald verfügbar",
+    "footer": {
+      "privacy": "Datenschutz",
+      "history": "Versionsverlauf",
+      "contact": "Kontakt"
+    },
+    "scroll": "Scrollen"
   }
 }

@@ -633,5 +633,96 @@
         "conflictResolution": "Revise e resolva conflitos de edição entre dispositivos diretamente no app"
       }
     }
+  },
+  "v2": {
+    "nav": {
+      "features": "Recursos",
+      "download": "Download",
+      "language": "Change language",
+      "theme": "Change theme",
+      "cta": "App Store"
+    },
+    "hero": {
+      "kicker": "Tarefas e listas simples",
+      "h1": "Hoje, uma coisa de cada vez.",
+      "sub": "TaskLap é um gerenciador de tarefas tão simples que você nunca se perde. Organize em grupos e use o Modo Foco para se concentrar no que está à sua frente.",
+      "trust": "Grátis · Sem conta · 8 idiomas",
+      "demoLabel": "Toque para testar",
+      "demoTasks": [
+        "Beber um copo de água",
+        "Responder a um e-mail",
+        "Arrumar a mesa"
+      ],
+      "demoDone": "Muito bem! 🎉 Você deu o primeiro passo de hoje.",
+      "reset": "Mais uma vez"
+    },
+    "statement": {
+      "h2": "Uma lista de tarefas deve ser simples.",
+      "sub": "Quanto mais recursos, menos se faz. TaskLap ajuda você a focar em uma coisa hoje."
+    },
+    "chapters": [
+      {
+        "kicker": "GROUP",
+        "title": "Um lugar para o trabalho e outro para a vida.",
+        "body": "Organize tarefas em grupos, veja quantidades, recolha e reordene arrastando. Adicione direto do grupo.",
+        "alt": "TaskLap GROUP"
+      },
+      {
+        "kicker": "FOCUS MODE",
+        "title": "Uma tela, uma tarefa.",
+        "body": "O Modo Foco mostra apenas a tarefa atual. Concluir ou pular: duas escolhas e menos cansaço.",
+        "alt": "TaskLap FOCUS MODE"
+      },
+      {
+        "kicker": "CHECKLIST",
+        "title": "Transforme rotinas em modelos.",
+        "body": "Bagagem, planos semanais, compras. Crie uma lista uma vez e reutilize sempre.",
+        "alt": "TaskLap CHECKLIST"
+      },
+      {
+        "kicker": "ROUTINE",
+        "title": "Reinicie sua rotina matinal com um toque.",
+        "body": "Ao terminar, reinicie para amanhã. Acompanhe o progresso em porcentagem.",
+        "alt": "TaskLap ROUTINE"
+      }
+    ],
+    "bento": [
+      {
+        "title": "Revisão de pendências",
+        "body": "Organize pela manhã o que sobrou de ontem. Nenhuma tarefa pendente se perde."
+      },
+      {
+        "title": "Temas claro e escuro",
+        "body": "Dois visuais suaves para qualquer hora do dia."
+      },
+      {
+        "title": "8 idiomas",
+        "body": "Japonês, inglês, coreano, alemão, espanhol, francês, português e chinês."
+      },
+      {
+        "title": "Totalmente grátis",
+        "body": "Sem cobranças ocultas. Todos os recursos incluídos."
+      },
+      {
+        "title": "Sem conta",
+        "body": "Baixe e comece na hora. Sem cadastro."
+      },
+      {
+        "title": "Rápido e leve",
+        "body": "Abra rápido e escreva rápido. Velocidade importa."
+      }
+    ],
+    "download": {
+      "h2": "Agora, conclua uma coisa hoje.",
+      "sub": "TaskLap é grátis. Baixe e comece na hora.",
+      "qr": "Escaneie para baixar"
+    },
+    "playSoon": "Google Play — em breve",
+    "footer": {
+      "privacy": "Política de Privacidade",
+      "history": "Histórico de Versões",
+      "contact": "Contato"
+    },
+    "scroll": "Rolar"
   }
 }

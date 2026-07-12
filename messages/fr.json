@@ -633,5 +633,96 @@
         "conflictResolution": "Examinez et résolvez les conflits de modification entre appareils directement dans l'app"
       }
     }
+  },
+  "v2": {
+    "nav": {
+      "features": "Fonctions",
+      "download": "Download",
+      "language": "Change language",
+      "theme": "Change theme",
+      "cta": "App Store"
+    },
+    "hero": {
+      "kicker": "Tâches et listes simples",
+      "h1": "Une chose à la fois, aujourd’hui.",
+      "sub": "TaskLap est un gestionnaire de tâches si simple que vous ne vous perdez jamais. Organisez par groupes, puis concentrez-vous sur une seule chose avec le mode Focus.",
+      "trust": "Gratuit · Sans compte · 8 langues",
+      "demoLabel": "Touchez pour essayer",
+      "demoTasks": [
+        "Boire un verre d’eau",
+        "Répondre à un e-mail",
+        "Ranger le bureau"
+      ],
+      "demoDone": "Bravo ! 🎉 Votre premier pas du jour est fait.",
+      "reset": "Encore une fois"
+    },
+    "statement": {
+      "h2": "Une liste de tâches doit rester simple.",
+      "sub": "Plus on ajoute de fonctions, moins on avance. TaskLap aide à se concentrer sur une seule chose aujourd’hui."
+    },
+    "chapters": [
+      {
+        "kicker": "GROUP",
+        "title": "Une place pour le travail, une pour la vie.",
+        "body": "Organisez les tâches en groupes, voyez les compteurs, repliez et réordonnez par glisser-déposer.",
+        "alt": "TaskLap GROUP"
+      },
+      {
+        "kicker": "FOCUS MODE",
+        "title": "Un écran, une tâche.",
+        "body": "Le mode Focus montre uniquement la tâche en cours. Terminer ou passer : deux choix, moins de fatigue.",
+        "alt": "TaskLap FOCUS MODE"
+      },
+      {
+        "kicker": "CHECKLIST",
+        "title": "Transformez les routines en modèles.",
+        "body": "Bagages, semaine, courses : créez une liste une fois et réutilisez-la toujours.",
+        "alt": "TaskLap CHECKLIST"
+      },
+      {
+        "kicker": "ROUTINE",
+        "title": "Réinitialisez votre routine en un geste.",
+        "body": "Une fois terminée, réinitialisez la liste pour demain. La progression s’affiche en pourcentage.",
+        "alt": "TaskLap ROUTINE"
+      }
+    ],
+    "bento": [
+      {
+        "title": "Revue des tâches reportées",
+        "body": "Triez le matin ce qui reste d’hier. Aucune tâche inachevée ne se perd."
+      },
+      {
+        "title": "Thèmes clair et sombre",
+        "body": "Deux apparences douces pour chaque moment de la journée."
+      },
+      {
+        "title": "8 langues",
+        "body": "Japonais, anglais, coréen, allemand, espagnol, français, portugais et chinois."
+      },
+      {
+        "title": "Entièrement gratuit",
+        "body": "Aucuns frais cachés. Toutes les fonctions sont incluses."
+      },
+      {
+        "title": "Sans compte",
+        "body": "Téléchargez et commencez aussitôt. Sans inscription."
+      },
+      {
+        "title": "Rapide et légère",
+        "body": "Ouvrez vite, écrivez vite. La rapidité compte."
+      }
+    ],
+    "download": {
+      "h2": "Maintenant, terminez une chose aujourd’hui.",
+      "sub": "TaskLap est gratuit. Téléchargez-le et commencez aussitôt.",
+      "qr": "Scanner pour télécharger"
+    },
+    "playSoon": "Google Play — bientôt disponible",
+    "footer": {
+      "privacy": "Confidentialité",
+      "history": "Historique des versions",
+      "contact": "Contact"
+    },
+    "scroll": "Défiler"
   }
 }
