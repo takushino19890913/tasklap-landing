@@ -647,14 +647,16 @@
       "h1": "Hoje, uma coisa de cada vez.",
       "sub": "TaskLap é um gerenciador de tarefas tão simples que você nunca se perde. Organize em grupos e use o Modo Foco para se concentrar no que está à sua frente.",
       "trust": "Grátis · Sem conta · 8 idiomas",
-      "demoLabel": "Toque para testar",
+      "demoLabel": "Experimente o modo foco",
       "demoTasks": [
         "Beber um copo de água",
         "Responder a um e-mail",
         "Arrumar a mesa"
       ],
-      "demoDone": "Muito bem! 🎉 Você deu o primeiro passo de hoje.",
-      "reset": "Mais uma vez"
+      "demoDone": "Bom trabalho! 🎉 Tudo concluído.",
+      "reset": "Mais uma vez",
+      "demoSkip": "Pular",
+      "demoComplete": "Concluir"
     },
     "statement": {
       "h2": "Uma lista de tarefas deve ser simples.",

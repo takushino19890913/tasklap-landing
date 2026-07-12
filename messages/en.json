@@ -647,14 +647,16 @@
       "h1": "One thing at a time, today.",
       "sub": "TaskLap is a task manager so simple you never get lost. Organize with groups, then use Focus Mode to concentrate on the one thing in front of you.",
       "trust": "Free · No account needed · 8 languages",
-      "demoLabel": "Try tapping",
+      "demoLabel": "Try Focus Mode",
       "demoTasks": [
         "Drink a glass of water",
         "Reply to one email",
         "Clear your desk"
       ],
-      "demoDone": "Nice work! 🎉 That's your first step today.",
-      "reset": "Once more"
+      "demoDone": "Nice work! 🎉 All done for today.",
+      "reset": "Once more",
+      "demoSkip": "Skip",
+      "demoComplete": "Complete"
     },
     "statement": {
       "h2": "A to-do list should be simple.",

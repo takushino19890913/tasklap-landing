@@ -647,14 +647,16 @@
       "h1": "Hoy, una cosa cada vez.",
       "sub": "TaskLap es un gestor de tareas tan sencillo que nunca te perderás. Organiza por grupos y usa el modo Enfoque para concentrarte en lo que tienes delante.",
       "trust": "Gratis · Sin cuenta · 8 idiomas",
-      "demoLabel": "Toca para probar",
+      "demoLabel": "Prueba el modo enfoque",
       "demoTasks": [
         "Beber un vaso de agua",
         "Responder un correo",
         "Ordenar el escritorio"
       ],
-      "demoDone": "¡Buen trabajo! 🎉 Ya diste el primer paso de hoy.",
-      "reset": "Otra vez"
+      "demoDone": "¡Buen trabajo! 🎉 Todo listo.",
+      "reset": "Otra vez",
+      "demoSkip": "Omitir",
+      "demoComplete": "Completar"
     },
     "statement": {
       "h2": "Una lista de tareas debe ser sencilla.",

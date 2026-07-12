@@ -647,14 +647,16 @@
       "h1": "Heute eins nach dem anderen.",
       "sub": "TaskLap ist ein so einfacher Aufgabenmanager, dass du nie den Überblick verlierst. Organisiere mit Gruppen und konzentriere dich im Fokusmodus auf genau eine Sache.",
       "trust": "Kostenlos · Kein Konto · 8 Sprachen",
-      "demoLabel": "Zum Ausprobieren tippen",
+      "demoLabel": "Fokusmodus ausprobieren",
       "demoTasks": [
         "Ein Glas Wasser trinken",
         "Eine E-Mail beantworten",
         "Schreibtisch aufräumen"
       ],
-      "demoDone": "Gut gemacht! 🎉 Der erste Schritt für heute ist geschafft.",
-      "reset": "Noch einmal"
+      "demoDone": "Gut gemacht! 🎉 Alles erledigt.",
+      "reset": "Noch einmal",
+      "demoSkip": "Überspringen",
+      "demoComplete": "Erledigt"
     },
     "statement": {
       "h2": "Eine Aufgabenliste sollte einfach sein.",
