@@ -658,8 +658,8 @@
       "cta": "App Store"
     },
     "hero": {
-      "kicker": "How many todo apps have you tried?",
-      "h1": "The list keeps growing. Nothing gets done.",
+      "kicker": "For everyone whose todo list never sticks",
+      "h1": "One thing at a time, today.",
       "sub": "It's not you — most apps demand too much managing. TaskLap is a simple to-do app built around finishing the one thing in front of you.",
       "trust": "Free · Start without an account · 8 languages",
       "demoLabel": "Try Focus Mode",
@@ -671,7 +671,17 @@
       "demoDone": "Nice work! 🎉 All done for today.",
       "reset": "Once more",
       "demoSkip": "Skip",
-      "demoComplete": "Complete"
+      "demoComplete": "Complete",
+      "interstitial": "Sound familiar?",
+      "bubbles": [
+        "My todo list never sticks…",
+        "Tasks just keep piling up",
+        "Organizing takes forever",
+        "Can't decide where to start",
+        "I dread that red badge",
+        "Quit after three days. Again.",
+        "Same packing list, from scratch"
+      ]
     },
     "statement": {
       "h2": "Not an app for managing tasks. An app for finishing them.",

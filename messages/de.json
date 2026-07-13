@@ -658,8 +658,8 @@
       "cta": "App Store"
     },
     "hero": {
-      "kicker": "Die wievielte To-do-App ist das?",
-      "h1": "Die Liste wächst. Erledigt wird nichts.",
+      "kicker": "Für alle, deren To-do-Listen nie lange halten",
+      "h1": "Eins nach dem anderen — heute.",
       "sub": "Es liegt nicht an dir — die meisten Apps verlangen zu viel Verwaltung. TaskLap ist eine einfache To-do-App, gebaut um das eine Ding vor dir fertigzubekommen.",
       "trust": "Kostenlos · Start ohne Konto · 8 Sprachen",
       "demoLabel": "Fokusmodus ausprobieren",
@@ -671,7 +671,17 @@
       "demoDone": "Gut gemacht! 🎉 Alles erledigt.",
       "reset": "Noch einmal",
       "demoSkip": "Überspringen",
-      "demoComplete": "Erledigt"
+      "demoComplete": "Erledigt",
+      "interstitial": "Kommt dir das bekannt vor?",
+      "bubbles": [
+        "Meine To-do-Liste hält nie lange…",
+        "Aufgaben stapeln sich immer weiter",
+        "Ordnen kostet so viel Zeit",
+        "Ich weiß nicht, womit anfangen",
+        "Das rote Badge will ich nicht sehen",
+        "Nach drei Tagen wieder aufgegeben",
+        "Dieselbe Liste, jedes Mal neu"
+      ]
     },
     "statement": {
       "h2": "Keine App zum Verwalten. Eine App zum Erledigen.",

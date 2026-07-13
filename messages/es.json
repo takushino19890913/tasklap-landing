@@ -658,8 +658,8 @@
       "cta": "App Store"
     },
     "hero": {
-      "kicker": "¿Cuántas apps de tareas llevas ya?",
-      "h1": "La lista crece. Nada se termina.",
+      "kicker": "Para quienes nunca logran mantener su lista",
+      "h1": "Una cosa a la vez, hoy.",
       "sub": "No es culpa tuya: la mayoría de las apps exigen demasiada gestión. TaskLap es una app de tareas simple, hecha para terminar lo que tienes delante.",
       "trust": "Gratis · Empieza sin cuenta · 8 idiomas",
       "demoLabel": "Prueba el modo enfoque",
@@ -671,7 +671,17 @@
       "demoDone": "¡Buen trabajo! 🎉 Todo listo.",
       "reset": "Otra vez",
       "demoSkip": "Omitir",
-      "demoComplete": "Completar"
+      "demoComplete": "Completar",
+      "interstitial": "¿Te suena?",
+      "bubbles": [
+        "Mi lista de tareas nunca dura…",
+        "Las tareas no dejan de acumularse",
+        "Organizar lleva demasiado tiempo",
+        "No sé por dónde empezar",
+        "No quiero ver esa insignia roja",
+        "Lo dejé a los tres días. Otra vez.",
+        "La misma lista, otra vez desde cero"
+      ]
     },
     "statement": {
       "h2": "No una app para gestionar tareas. Una app para terminarlas.",
