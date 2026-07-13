@@ -659,8 +659,8 @@
     },
     "hero": {
       "kicker": "Para quem nunca consegue manter a lista",
-      "h1": "Uma coisa de cada vez, hoje.",
-      "sub": "Não é culpa sua — a maioria dos apps exige gestão demais. O TaskLap é um app de tarefas simples, feito para concluir o que está na sua frente.",
+      "h1": "O app de tarefas feito para concluir.",
+      "sub": "Não é culpa sua — a maioria dos apps exige gestão demais. O TaskLap foi feito para uma coisa só: concluir o que está na sua frente.",
       "trust": "Grátis · Comece sem conta · 8 idiomas",
       "demoLabel": "Experimente o modo foco",
       "demoTasks": [
@@ -672,20 +672,23 @@
       "reset": "Mais uma vez",
       "demoSkip": "Pular",
       "demoComplete": "Concluir",
-      "interstitial": "Parece familiar?",
       "bubbles": [
         "Minha lista de tarefas nunca dura…",
         "As tarefas só se acumulam",
-        "Organizar toma tempo demais",
-        "Não sei por onde começar",
-        "Não quero ver aquele selo vermelho",
-        "Larguei em três dias. De novo.",
-        "A mesma lista, sempre do zero"
-      ]
+        "Organizo mais do que faço",
+        "Nunca sei por onde começar",
+        "O 'atrasado' fica me julgando",
+        "Toda viagem, a mesma lista do zero"
+      ],
+      "h1Top": "O app de tarefas",
+      "h1Bottom": "feito para concluir.",
+      "h1Em": "top"
     },
     "statement": {
       "h2": "Não um app para gerenciar tarefas. Um app para concluí-las.",
-      "sub": "Etiquetas, prioridades, prazos, filtros: quanto mais você organiza, menos você faz. Por isso o TaskLap, em vez de somar funções, subtrai a hesitação."
+      "sub": "Etiquetas, prioridades, prazos, filtros: quanto mais você organiza, menos você faz. Por isso o TaskLap, em vez de somar funções, subtrai a hesitação.",
+      "h2Top": "Não um app para gerenciar.",
+      "h2Bottom": "Um app para concluir."
     },
     "chapters": [
       {
@@ -750,6 +753,13 @@
       "history": "Histórico de Versões",
       "contact": "Contato"
     },
-    "scroll": "Rolar"
+    "scroll": "Rolar",
+    "intro": {
+      "question": "Parece familiar?",
+      "yes": "Demais…",
+      "no": "Nem tanto",
+      "noMsg": "Respeito — você é dos raros que mantêm o ritmo 🙌 Esta página é para o resto de nós. Mas um app leve nunca atrapalhou ninguém.",
+      "noCta": "Vou dar uma olhada mesmo assim"
+    }
   }
 }

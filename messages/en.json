@@ -659,8 +659,8 @@
     },
     "hero": {
       "kicker": "For everyone whose todo list never sticks",
-      "h1": "One thing at a time, today.",
-      "sub": "It's not you — most apps demand too much managing. TaskLap is a simple to-do app built around finishing the one thing in front of you.",
+      "h1": "The to-do app for finishing things.",
+      "sub": "It's not you — most apps demand too much managing. TaskLap was built around one job: finishing the thing in front of you.",
       "trust": "Free · Start without an account · 8 languages",
       "demoLabel": "Try Focus Mode",
       "demoTasks": [
@@ -672,20 +672,23 @@
       "reset": "Once more",
       "demoSkip": "Skip",
       "demoComplete": "Complete",
-      "interstitial": "Sound familiar?",
       "bubbles": [
         "My todo list never sticks…",
         "Tasks just keep piling up",
-        "Organizing takes forever",
+        "I organize more than I actually do",
         "Can't decide where to start",
-        "I dread that red badge",
-        "Quit after three days. Again.",
-        "Same packing list, from scratch"
-      ]
+        "\"Overdue\" labels keep judging me",
+        "Every trip, the same packing list from scratch"
+      ],
+      "h1Top": "The to-do app",
+      "h1Bottom": "for finishing things.",
+      "h1Em": "top"
     },
     "statement": {
       "h2": "Not an app for managing tasks. An app for finishing them.",
-      "sub": "Labels, priorities, deadlines, filters — the more you organize, the less you do. So instead of adding features, TaskLap subtracts the hesitation."
+      "sub": "Labels, priorities, deadlines, filters — the more you organize, the less you do. So instead of adding features, TaskLap subtracts the hesitation.",
+      "h2Top": "Not an app for managing tasks.",
+      "h2Bottom": "An app for finishing them."
     },
     "chapters": [
       {
@@ -750,6 +753,13 @@
       "history": "Version History",
       "contact": "Contact"
     },
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "intro": {
+      "question": "Sound familiar?",
+      "yes": "…Painfully.",
+      "no": "Not really",
+      "noMsg": "Respect — you're one of the rare ones who actually keeps it up 🙌 This page is for the rest of us. But a lighter to-do app never slowed anyone down.",
+      "noCta": "I'll peek anyway"
+    }
   }
 }

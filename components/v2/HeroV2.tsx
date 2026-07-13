@@ -1,5 +1,5 @@
 "use client";
-import {useEffect,useState} from "react"; import {useLocale,useTranslations} from "next-intl"; import {AnimatePresence,motion,useReducedMotion} from "framer-motion"; import {Apple,Check,ChevronDown,ClipboardList,SkipForward} from "lucide-react"; import type {Locale} from "../../i18n"; import {appStoreUrl} from "./app-store";
+import {useCallback,useEffect,useState} from "react"; import {useLocale,useTranslations} from "next-intl"; import {AnimatePresence,motion,useReducedMotion} from "framer-motion"; import {Apple,Check,ChevronDown,ClipboardList,SkipForward} from "lucide-react"; import type {Locale} from "../../i18n"; import {appStoreUrl} from "./app-store";
 
 // ヒーロー右側は「フォーカスモード」の体験デモ（アプリの一画面一タスクUIを再現）
 function FocusDemo(){
@@ -34,52 +34,78 @@ function FocusDemo(){
  </div>;
 }
 
-// イントロ演出: 悩み吹き出しが順に湧く → 一斉に消える → 「そんなあなたに、」→ 本体コピーが立ち上がる。
-// 発火判定は app/layout.tsx の inline script（data-intro属性・セッション1回・reduced-motion除外）。
-const BUBBLE_POS=[
- {x:32,y:5,d:.2,r:-2,s:1.3},   // 1個目=リード（大きめ・中央上）
- {x:6,y:26,d:.6,r:-5,s:1},
- {x:60,y:22,d:.9,r:3,s:1},
- {x:20,y:48,d:1.2,r:2,s:.95},
- {x:66,y:52,d:1.45,r:-3,s:1.05},
- {x:10,y:70,d:1.7,r:4,s:.95},
- {x:44,y:76,d:1.9,r:-2,s:1},
-];
+// イントロ: 悩み吹き出しがチャット風に積み上がる → 「そんな悩み、ありませんか？」に Yes/No で答える →
+// Yes: 吹き出しを払ってヒーローへ / No: ユーモア返しから合流。
+// 発火判定は app/layout.tsx の inline script（data-intro 属性・セッション1回・reduced-motion 除外）。
+const spring={type:"spring",stiffness:420,damping:28} as const;
 
 function IntroLayer(){
  const t=useTranslations("v2");
  const bubbles=t.raw("hero.bubbles") as string[];
- useEffect(()=>{
-  const el=document.documentElement;
-  if(!el.hasAttribute("data-intro"))return;
-  const done=()=>el.removeAttribute("data-intro");
-  const tm=setTimeout(done,5000);
-  const skip=()=>{clearTimeout(tm);done()};
-  const opts={once:true} as const;
-  addEventListener("pointerdown",skip,opts);
-  addEventListener("wheel",skip,{once:true,passive:true});
-  addEventListener("keydown",skip,opts);
-  return()=>{clearTimeout(tm);removeEventListener("pointerdown",skip);removeEventListener("wheel",skip);removeEventListener("keydown",skip)};
+ const [active,setActive]=useState(false);
+ const [shown,setShown]=useState(0);            // 何個目の吹き出しまで出したか（bubbles.length+1 = 質問カード）
+ const [phase,setPhase]=useState<"chat"|"no"|"leaving">("chat");
+ useEffect(()=>{setActive(document.documentElement.hasAttribute("data-intro"))},[]);
+ const reveal=useCallback(()=>{
+  setPhase("leaving");
+  setTimeout(()=>{const el=document.documentElement;el.removeAttribute("data-intro");el.setAttribute("data-intro-reveal","1");setActive(false)},480);
  },[]);
- return <div className="intro-bubbles" aria-hidden="true">
-  {bubbles.map((b,i)=>{const p=BUBBLE_POS[i]||BUBBLE_POS[0];
-   return <div key={i} className="b-out" style={{"--bx":`${p.x}%`,"--by":`${p.y}%`,"--bd":`${p.d}s`,"--br":p.r,"--bs":p.s} as React.CSSProperties}>
-    <div className="b-pop"><span className="intro-bubble">{b}</span></div>
-   </div>;})}
-  <div className="intro-interstitial">{t("hero.interstitial")}</div>
- </div>;
+ useEffect(()=>{ // 吹き出し→質問カードの順次表示
+  if(!active)return;
+  const timers=bubbles.map((_,i)=>setTimeout(()=>setShown(s=>Math.max(s,i+1)),300+i*380));
+  timers.push(setTimeout(()=>setShown(bubbles.length+1),300+bubbles.length*380+300));
+  return()=>timers.forEach(clearTimeout);
+ },[active,bubbles]);
+ useEffect(()=>{ // スクロール/Escで即スキップ
+  if(!active)return;
+  const skip=()=>reveal();
+  const key=(e:KeyboardEvent)=>{if(e.key==="Escape")skip()};
+  addEventListener("wheel",skip,{once:true,passive:true});
+  addEventListener("touchmove",skip,{once:true,passive:true});
+  addEventListener("keydown",key);
+  return()=>{removeEventListener("wheel",skip);removeEventListener("touchmove",skip);removeEventListener("keydown",key)};
+ },[active,reveal]);
+ if(!active)return null;
+ return <motion.div className="intro-overlay" initial={{opacity:1}} animate={{opacity:phase==="leaving"?0:1}} transition={{duration:.45,ease:"easeOut"}}>
+  <div className="hero-glow hero-glow-a"/><div className="hero-glow hero-glow-b"/>
+  <div className="intro-panel">
+   {bubbles.map((b,i)=>
+    <motion.div key={i} className={`intro-row${i%2?" is-right":""}`}
+     initial={{opacity:0,y:18,scale:.7}}
+     animate={i<shown?(phase==="leaving"?{opacity:0,y:-30,scale:.9,transition:{duration:.3,delay:i*.04}}:{opacity:1,y:0,scale:1,transition:{...spring,delay:0}}):{}}
+    ><span className="intro-bubble" style={{transform:`rotate(${i%2?1.2:-1.2}deg)`}}>{b}</span></motion.div>)}
+   <AnimatePresence mode="wait">
+    {shown>bubbles.length&&phase==="chat"&&
+     <motion.div key="q" className="intro-q" initial={{opacity:0,y:22,scale:.95}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:0,y:-10,scale:.97}} transition={spring}>
+      <p>{t("intro.question")}</p>
+      <div className="intro-q-actions">
+       <button className="intro-yes" onClick={reveal}>{t("intro.yes")}</button>
+       <button className="intro-no" onClick={()=>setPhase("no")}>{t("intro.no")}</button>
+      </div>
+     </motion.div>}
+    {phase==="no"&&
+     <motion.div key="no" className="intro-q" initial={{opacity:0,y:22,scale:.95}} animate={{opacity:1,y:0,scale:1}} transition={spring}>
+      <p className="intro-no-msg">{t("intro.noMsg")}</p>
+      <div className="intro-q-actions"><button className="intro-yes" onClick={reveal}>{t("intro.noCta")}</button></div>
+     </motion.div>}
+   </AnimatePresence>
+  </div>
+ </motion.div>;
 }
 
 const late=(s:number)=>({"--ld":`${s}s`} as React.CSSProperties);
 
-export default function HeroV2(){const t=useTranslations("v2"),locale=useLocale() as Locale,reduce=useReducedMotion();return <section className="v2-hero"><div className="hero-glow hero-glow-a"/><div className="hero-glow hero-glow-b"/><IntroLayer/><div className="v2-container relative grid min-h-[92svh] items-center gap-14 pb-20 pt-28 lg:grid-cols-[1.05fr_.95fr]">
+export default function HeroV2(){const t=useTranslations("v2"),locale=useLocale() as Locale,reduce=useReducedMotion();const em=t("hero.h1Em");return <section className="v2-hero"><div className="hero-glow hero-glow-a"/><div className="hero-glow hero-glow-b"/><IntroLayer/><div className="v2-container relative grid min-h-[92svh] items-center gap-14 pb-20 pt-28 lg:grid-cols-[1.05fr_.95fr]">
  <div>
-  <div className="v2-kicker intro-late" style={late(3.55)}>{t("hero.kicker")}</div>
-  <h1 className="hero-title mt-6 intro-late" style={late(3.65)}>{t("hero.h1")}</h1>
-  <p className="mt-6 max-w-xl text-base leading-[1.9] text-muted sm:text-lg intro-late" style={late(3.8)}>{t("hero.sub")}</p>
-  <div className="mt-8 flex flex-wrap items-center gap-3 intro-late" style={late(3.9)}><a href={appStoreUrl(locale)} target="_blank" rel="noreferrer" className="app-store-badge"><Apple fill="currentColor" size={27}/><span><small>Download on the</small><strong>App Store</strong></span></a><span className="soon-pill">{t("playSoon")}</span></div>
-  <p className="mt-5 text-sm font-bold text-muted intro-late" style={late(3.95)}>{t("hero.trust")}</p>
+  <div className="v2-kicker intro-late" style={late(.05)}>{t("hero.kicker")}</div>
+  <h1 className="hero-title mt-6 intro-late" style={late(.14)}>
+   <span className={`block ${em==="top"?"text-v2-accent":""}`}>{t("hero.h1Top")}</span>
+   <span className={`block ${em==="bottom"?"text-v2-accent":""}`}>{t("hero.h1Bottom")}</span>
+  </h1>
+  <p className="mt-6 max-w-xl text-base leading-[1.9] text-muted sm:text-lg intro-late" style={late(.26)}>{t("hero.sub")}</p>
+  <div className="mt-8 flex flex-wrap items-center gap-3 intro-late" style={late(.34)}><a href={appStoreUrl(locale)} target="_blank" rel="noreferrer" className="app-store-badge"><Apple fill="currentColor" size={27}/><span><small>Download on the</small><strong>App Store</strong></span></a><span className="soon-pill">{t("playSoon")}</span></div>
+  <p className="mt-5 text-sm font-bold text-muted intro-late" style={late(.4)}>{t("hero.trust")}</p>
  </div>
- <div className="relative mx-auto w-full max-w-[480px] intro-late" style={late(3.85)}><div className="demo-label">{t("hero.demoLabel")}</div><FocusDemo/></div>
- <motion.a href="#statement" className="scroll-cue intro-late" style={late(4.2)} animate={reduce?{}:{y:[0,8,0]}} transition={{duration:2,repeat:Infinity}}><span>{t("scroll")}</span><ChevronDown size={16}/></motion.a>
+ <div className="relative mx-auto w-full max-w-[480px] intro-late" style={late(.3)}><div className="demo-label">{t("hero.demoLabel")}</div><FocusDemo/></div>
+ <motion.a href="#statement" className="scroll-cue intro-late" style={late(.55)} animate={reduce?{}:{y:[0,8,0]}} transition={{duration:2,repeat:Infinity}}><span>{t("scroll")}</span><ChevronDown size={16}/></motion.a>
  </div></section>}

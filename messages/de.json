@@ -659,8 +659,8 @@
     },
     "hero": {
       "kicker": "Für alle, deren To-do-Listen nie lange halten",
-      "h1": "Eins nach dem anderen — heute.",
-      "sub": "Es liegt nicht an dir — die meisten Apps verlangen zu viel Verwaltung. TaskLap ist eine einfache To-do-App, gebaut um das eine Ding vor dir fertigzubekommen.",
+      "h1": "Die To-do-App fürs Fertigwerden.",
+      "sub": "Es liegt nicht an dir — die meisten Apps verlangen zu viel Verwaltung. TaskLap wurde für genau eine Sache gebaut: das Ding vor dir fertigzubekommen.",
       "trust": "Kostenlos · Start ohne Konto · 8 Sprachen",
       "demoLabel": "Fokusmodus ausprobieren",
       "demoTasks": [
@@ -672,20 +672,23 @@
       "reset": "Noch einmal",
       "demoSkip": "Überspringen",
       "demoComplete": "Erledigt",
-      "interstitial": "Kommt dir das bekannt vor?",
       "bubbles": [
         "Meine To-do-Liste hält nie lange…",
-        "Aufgaben stapeln sich immer weiter",
-        "Ordnen kostet so viel Zeit",
-        "Ich weiß nicht, womit anfangen",
-        "Das rote Badge will ich nicht sehen",
-        "Nach drei Tagen wieder aufgegeben",
-        "Dieselbe Liste, jedes Mal neu"
-      ]
+        "Aufgaben stapeln sich nur",
+        "Ich ordne mehr, als ich erledige",
+        "Ich weiß nie, womit anfangen",
+        "'Überfällig' macht mir ein schlechtes Gewissen",
+        "Vor jeder Reise dieselbe Packliste neu"
+      ],
+      "h1Top": "Die To-do-App",
+      "h1Bottom": "fürs Fertigwerden.",
+      "h1Em": "top"
     },
     "statement": {
       "h2": "Keine App zum Verwalten. Eine App zum Erledigen.",
-      "sub": "Labels, Prioritäten, Fristen, Filter — je mehr du organisierst, desto weniger tust du. Statt Funktionen hinzuzufügen, zieht TaskLap das Zögern ab."
+      "sub": "Labels, Prioritäten, Fristen, Filter — je mehr du organisierst, desto weniger tust du. Statt Funktionen hinzuzufügen, zieht TaskLap das Zögern ab.",
+      "h2Top": "Keine App zum Verwalten.",
+      "h2Bottom": "Eine App zum Erledigen."
     },
     "chapters": [
       {
@@ -750,6 +753,13 @@
       "history": "Versionsverlauf",
       "contact": "Kontakt"
     },
-    "scroll": "Scrollen"
+    "scroll": "Scrollen",
+    "intro": {
+      "question": "Kommt dir das bekannt vor?",
+      "yes": "Leider ja …",
+      "no": "Eigentlich nicht",
+      "noMsg": "Respekt — du gehörst zu den wenigen, die dranbleiben 🙌 Diese Seite ist für den Rest von uns. Aber eine leichte To-do-App hat noch niemanden gebremst.",
+      "noCta": "Ich schau trotzdem mal"
+    }
   }
 }

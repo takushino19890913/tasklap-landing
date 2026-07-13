@@ -659,8 +659,8 @@
     },
     "hero": {
       "kicker": "Para quienes nunca logran mantener su lista",
-      "h1": "Una cosa a la vez, hoy.",
-      "sub": "No es culpa tuya: la mayoría de las apps exigen demasiada gestión. TaskLap es una app de tareas simple, hecha para terminar lo que tienes delante.",
+      "h1": "La app de tareas para terminarlas.",
+      "sub": "No es culpa tuya: la mayoría de las apps exigen demasiada gestión. TaskLap se construyó para una sola cosa: terminar lo que tienes delante.",
       "trust": "Gratis · Empieza sin cuenta · 8 idiomas",
       "demoLabel": "Prueba el modo enfoque",
       "demoTasks": [
@@ -672,20 +672,23 @@
       "reset": "Otra vez",
       "demoSkip": "Omitir",
       "demoComplete": "Completar",
-      "interstitial": "¿Te suena?",
       "bubbles": [
         "Mi lista de tareas nunca dura…",
-        "Las tareas no dejan de acumularse",
-        "Organizar lleva demasiado tiempo",
+        "Las tareas solo se acumulan",
+        "Organizo más de lo que hago",
         "No sé por dónde empezar",
-        "No quiero ver esa insignia roja",
-        "Lo dejé a los tres días. Otra vez.",
-        "La misma lista, otra vez desde cero"
-      ]
+        "Lo 'vencido' me hace sentir culpable",
+        "Cada viaje, la misma lista desde cero"
+      ],
+      "h1Top": "La app de tareas",
+      "h1Bottom": "para terminarlas.",
+      "h1Em": "top"
     },
     "statement": {
       "h2": "No una app para gestionar tareas. Una app para terminarlas.",
-      "sub": "Etiquetas, prioridades, fechas límite, filtros: cuanto más organizas, menos haces. Por eso TaskLap, en vez de sumar funciones, resta dudas."
+      "sub": "Etiquetas, prioridades, fechas límite, filtros: cuanto más organizas, menos haces. Por eso TaskLap, en vez de sumar funciones, resta dudas.",
+      "h2Top": "No una app para gestionar tareas.",
+      "h2Bottom": "Una app para terminarlas."
     },
     "chapters": [
       {
@@ -750,6 +753,13 @@
       "history": "Historial de versiones",
       "contact": "Contacto"
     },
-    "scroll": "Desplázate"
+    "scroll": "Desplázate",
+    "intro": {
+      "question": "¿Te suena?",
+      "yes": "Demasiado…",
+      "no": "La verdad, no",
+      "noMsg": "Respeto: eres de los pocos que lo mantienen 🙌 Esta página es para el resto de nosotros. Pero una app ligera nunca frenó a nadie.",
+      "noCta": "Echaré un vistazo igual"
+    }
   }
 }

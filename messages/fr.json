@@ -659,8 +659,8 @@
     },
     "hero": {
       "kicker": "Pour ceux dont la liste ne tient jamais",
-      "h1": "Une chose à la fois, aujourd'hui.",
-      "sub": "Ce n'est pas vous — la plupart des applis exigent trop de gestion. TaskLap est une appli de tâches simple, pensée pour terminer la chose juste devant vous.",
+      "h1": "L'appli de tâches faite pour finir.",
+      "sub": "Ce n'est pas vous — la plupart des applis exigent trop de gestion. TaskLap a été conçue pour une seule chose : terminer ce qui est devant vous.",
       "trust": "Gratuit · Sans compte pour commencer · 8 langues",
       "demoLabel": "Essayez le mode focus",
       "demoTasks": [
@@ -672,20 +672,23 @@
       "reset": "Encore une fois",
       "demoSkip": "Passer",
       "demoComplete": "Terminer",
-      "interstitial": "Ça vous parle ?",
       "bubbles": [
         "Ma liste de tâches ne tient jamais…",
-        "Les tâches s'accumulent sans fin",
-        "Organiser prend un temps fou",
-        "Impossible de savoir par où commencer",
-        "Ce badge rouge, je ne veux plus le voir",
-        "Arrêté au bout de trois jours. Encore.",
-        "La même liste, refaite à chaque fois"
-      ]
+        "Les tâches ne font que s'accumuler",
+        "J'organise plus que je n'agis",
+        "Je ne sais jamais par où commencer",
+        "Le « en retard » me culpabilise",
+        "À chaque voyage, la même liste à refaire"
+      ],
+      "h1Top": "L'appli de tâches",
+      "h1Bottom": "faite pour finir.",
+      "h1Em": "top"
     },
     "statement": {
       "h2": "Pas une appli pour gérer. Une appli pour terminer.",
-      "sub": "Étiquettes, priorités, échéances, filtres : plus on organise, moins on agit. Alors au lieu d'ajouter des fonctions, TaskLap soustrait l'hésitation."
+      "sub": "Étiquettes, priorités, échéances, filtres : plus on organise, moins on agit. Alors au lieu d'ajouter des fonctions, TaskLap soustrait l'hésitation.",
+      "h2Top": "Pas une appli pour gérer.",
+      "h2Bottom": "Une appli pour terminer."
     },
     "chapters": [
       {
@@ -750,6 +753,13 @@
       "history": "Historique des versions",
       "contact": "Contact"
     },
-    "scroll": "Défiler"
+    "scroll": "Défiler",
+    "intro": {
+      "question": "Ça vous parle ?",
+      "yes": "Beaucoup trop…",
+      "no": "Pas vraiment",
+      "noMsg": "Respect — vous faites partie des rares qui tiennent bon 🙌 Cette page est pour nous autres. Mais une appli légère n'a jamais ralenti personne.",
+      "noCta": "Je jette un œil quand même"
+    }
   }
 }
