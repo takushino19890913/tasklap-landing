@@ -690,8 +690,16 @@
         "Será que… sou eu?",
         "Talvez papel fosse melhor",
         "Aff……",
-        "CHEGA de apps de tarefas!",
-        "Não dá!!"
+        "Nem três dias durou",
+        "Deslizo todas as notificações",
+        "Autocrítica toda vez que olho",
+        "“Amanhã” (nunca)",
+        "Instala, apaga, repete",
+        "Configurei perfeito. E só.",
+        "Nem conto mais o acumulado",
+        "Vou esquecer de qualquer jeito",
+        "Não dá!!",
+        "CHEGA de apps de tarefas!"
       ]
     },
     "statement": {
@@ -769,7 +777,10 @@
       "yes": "Demais…",
       "no": "Nem tanto",
       "noMsg": "Respeito — você é dos raros que mantêm o ritmo 🙌 Esta página é para o resto de nós. Mas um app leve nunca atrapalhou ninguém.",
-      "noCta": "Vou dar uma olhada mesmo assim"
+      "noCta": "Vou dar uma olhada mesmo assim",
+      "bridgeTop": "Boa notícia —",
+      "bridgeBottom": "existe um app de tarefas pra isso.",
+      "dragHint": "※ Você pode arrastar este balão"
     }
   }
 }

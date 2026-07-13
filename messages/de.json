@@ -690,8 +690,16 @@
         "Liegt es… an mir?",
         "Papier war vielleicht doch besser",
         "Haaach……",
-        "Ich bin FERTIG mit To-do-Apps!",
-        "Nö!!"
+        "Drei Tage. Wie immer.",
+        "Ich wische jede Benachrichtigung weg",
+        "Selbstvorwürfe bei jedem Blick",
+        "„Morgen“ (also nie)",
+        "Installieren, löschen, wiederholen",
+        "Perfekt eingerichtet. Das war's.",
+        "Den Rückstand zähle ich nicht mehr",
+        "Ich vergesse es ja doch",
+        "Nö!!",
+        "Ich bin FERTIG mit To-do-Apps!"
       ]
     },
     "statement": {
@@ -769,7 +777,10 @@
       "yes": "Leider ja …",
       "no": "Eigentlich nicht",
       "noMsg": "Respekt — du gehörst zu den wenigen, die dranbleiben 🙌 Diese Seite ist für den Rest von uns. Aber eine leichte To-do-App hat noch niemanden gebremst.",
-      "noCta": "Ich schau trotzdem mal"
+      "noCta": "Ich schau trotzdem mal",
+      "bridgeTop": "Gute Nachricht —",
+      "bridgeBottom": "dafür gibt es eine To-do-App.",
+      "dragHint": "※ Diese Sprechblase lässt sich verschieben"
     }
   }
 }

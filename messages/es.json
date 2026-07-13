@@ -690,8 +690,16 @@
         "¿Será… culpa mía?",
         "Quizá el papel estaba bien",
         "Aggg……",
-        "¡Estoy HARTO de las apps de tareas!",
-        "¡Basta!"
+        "Ni tres días duré",
+        "Deslizo todas las notificaciones",
+        "Autodesprecio cada vez que la miro",
+        "“Mañana” (nunca)",
+        "Instalar, borrar, repetir",
+        "La configuré perfecta. Y ya.",
+        "Ya ni cuento lo pendiente",
+        "Total, se me olvidará",
+        "¡Basta!",
+        "¡Estoy HARTO de las apps de tareas!"
       ]
     },
     "statement": {
@@ -769,7 +777,10 @@
       "yes": "Demasiado…",
       "no": "La verdad, no",
       "noMsg": "Respeto: eres de los pocos que lo mantienen 🙌 Esta página es para el resto de nosotros. Pero una app ligera nunca frenó a nadie.",
-      "noCta": "Echaré un vistazo igual"
+      "noCta": "Echaré un vistazo igual",
+      "bridgeTop": "Buenas noticias:",
+      "bridgeBottom": "hay una app de tareas para eso.",
+      "dragHint": "※ Puedes arrastrar esta burbuja"
     }
   }
 }

@@ -50,16 +50,24 @@ const BUBBLE_LAYOUT=[
 ] as const;
 // 第二幕: 感情の決壊（画面のあちこちに、加速しながら割り込む）
 const EMO_LAYOUT:{x:string;y:string;rot:number;scale:number;at:number;hot?:boolean}[]=[
- {x:"12%",y:"16%",rot:-7,scale:.9, at:3950},
- {x:"68%",y:"12%",rot:5, scale:1,  at:4250},
- {x:"6%", y:"48%",rot:4, scale:.95,at:4500},
- {x:"74%",y:"42%",rot:-5,scale:.85,at:4700},
- {x:"10%",y:"74%",rot:-4,scale:1,  at:4860},
- {x:"66%",y:"72%",rot:6, scale:.9, at:4990},
- {x:"28%",y:"34%",rot:-3,scale:1.55,at:5110,hot:true}, // 「Todoアプリなんて、もう嫌だ！」
- {x:"58%",y:"56%",rot:8, scale:.8, at:5210},
+ {x:"12%",y:"14%",rot:-7,scale:.9, at:3950},
+ {x:"70%",y:"11%",rot:5, scale:.95,at:4250},
+ {x:"5%", y:"46%",rot:4, scale:.9, at:4520},
+ {x:"76%",y:"40%",rot:-5,scale:.85,at:4760},
+ {x:"9%", y:"72%",rot:-4,scale:.95,at:4970},
+ {x:"66%",y:"74%",rot:6, scale:.85,at:5160},
+ {x:"40%",y:"8%", rot:-3,scale:.8, at:5330},
+ {x:"58%",y:"60%",rot:8, scale:.8, at:5480},
+ {x:"24%",y:"26%",rot:5, scale:.85,at:5610},
+ {x:"82%",y:"58%",rot:-6,scale:.8, at:5725},
+ {x:"16%",y:"58%",rot:3, scale:.8, at:5825},
+ {x:"48%",y:"86%",rot:-5,scale:.85,at:5915},
+ {x:"80%",y:"24%",rot:4, scale:.9, at:5995},
+ {x:"30%",y:"68%",rot:-6,scale:.8, at:6070},
+ {x:"60%",y:"30%",rot:7, scale:.78,at:6140},
+ {x:"26%",y:"36%",rot:-3,scale:1.5,at:6280,hot:true}, // 最後に最大の叫び「Todoアプリなんて、もう嫌だ！」
 ];
-const QUESTION_AT=5750; // 決壊のあと一拍おいて問いかけ
+const QUESTION_AT=7000; // 決壊のあと一拍おいて問いかけ
 
 function IntroLayer(){
  const t=useTranslations("v2");
@@ -68,7 +76,7 @@ function IntroLayer(){
  const [active,setActive]=useState(false);
  const [shown,setShown]=useState(0);        // 具体的な愚痴の表示数
  const [emoShown,setEmoShown]=useState(0);  // 感情吹き出しの表示数
- const [phase,setPhase]=useState<"flood"|"ask"|"no"|"leaving">("flood");
+ const [phase,setPhase]=useState<"flood"|"ask"|"no"|"bridge"|"leaving">("flood");
  useEffect(()=>{setActive(document.documentElement.hasAttribute("data-intro"))},[]);
  const reveal=useCallback(()=>{
   setPhase("leaving");
@@ -94,15 +102,16 @@ function IntroLayer(){
  },[active,reveal]);
  if(!active)return null;
  const asking=phase==="ask"||phase==="no";
+ const sweeping=phase==="bridge"||phase==="leaving";
  return <motion.div className="intro-overlay" initial={{opacity:1}} animate={{opacity:phase==="leaving"?0:1}} transition={{duration:.45,ease:"easeOut"}}>
   <div className="hero-glow hero-glow-a"/><div className="hero-glow hero-glow-b"/>
   {/* 第一幕: 具体的な愚痴（問いかけ時は薄く残す） */}
-  <div className={`intro-panel${asking?" is-dim":""}`}>
+  <div className="intro-panel">
    {bubbles.map((b,i)=>{const L=BUBBLE_LAYOUT[i]||BUBBLE_LAYOUT[0];
     return <motion.div key={i} className={`intro-row${L.side==="r"?" is-right":""}`}
      style={{marginTop:L.gap,[L.side==="r"?"paddingRight":"paddingLeft"]:L.inset} as React.CSSProperties}
      initial={{opacity:0,y:18,scale:.7}}
-     animate={i<shown?(phase==="leaving"?{opacity:0,y:-30,scale:.9,transition:{duration:.3,delay:i*.04}}:{opacity:1,y:0,scale:1,transition:spring}):{}}
+     animate={i<shown?(sweeping?{opacity:0,y:-30,scale:.9,transition:{duration:.3,delay:i*.04}}:{opacity:1,y:0,scale:1,transition:spring}):{}}
     ><span className="intro-bubble" style={{transform:`rotate(${L.rot}deg)`,"--bsc":L.scale} as React.CSSProperties}>{b}</span></motion.div>;})}
   </div>
   {/* 第二幕: 感情の決壊（問いかけ時にはすっと消える） */}
@@ -110,23 +119,33 @@ function IntroLayer(){
    return <motion.div key={`e${i}`} className={`intro-emo emo-${i}${E.hot?" is-hot":""}`}
     style={{"--ex":E.x,"--ey":E.y} as React.CSSProperties}
     initial={{opacity:0,y:14,scale:.5}}
-    animate={i<emoShown?(phase!=="flood"?{opacity:0,scale:.6,transition:{duration:.22,delay:i*.03}}:{opacity:1,y:0,scale:1,transition:{type:"spring",stiffness:520,damping:24}}):{}}
+    animate={i<emoShown?(sweeping?{opacity:0,scale:.6,transition:{duration:.22,delay:i*.02}}:asking?{opacity:E.hot?1:.55,y:0,scale:1,transition:{duration:.4}}:{opacity:1,y:0,scale:1,transition:{type:"spring",stiffness:520,damping:24}}):{}}
    ><span className="intro-bubble" style={{transform:`rotate(${E.rot}deg)`,"--bsc":E.scale} as React.CSSProperties}>{b}</span></motion.div>;})}
   {/* 第三幕: 問いかけ */}
   <AnimatePresence mode="wait">
    {phase==="ask"&&
-    <div className="intro-ask" key="ask"><motion.div className="intro-q" initial={{opacity:0,y:26,scale:.92}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:0,y:-10,scale:.97}} transition={spring}>
-     <p>{t("intro.question")}</p>
-     <div className="intro-q-actions">
-      <button className="intro-yes" onClick={reveal}>{t("intro.yes")}</button>
-      <button className="intro-no" onClick={()=>setPhase("no")}>{t("intro.no")}</button>
+    <div className="intro-ask" key="ask"><motion.div drag dragMomentum={false} className="intro-q" initial={{opacity:0,y:26,scale:.92}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:0,y:-10,scale:.97}} transition={spring}>
+     <div className="intro-q-inner">
+      <p>{t("intro.question")}</p>
+      <div className="intro-q-actions">
+       <button className="intro-yes" onClick={()=>{setPhase("bridge");setTimeout(reveal,1600)}}>{t("intro.yes")}</button>
+       <button className="intro-no" onClick={()=>setPhase("no")}>{t("intro.no")}</button>
+      </div>
+      <p className="intro-drag-hint">{t("intro.dragHint")}</p>
      </div>
     </motion.div></div>}
    {phase==="no"&&
-    <div className="intro-ask" key="no"><motion.div className="intro-q" initial={{opacity:0,y:26,scale:.92}} animate={{opacity:1,y:0,scale:1}} transition={spring}>
-     <p className="intro-no-msg">{t("intro.noMsg")}</p>
-     <div className="intro-q-actions"><button className="intro-yes" onClick={reveal}>{t("intro.noCta")}</button></div>
+    <div className="intro-ask" key="no"><motion.div drag dragMomentum={false} className="intro-q" initial={{opacity:0,y:26,scale:.92}} animate={{opacity:1,y:0,scale:1}} transition={spring}>
+     <div className="intro-q-inner">
+      <p className="intro-no-msg">{t("intro.noMsg")}</p>
+      <div className="intro-q-actions"><button className="intro-yes" onClick={reveal}>{t("intro.noCta")}</button></div>
+      <p className="intro-drag-hint">{t("intro.dragHint")}</p>
+     </div>
     </motion.div></div>}
+   {phase==="bridge"&&
+    <div className="intro-ask" key="bridge"><motion.p className="intro-bridge" initial={{opacity:0,scale:.82,y:26}} animate={{opacity:1,scale:1,y:0}} transition={{type:"spring",stiffness:300,damping:22}}>
+     <span className="block">{t("intro.bridgeTop")}</span><span className="block bridge-em">{t("intro.bridgeBottom")}</span>
+    </motion.p></div>}
   </AnimatePresence>
  </motion.div>;
 }

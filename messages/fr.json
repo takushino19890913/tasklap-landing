@@ -690,8 +690,16 @@
         "C'est… moi le problème ?",
         "Le papier, c'était bien finalement",
         "Pfff……",
-        "J'en ai MARRE des applis de tâches !",
-        "Stop !!"
+        "Même pas tenu trois jours",
+        "Je balaie toutes les notifications",
+        "Je m'en veux à chaque coup d'œil",
+        "« Demain » (jamais)",
+        "Installer, supprimer, recommencer",
+        "Configurée parfaitement. Point final.",
+        "Je ne compte même plus le retard",
+        "De toute façon j'oublierai",
+        "Stop !!",
+        "J'en ai MARRE des applis de tâches !"
       ]
     },
     "statement": {
@@ -769,7 +777,10 @@
       "yes": "Beaucoup trop…",
       "no": "Pas vraiment",
       "noMsg": "Respect — vous faites partie des rares qui tiennent bon 🙌 Cette page est pour nous autres. Mais une appli légère n'a jamais ralenti personne.",
-      "noCta": "Je jette un œil quand même"
+      "noCta": "Je jette un œil quand même",
+      "bridgeTop": "Bonne nouvelle —",
+      "bridgeBottom": "il existe une appli pour ça.",
+      "dragHint": "※ Cette bulle se déplace"
     }
   }
 }

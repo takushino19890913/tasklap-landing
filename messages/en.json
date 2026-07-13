@@ -690,8 +690,16 @@
         "Is it… me?",
         "Maybe paper was fine after all",
         "Ugh……",
-        "I'm DONE with todo apps!",
-        "Nope!!"
+        "Three days. As always.",
+        "I swipe away every notification",
+        "Self-loathing every time I look",
+        "\"Tomorrow\" (never)",
+        "Install, delete, repeat",
+        "Set it up perfectly. That was it.",
+        "Can't even count the backlog",
+        "I'll forget anyway",
+        "Nope!!",
+        "I'm DONE with todo apps!"
       ]
     },
     "statement": {
@@ -769,7 +777,10 @@
       "yes": "…Painfully.",
       "no": "Not really",
       "noMsg": "Respect — you're one of the rare ones who actually keeps it up 🙌 This page is for the rest of us. But a lighter to-do app never slowed anyone down.",
-      "noCta": "I'll peek anyway"
+      "noCta": "I'll peek anyway",
+      "bridgeTop": "Good news —",
+      "bridgeBottom": "there's a to-do app for that.",
+      "dragHint": "Psst — you can drag this bubble aside"
     }
   }
 }
