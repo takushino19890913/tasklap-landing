@@ -39,6 +39,17 @@ function FocusDemo(){
 // 発火判定は app/layout.tsx の inline script（data-intro 属性・セッション1回・reduced-motion 除外）。
 const spring={type:"spring",stiffness:420,damping:28} as const;
 
+// 規則的なジグザグを避けるための不規則な組版: 横インセット/縦間隔/傾き/大きさ/出現時刻を1個ずつ変える
+const BUBBLE_LAYOUT=[
+ {side:"l",inset:"0%",  gap:0,  rot:-1.8,scale:1.16,at:250},
+ {side:"r",inset:"5%",  gap:6,  rot:1.1, scale:1,   at:850},
+ {side:"l",inset:"13%", gap:20, rot:-0.5,scale:.93, at:1200},
+ {side:"r",inset:"0%",  gap:4,  rot:2.0, scale:1.05,at:1850},
+ {side:"l",inset:"4%",  gap:24, rot:-1.2,scale:.96, at:2250},
+ {side:"r",inset:"11%", gap:10, rot:0.7, scale:1,   at:2800},
+] as const;
+const QUESTION_AT=3350;
+
 function IntroLayer(){
  const t=useTranslations("v2");
  const bubbles=t.raw("hero.bubbles") as string[];
@@ -50,10 +61,10 @@ function IntroLayer(){
   setPhase("leaving");
   setTimeout(()=>{const el=document.documentElement;el.removeAttribute("data-intro");el.setAttribute("data-intro-reveal","1");setActive(false)},480);
  },[]);
- useEffect(()=>{ // 吹き出し→質問カードの順次表示
+ useEffect(()=>{ // 吹き出し→質問カードの順次表示（不規則な間隔）
   if(!active)return;
-  const timers=bubbles.map((_,i)=>setTimeout(()=>setShown(s=>Math.max(s,i+1)),300+i*380));
-  timers.push(setTimeout(()=>setShown(bubbles.length+1),300+bubbles.length*380+300));
+  const timers=bubbles.map((_,i)=>setTimeout(()=>setShown(s=>Math.max(s,i+1)),(BUBBLE_LAYOUT[i]||BUBBLE_LAYOUT[0]).at));
+  timers.push(setTimeout(()=>setShown(bubbles.length+1),QUESTION_AT));
   return()=>timers.forEach(clearTimeout);
  },[active,bubbles]);
  useEffect(()=>{ // スクロール/Escで即スキップ
@@ -69,11 +80,12 @@ function IntroLayer(){
  return <motion.div className="intro-overlay" initial={{opacity:1}} animate={{opacity:phase==="leaving"?0:1}} transition={{duration:.45,ease:"easeOut"}}>
   <div className="hero-glow hero-glow-a"/><div className="hero-glow hero-glow-b"/>
   <div className="intro-panel">
-   {bubbles.map((b,i)=>
-    <motion.div key={i} className={`intro-row${i%2?" is-right":""}`}
+   {bubbles.map((b,i)=>{const L=BUBBLE_LAYOUT[i]||BUBBLE_LAYOUT[0];
+    return <motion.div key={i} className={`intro-row${L.side==="r"?" is-right":""}`}
+     style={{marginTop:L.gap,[L.side==="r"?"paddingRight":"paddingLeft"]:L.inset} as React.CSSProperties}
      initial={{opacity:0,y:18,scale:.7}}
      animate={i<shown?(phase==="leaving"?{opacity:0,y:-30,scale:.9,transition:{duration:.3,delay:i*.04}}:{opacity:1,y:0,scale:1,transition:{...spring,delay:0}}):{}}
-    ><span className="intro-bubble" style={{transform:`rotate(${i%2?1.2:-1.2}deg)`}}>{b}</span></motion.div>)}
+    ><span className="intro-bubble" style={{transform:`rotate(${L.rot}deg)`,"--bsc":L.scale} as React.CSSProperties}>{b}</span></motion.div>;})}
    <AnimatePresence mode="wait">
     {shown>bubbles.length&&phase==="chat"&&
      <motion.div key="q" className="intro-q" initial={{opacity:0,y:22,scale:.95}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:0,y:-10,scale:.97}} transition={spring}>

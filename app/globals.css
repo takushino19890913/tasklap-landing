@@ -21,9 +21,8 @@
 .intro-overlay{position:fixed;inset:0;z-index:40;display:flex;align-items:center;justify-content:center;background:var(--bg);overflow:hidden;padding:96px 20px 32px}
 .intro-panel{position:relative;z-index:1;display:flex;width:min(92vw,560px);flex-direction:column;gap:13px}
 .intro-row{display:flex}.intro-row.is-right{justify-content:flex-end}
-.intro-bubble{display:inline-block;max-width:82%;background:var(--surface);border:1px solid var(--line);border-radius:18px;border-bottom-left-radius:4px;padding:13px 19px;font-weight:700;font-size:clamp(.9rem,1.1vw,1.05rem);line-height:1.6;color:var(--ink);box-shadow:var(--card-shadow)}
+.intro-bubble{display:inline-block;max-width:82%;background:var(--surface);border:1px solid var(--line);border-radius:18px;border-bottom-left-radius:4px;padding:13px 19px;font-weight:700;font-size:calc(clamp(.9rem,1.1vw,1.05rem)*var(--bsc,1));line-height:1.6;color:var(--ink);box-shadow:var(--card-shadow)}
 .intro-row.is-right .intro-bubble{border-bottom-left-radius:18px;border-bottom-right-radius:4px}
-.intro-row:first-child .intro-bubble{font-size:clamp(1.05rem,1.4vw,1.25rem)}
 .intro-q{margin-top:16px;border-radius:22px;background:var(--surface);border:1px solid color-mix(in srgb,var(--accent) 28%,transparent);padding:24px 22px;box-shadow:var(--card-shadow);text-align:center}
 .intro-q>p{font-size:clamp(1.1rem,1.5vw,1.35rem);font-weight:800}
 .intro-no-msg{font-size:1rem!important;font-weight:700!important;line-height:1.9;text-align:left}
