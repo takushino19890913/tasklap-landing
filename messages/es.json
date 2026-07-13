@@ -658,9 +658,9 @@
       "cta": "App Store"
     },
     "hero": {
-      "kicker": "Tareas y listas sencillas",
-      "h1": "Hoy, una cosa cada vez.",
-      "sub": "TaskLap es un gestor de tareas tan sencillo que nunca te perderás. Organiza por grupos y usa el modo Enfoque para concentrarte en lo que tienes delante.",
+      "kicker": "¿Cuántas apps de tareas llevas ya?",
+      "h1": "La lista crece. Nada se termina.",
+      "sub": "No es culpa tuya: la mayoría de las apps exigen demasiada gestión. TaskLap es una app de tareas simple, hecha para terminar lo que tienes delante.",
       "trust": "Gratis · Empieza sin cuenta · 8 idiomas",
       "demoLabel": "Prueba el modo enfoque",
       "demoTasks": [
@@ -674,59 +674,59 @@
       "demoComplete": "Completar"
     },
     "statement": {
-      "h2": "Una lista de tareas debe ser sencilla.",
-      "sub": "Cuantas más funciones añades, menos haces. TaskLap te ayuda a centrarte en una sola cosa hoy."
+      "h2": "No una app para gestionar tareas. Una app para terminarlas.",
+      "sub": "Etiquetas, prioridades, fechas límite, filtros: cuanto más organizas, menos haces. Por eso TaskLap, en vez de sumar funciones, resta dudas."
     },
     "chapters": [
       {
-        "kicker": "GROUP",
-        "title": "Un lugar para el trabajo y otro para la vida.",
-        "body": "Organiza tareas en grupos, consulta cantidades, pliega y reordena arrastrando. Añade tareas desde cada grupo.",
+        "kicker": "POR QUÉ FALLAN · 01",
+        "title": "Decidir por dónde empezar se come el día.",
+        "body": "Cuantas más opciones, más cuesta empezar. El modo enfoque muestra solo la tarea que tienes delante: completar u omitir, nada más. Fatiga de decisión, eliminada por diseño.",
         "alt": "TaskLap GROUP"
       },
       {
-        "kicker": "FOCUS MODE",
-        "title": "Una pantalla, una tarea.",
-        "body": "El modo Enfoque muestra solo la tarea actual. Completar u omitir: dos opciones que reducen la fatiga.",
+        "kicker": "POR QUÉ FALLAN · 02",
+        "title": "Cada vez que la abres, lo pendiente te mira mal.",
+        "body": "TaskLap no tiene números rojos de tareas vencidas. Lo que quedó se ordena en una breve revisión matinal, y empiezas el día sin arrastrar el de ayer.",
         "alt": "TaskLap FOCUS MODE"
       },
       {
-        "kicker": "CHECKLIST",
-        "title": "Convierte rutinas en plantillas.",
-        "body": "Equipaje, planes semanales, compras. Crea una lista una vez y reutilízala siempre.",
+        "kicker": "POR QUÉ FALLAN · 03",
+        "title": "Escribir la misma lista de viaje desde cero. Otra vez.",
+        "body": "Crea una checklist una vez, reséteala y úsala para siempre. Rutinas de mañana, compra semanal: la próxima vez es un toque.",
         "alt": "TaskLap CHECKLIST"
       },
       {
-        "kicker": "ROUTINE",
-        "title": "Reinicia tu rutina matinal con un toque.",
-        "body": "Cuando termines, reinicia la lista para mañana. Consulta el progreso en porcentaje.",
+        "kicker": "POR QUÉ FALLAN · 04",
+        "title": "Pasas más tiempo ordenando la app que haciendo tareas.",
+        "body": "Sin etiquetas, sin prioridades, sin laberinto de configuración. Ni siquiera registro. Abrir, escribir, soltarlo en un grupo: ese es todo el sistema.",
         "alt": "TaskLap ROUTINE"
       }
     ],
     "bento": [
       {
-        "title": "Revisión de pendientes",
-        "body": "Ordena por la mañana lo que quedó de ayer. Ninguna tarea pendiente se pierde."
+        "title": "Sin números rojos",
+        "body": "Sin insignias de vencido que te hagan sentir culpable."
       },
       {
-        "title": "Temas claro y oscuro",
-        "body": "Dos aspectos agradables para cualquier momento del día."
-      },
-      {
-        "title": "8 idiomas",
-        "body": "Japonés, inglés, coreano, alemán, español, francés, portugués y chino."
-      },
-      {
-        "title": "Totalmente gratis",
-        "body": "Sin costes ocultos. Todas las funciones incluidas."
+        "title": "Sin rachas",
+        "body": "Falta un día y no pierdes nada. Simplemente vuelve a empezar."
       },
       {
         "title": "Registro opcional",
         "body": "Úsala al instante, sin cuenta. Inicia sesión solo si quieres sincronizar entre dispositivos."
       },
       {
-        "title": "Rápida y ligera",
-        "body": "Abre rápido y escribe rápido. La velocidad importa."
+        "title": "Totalmente gratis",
+        "body": "Sin costes ocultos. Todas las funciones incluidas."
+      },
+      {
+        "title": "8 idiomas",
+        "body": "Japonés, inglés, coreano, alemán, español, francés, portugués y chino."
+      },
+      {
+        "title": "Temas claro y oscuro",
+        "body": "Dos aspectos agradables para cualquier momento del día."
       }
     ],
     "download": {

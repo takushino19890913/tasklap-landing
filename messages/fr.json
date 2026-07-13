@@ -658,9 +658,9 @@
       "cta": "App Store"
     },
     "hero": {
-      "kicker": "Tâches et listes simples",
-      "h1": "Une chose à la fois, aujourd’hui.",
-      "sub": "TaskLap est un gestionnaire de tâches si simple que vous ne vous perdez jamais. Organisez par groupes, puis concentrez-vous sur une seule chose avec le mode Focus.",
+      "kicker": "C'est votre combientième appli de tâches ?",
+      "h1": "La liste s'allonge. Rien ne se termine.",
+      "sub": "Ce n'est pas vous — la plupart des applis exigent trop de gestion. TaskLap est une appli de tâches simple, pensée pour terminer la chose juste devant vous.",
       "trust": "Gratuit · Sans compte pour commencer · 8 langues",
       "demoLabel": "Essayez le mode focus",
       "demoTasks": [
@@ -674,59 +674,59 @@
       "demoComplete": "Terminer"
     },
     "statement": {
-      "h2": "Une liste de tâches doit rester simple.",
-      "sub": "Plus on ajoute de fonctions, moins on avance. TaskLap aide à se concentrer sur une seule chose aujourd’hui."
+      "h2": "Pas une appli pour gérer. Une appli pour terminer.",
+      "sub": "Étiquettes, priorités, échéances, filtres : plus on organise, moins on agit. Alors au lieu d'ajouter des fonctions, TaskLap soustrait l'hésitation."
     },
     "chapters": [
       {
-        "kicker": "GROUP",
-        "title": "Une place pour le travail, une pour la vie.",
-        "body": "Organisez les tâches en groupes, voyez les compteurs, repliez et réordonnez par glisser-déposer.",
+        "kicker": "POURQUOI ÇA LÂCHE · 01",
+        "title": "Choisir par quoi commencer dévore la journée.",
+        "body": "Plus il y a de choix, plus il est dur de commencer. Le mode focus n'affiche que la tâche devant vous — terminer ou passer, rien d'autre. La fatigue décisionnelle, supprimée par le design.",
         "alt": "TaskLap GROUP"
       },
       {
-        "kicker": "FOCUS MODE",
-        "title": "Un écran, une tâche.",
-        "body": "Le mode Focus montre uniquement la tâche en cours. Terminer ou passer : deux choix, moins de fatigue.",
+        "kicker": "POURQUOI ÇA LÂCHE · 02",
+        "title": "À chaque ouverture, le retard vous dévisage.",
+        "body": "TaskLap n'a pas de chiffres rouges d'échéances dépassées. Ce qui reste se trie au calme dans la revue du matin — et vous commencez la journée sans traîner celle d'hier.",
         "alt": "TaskLap FOCUS MODE"
       },
       {
-        "kicker": "CHECKLIST",
-        "title": "Transformez les routines en modèles.",
-        "body": "Bagages, semaine, courses : créez une liste une fois et réutilisez-la toujours.",
+        "kicker": "POURQUOI ÇA LÂCHE · 03",
+        "title": "Réécrire la même liste de voyage. Encore.",
+        "body": "Créez une checklist une fois, réinitialisez-la, réutilisez-la à l'infini. Routine du matin, courses du week-end : la prochaine fois, c'est un geste.",
         "alt": "TaskLap CHECKLIST"
       },
       {
-        "kicker": "ROUTINE",
-        "title": "Réinitialisez votre routine en un geste.",
-        "body": "Une fois terminée, réinitialisez la liste pour demain. La progression s’affiche en pourcentage.",
+        "kicker": "POURQUOI ÇA LÂCHE · 04",
+        "title": "Plus de temps à ranger l'appli qu'à faire les tâches.",
+        "body": "Pas d'étiquettes, pas de priorités, pas de labyrinthe de réglages. Même pas d'inscription. Ouvrir, écrire, glisser dans un groupe — c'est tout le système.",
         "alt": "TaskLap ROUTINE"
       }
     ],
     "bento": [
       {
-        "title": "Revue des tâches reportées",
-        "body": "Triez le matin ce qui reste d’hier. Aucune tâche inachevée ne se perd."
+        "title": "Pas de chiffres rouges",
+        "body": "Aucun badge « en retard » pour vous culpabiliser."
       },
       {
-        "title": "Thèmes clair et sombre",
-        "body": "Deux apparences douces pour chaque moment de la journée."
-      },
-      {
-        "title": "8 langues",
-        "body": "Japonais, anglais, coréen, allemand, espagnol, français, portugais et chinois."
-      },
-      {
-        "title": "Entièrement gratuit",
-        "body": "Aucuns frais cachés. Toutes les fonctions sont incluses."
+        "title": "Pas de séries",
+        "body": "Un jour de pause ? Vous ne perdez rien. Reprenez, simplement."
       },
       {
         "title": "Inscription facultative",
         "body": "Utilisable immédiatement, sans compte. Connectez-vous seulement pour synchroniser vos appareils."
       },
       {
-        "title": "Rapide et légère",
-        "body": "Ouvrez vite, écrivez vite. La rapidité compte."
+        "title": "Entièrement gratuit",
+        "body": "Aucuns frais cachés. Toutes les fonctions sont incluses."
+      },
+      {
+        "title": "8 langues",
+        "body": "Japonais, anglais, coréen, allemand, espagnol, français, portugais et chinois."
+      },
+      {
+        "title": "Thèmes clair et sombre",
+        "body": "Deux apparences douces pour chaque moment de la journée."
       }
     ],
     "download": {

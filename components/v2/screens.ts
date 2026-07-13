@@ -40,5 +40,5 @@ export const screens: Record<Locale, ThemeScreens> = {
   },
 };
 
-// チャプター順: 01 グループ整理 → 02 フォーカスモード → 03 チェックリスト → 04 ルーティン
-export const chapterScreenKeys = ["todoList", "focusMode", "checklistTab", "checklistDetail"] as const;
+// チャプター順（課題ベース版）: 01 決断疲れ→フォーカス / 02 罪悪感→持ち越し(Todoリスト) / 03 繰り返し→チェックリスト詳細 / 04 管理コスト→チェックリスト一覧
+export const chapterScreenKeys = ["focusMode", "todoList", "checklistDetail", "checklistTab"] as const;
