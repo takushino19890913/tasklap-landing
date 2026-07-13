@@ -658,9 +658,9 @@
       "cta": "App Store"
     },
     "hero": {
-      "kicker": "Simple to-dos & checklists",
-      "h1": "One thing at a time, today.",
-      "sub": "TaskLap is a task manager so simple you never get lost. Organize with groups, then use Focus Mode to concentrate on the one thing in front of you.",
+      "kicker": "For everyone whose todo list never sticks",
+      "h1": "The to-do app for finishing things.",
+      "sub": "It's not you — most apps demand too much managing. TaskLap was built around one job: finishing the thing in front of you.",
       "trust": "Free · Start without an account · 8 languages",
       "demoLabel": "Try Focus Mode",
       "demoTasks": [
@@ -671,62 +671,93 @@
       "demoDone": "Nice work! 🎉 All done for today.",
       "reset": "Once more",
       "demoSkip": "Skip",
-      "demoComplete": "Complete"
+      "demoComplete": "Complete",
+      "bubbles": [
+        "My todo list never sticks…",
+        "Tasks just keep piling up",
+        "I organize more than I actually do",
+        "Can't decide where to start",
+        "\"Overdue\" labels keep judging me",
+        "Every trip, the same packing list from scratch"
+      ],
+      "h1Top": "The to-do app",
+      "h1Bottom": "for finishing things.",
+      "h1Em": "top",
+      "bubblesEmo": [
+        "Ignored it again",
+        "Didn't stick this time either…",
+        "I can't even look at it anymore",
+        "Is it… me?",
+        "Maybe paper was fine after all",
+        "Ugh……",
+        "Three days. As always.",
+        "I swipe away every notification",
+        "Self-loathing every time I look",
+        "\"Tomorrow\" (never)",
+        "Install, delete, repeat",
+        "Set it up perfectly. That was it.",
+        "Can't even count the backlog",
+        "I'll forget anyway",
+        "Nope!!",
+        "I'm DONE with todo apps!"
+      ]
     },
     "statement": {
-      "h2": "A to-do list should be simple.",
-      "sub": "The more features you add, the less gets done. TaskLap is a tool for focusing on today's one thing."
+      "h2": "Not an app for managing tasks. An app for finishing them.",
+      "sub": "Labels, priorities, deadlines, filters — the more you organize, the less you do. So instead of adding features, TaskLap subtracts the hesitation.",
+      "h2Top": "Not an app for managing tasks.",
+      "h2Bottom": "An app for finishing them."
     },
     "chapters": [
       {
-        "kicker": "GROUP",
-        "title": "A place for work, and a place for life.",
-        "body": "Organize to-dos into groups. See counts at a glance, collapse, and reorder by drag. Add tasks straight from a group.",
+        "kicker": "WHY APPS FAIL · 01",
+        "title": "Deciding what's next eats the whole day.",
+        "body": "The more choices, the harder it is to start. Focus Mode shows only the task in front of you — complete or skip, nothing else. Decision fatigue, designed away.",
         "alt": "TaskLap GROUP screen"
       },
       {
-        "kicker": "FOCUS MODE",
-        "title": "One screen, one task.",
-        "body": "Focus Mode shows only the task in front of you. Complete or skip — just two choices. Less decision fatigue, lighter next steps.",
+        "kicker": "WHY APPS FAIL · 02",
+        "title": "Every time you open it, the backlog glares back.",
+        "body": "TaskLap has no red overdue numbers. Leftover tasks get sorted in a quick morning carry-over review, so you start today without dragging yesterday along.",
         "alt": "TaskLap FOCUS MODE screen"
       },
       {
-        "kicker": "CHECKLIST",
-        "title": "Turn repeat routines into templates.",
-        "body": "Packing lists, weekly plans, groceries. Build a checklist once, reuse it forever.",
+        "kicker": "WHY APPS FAIL · 03",
+        "title": "Writing the same packing list from scratch. Again.",
+        "body": "Build a checklist once, reset it, use it forever. Morning routines, weekend groceries — next time it's one tap.",
         "alt": "TaskLap CHECKLIST screen"
       },
       {
-        "kicker": "ROUTINE",
-        "title": "Reset your morning routine in one tap.",
-        "body": "When a list is done, reset it for tomorrow. Progress shows as a percentage. Daily repetition gets a little more fun.",
+        "kicker": "WHY APPS FAIL · 04",
+        "title": "You spend more time tidying the app than doing tasks.",
+        "body": "No labels, no priorities, no setup maze. No sign-up, even. Open, type, drop it in a group — that's the whole system.",
         "alt": "TaskLap ROUTINE screen"
       }
     ],
     "bento": [
       {
-        "title": "Carry-over review",
-        "body": "Sort yesterday's leftovers in the morning. Unfinished tasks never get lost."
+        "title": "No red numbers",
+        "body": "No overdue badges shaming you into opening the app."
       },
       {
-        "title": "Light & dark themes",
-        "body": "Two gentle looks for any time of day."
-      },
-      {
-        "title": "8 languages",
-        "body": "Japanese, English, Korean, German, Spanish, French, Portuguese, Chinese."
-      },
-      {
-        "title": "Completely free",
-        "body": "No hidden fees. Every feature included."
+        "title": "No streaks",
+        "body": "Miss a day, lose nothing. Just start again."
       },
       {
         "title": "Sign-up optional",
         "body": "Use it right away, no account needed. Sign in only when you want to sync across devices."
       },
       {
-        "title": "Fast & light",
-        "body": "Open quickly, write quickly. Speed matters in a tool."
+        "title": "Completely free",
+        "body": "No hidden fees. Every feature included."
+      },
+      {
+        "title": "8 languages",
+        "body": "Japanese, English, Korean, German, Spanish, French, Portuguese, Chinese."
+      },
+      {
+        "title": "Light & dark themes",
+        "body": "Two gentle looks for any time of day."
       }
     ],
     "download": {
@@ -740,6 +771,16 @@
       "history": "Version History",
       "contact": "Contact"
     },
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "intro": {
+      "question": "Ever been there?",
+      "yes": "…Painfully.",
+      "no": "Not really",
+      "noMsg": "Lucky you…! The rest of this page is for those of us who get buried by our lists. But a lighter to-do app makes easy days even lighter.",
+      "noCta": "I'll peek anyway",
+      "bridgeTop": "Good news —",
+      "bridgeBottom": "there's a to-do app for that.",
+      "dragHint": "Psst — you can drag this bubble aside"
+    }
   }
 }
