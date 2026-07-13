@@ -67,7 +67,7 @@ const EMO_LAYOUT:{x:string;y:string;rot:number;scale:number;at:number;hot?:boole
  {x:"60%",y:"30%",rot:7, scale:.78,at:6140},
  {x:"26%",y:"36%",rot:-3,scale:1.5,at:6280,hot:true}, // 最後に最大の叫び「Todoアプリなんて、もう嫌だ！」
 ];
-const QUESTION_AT=7000; // 決壊のあと一拍おいて問いかけ
+const QUESTION_AT=7800; // 最後の叫びの余韻をしっかり残してから問いかけ
 
 function IntroLayer(){
  const t=useTranslations("v2");
@@ -128,7 +128,7 @@ function IntroLayer(){
      <div className="intro-q-inner">
       <p>{t("intro.question")}</p>
       <div className="intro-q-actions">
-       <button className="intro-yes" onClick={()=>{setPhase("bridge");setTimeout(reveal,1600)}}>{t("intro.yes")}</button>
+       <button className="intro-yes" onClick={()=>{setPhase("bridge");setTimeout(reveal,3200)}}>{t("intro.yes")}</button>
        <button className="intro-no" onClick={()=>setPhase("no")}>{t("intro.no")}</button>
       </div>
       <p className="intro-drag-hint">{t("intro.dragHint")}</p>
