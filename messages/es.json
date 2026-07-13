@@ -682,7 +682,17 @@
       ],
       "h1Top": "La app de tareas",
       "h1Bottom": "para terminarlas.",
-      "h1Em": "top"
+      "h1Em": "top",
+      "bubblesEmo": [
+        "Otra vez la abandoné",
+        "Esta vez tampoco duró…",
+        "Ya ni quiero mirarla",
+        "¿Será… culpa mía?",
+        "Quizá el papel estaba bien",
+        "Aggg……",
+        "¡Estoy HARTO de las apps de tareas!",
+        "¡Basta!"
+      ]
     },
     "statement": {
       "h2": "No una app para gestionar tareas. Una app para terminarlas.",
@@ -755,7 +765,7 @@
     },
     "scroll": "Desplázate",
     "intro": {
-      "question": "¿Te suena?",
+      "question": "¿Te ha pasado?",
       "yes": "Demasiado…",
       "no": "La verdad, no",
       "noMsg": "Respeto: eres de los pocos que lo mantienen 🙌 Esta página es para el resto de nosotros. Pero una app ligera nunca frenó a nadie.",

@@ -682,7 +682,17 @@
       ],
       "h1Top": "O app de tarefas",
       "h1Bottom": "feito para concluir.",
-      "h1Em": "top"
+      "h1Em": "top",
+      "bubblesEmo": [
+        "Larguei de novo",
+        "Dessa vez também não durou…",
+        "Nem quero mais olhar",
+        "Será que… sou eu?",
+        "Talvez papel fosse melhor",
+        "Aff……",
+        "CHEGA de apps de tarefas!",
+        "Não dá!!"
+      ]
     },
     "statement": {
       "h2": "Não um app para gerenciar tarefas. Um app para concluí-las.",
@@ -755,7 +765,7 @@
     },
     "scroll": "Rolar",
     "intro": {
-      "question": "Parece familiar?",
+      "question": "Já passou por isso?",
       "yes": "Demais…",
       "no": "Nem tanto",
       "noMsg": "Respeito — você é dos raros que mantêm o ritmo 🙌 Esta página é para o resto de nós. Mas um app leve nunca atrapalhou ninguém.",

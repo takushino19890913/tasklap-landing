@@ -682,7 +682,17 @@
       ],
       "h1Top": "The to-do app",
       "h1Bottom": "for finishing things.",
-      "h1Em": "top"
+      "h1Em": "top",
+      "bubblesEmo": [
+        "Ignored it again",
+        "Didn't stick this time either…",
+        "I can't even look at it anymore",
+        "Is it… me?",
+        "Maybe paper was fine after all",
+        "Ugh……",
+        "I'm DONE with todo apps!",
+        "Nope!!"
+      ]
     },
     "statement": {
       "h2": "Not an app for managing tasks. An app for finishing them.",
@@ -755,7 +765,7 @@
     },
     "scroll": "Scroll",
     "intro": {
-      "question": "Sound familiar?",
+      "question": "Ever been there?",
       "yes": "…Painfully.",
       "no": "Not really",
       "noMsg": "Respect — you're one of the rare ones who actually keeps it up 🙌 This page is for the rest of us. But a lighter to-do app never slowed anyone down.",

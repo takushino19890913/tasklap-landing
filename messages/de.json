@@ -682,7 +682,17 @@
       ],
       "h1Top": "Die To-do-App",
       "h1Bottom": "fürs Fertigwerden.",
-      "h1Em": "top"
+      "h1Em": "top",
+      "bubblesEmo": [
+        "Wieder liegen gelassen",
+        "Auch diesmal nicht durchgehalten…",
+        "Ich mag gar nicht mehr hinsehen",
+        "Liegt es… an mir?",
+        "Papier war vielleicht doch besser",
+        "Haaach……",
+        "Ich bin FERTIG mit To-do-Apps!",
+        "Nö!!"
+      ]
     },
     "statement": {
       "h2": "Keine App zum Verwalten. Eine App zum Erledigen.",
@@ -755,7 +765,7 @@
     },
     "scroll": "Scrollen",
     "intro": {
-      "question": "Kommt dir das bekannt vor?",
+      "question": "Kennst du das?",
       "yes": "Leider ja …",
       "no": "Eigentlich nicht",
       "noMsg": "Respekt — du gehörst zu den wenigen, die dranbleiben 🙌 Diese Seite ist für den Rest von uns. Aber eine leichte To-do-App hat noch niemanden gebremst.",

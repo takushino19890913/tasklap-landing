@@ -39,34 +39,50 @@ function FocusDemo(){
 // 発火判定は app/layout.tsx の inline script（data-intro 属性・セッション1回・reduced-motion 除外）。
 const spring={type:"spring",stiffness:420,damping:28} as const;
 
-// 規則的なジグザグを避けるための不規則な組版: 横インセット/縦間隔/傾き/大きさ/出現時刻を1個ずつ変える
+// 第一幕: 具体的な愚痴（チャット欄・ぽん…ぽん…とゆっくり）
 const BUBBLE_LAYOUT=[
- {side:"l",inset:"0%",  gap:0,  rot:-1.8,scale:1.16,at:250},
- {side:"r",inset:"5%",  gap:6,  rot:1.1, scale:1,   at:850},
- {side:"l",inset:"13%", gap:20, rot:-0.5,scale:.93, at:1200},
- {side:"r",inset:"0%",  gap:4,  rot:2.0, scale:1.05,at:1850},
- {side:"l",inset:"4%",  gap:24, rot:-1.2,scale:.96, at:2250},
- {side:"r",inset:"11%", gap:10, rot:0.7, scale:1,   at:2800},
+ {side:"l",inset:"0%",  gap:0,  rot:-1.8,scale:1.16,at:300},
+ {side:"r",inset:"5%",  gap:6,  rot:1.1, scale:1,   at:1250},
+ {side:"l",inset:"13%", gap:20, rot:-0.5,scale:.93, at:2050},
+ {side:"r",inset:"0%",  gap:4,  rot:2.0, scale:1.05,at:2700},
+ {side:"l",inset:"4%",  gap:24, rot:-1.2,scale:.96, at:3200},
+ {side:"r",inset:"11%", gap:10, rot:0.7, scale:1,   at:3600},
 ] as const;
-const QUESTION_AT=3350;
+// 第二幕: 感情の決壊（画面のあちこちに、加速しながら割り込む）
+const EMO_LAYOUT:{x:string;y:string;rot:number;scale:number;at:number;hot?:boolean}[]=[
+ {x:"12%",y:"16%",rot:-7,scale:.9, at:3950},
+ {x:"68%",y:"12%",rot:5, scale:1,  at:4250},
+ {x:"6%", y:"48%",rot:4, scale:.95,at:4500},
+ {x:"74%",y:"42%",rot:-5,scale:.85,at:4700},
+ {x:"10%",y:"74%",rot:-4,scale:1,  at:4860},
+ {x:"66%",y:"72%",rot:6, scale:.9, at:4990},
+ {x:"28%",y:"34%",rot:-3,scale:1.55,at:5110,hot:true}, // 「Todoアプリなんて、もう嫌だ！」
+ {x:"58%",y:"56%",rot:8, scale:.8, at:5210},
+];
+const QUESTION_AT=5750; // 決壊のあと一拍おいて問いかけ
 
 function IntroLayer(){
  const t=useTranslations("v2");
  const bubbles=t.raw("hero.bubbles") as string[];
+ const emos=t.raw("hero.bubblesEmo") as string[];
  const [active,setActive]=useState(false);
- const [shown,setShown]=useState(0);            // 何個目の吹き出しまで出したか（bubbles.length+1 = 質問カード）
- const [phase,setPhase]=useState<"chat"|"no"|"leaving">("chat");
+ const [shown,setShown]=useState(0);        // 具体的な愚痴の表示数
+ const [emoShown,setEmoShown]=useState(0);  // 感情吹き出しの表示数
+ const [phase,setPhase]=useState<"flood"|"ask"|"no"|"leaving">("flood");
  useEffect(()=>{setActive(document.documentElement.hasAttribute("data-intro"))},[]);
  const reveal=useCallback(()=>{
   setPhase("leaving");
   setTimeout(()=>{const el=document.documentElement;el.removeAttribute("data-intro");el.setAttribute("data-intro-reveal","1");setActive(false)},480);
  },[]);
- useEffect(()=>{ // 吹き出し→質問カードの順次表示（不規則な間隔）
+ useEffect(()=>{ // ぽん…ぽん…→ポポポと加速するタイムライン
   if(!active)return;
   const timers=bubbles.map((_,i)=>setTimeout(()=>setShown(s=>Math.max(s,i+1)),(BUBBLE_LAYOUT[i]||BUBBLE_LAYOUT[0]).at));
-  timers.push(setTimeout(()=>setShown(bubbles.length+1),QUESTION_AT));
+  emos.forEach((_,i)=>timers.push(setTimeout(()=>setEmoShown(s=>Math.max(s,i+1)),(EMO_LAYOUT[i]||EMO_LAYOUT[0]).at)));
+  timers.push(setTimeout(()=>setPhase(p=>p==="flood"?"ask":p),QUESTION_AT));
   return()=>timers.forEach(clearTimeout);
- },[active,bubbles]);
+  // t.raw() は毎レンダーで新配列を返すため、配列そのものを deps に入れるとタイマーが張り直され続ける
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+ },[active,bubbles.length,emos.length]);
  useEffect(()=>{ // スクロール/Escで即スキップ
   if(!active)return;
   const skip=()=>reveal();
@@ -77,31 +93,41 @@ function IntroLayer(){
   return()=>{removeEventListener("wheel",skip);removeEventListener("touchmove",skip);removeEventListener("keydown",key)};
  },[active,reveal]);
  if(!active)return null;
+ const asking=phase==="ask"||phase==="no";
  return <motion.div className="intro-overlay" initial={{opacity:1}} animate={{opacity:phase==="leaving"?0:1}} transition={{duration:.45,ease:"easeOut"}}>
   <div className="hero-glow hero-glow-a"/><div className="hero-glow hero-glow-b"/>
-  <div className="intro-panel">
+  {/* 第一幕: 具体的な愚痴（問いかけ時は薄く残す） */}
+  <div className={`intro-panel${asking?" is-dim":""}`}>
    {bubbles.map((b,i)=>{const L=BUBBLE_LAYOUT[i]||BUBBLE_LAYOUT[0];
     return <motion.div key={i} className={`intro-row${L.side==="r"?" is-right":""}`}
      style={{marginTop:L.gap,[L.side==="r"?"paddingRight":"paddingLeft"]:L.inset} as React.CSSProperties}
      initial={{opacity:0,y:18,scale:.7}}
-     animate={i<shown?(phase==="leaving"?{opacity:0,y:-30,scale:.9,transition:{duration:.3,delay:i*.04}}:{opacity:1,y:0,scale:1,transition:{...spring,delay:0}}):{}}
+     animate={i<shown?(phase==="leaving"?{opacity:0,y:-30,scale:.9,transition:{duration:.3,delay:i*.04}}:{opacity:1,y:0,scale:1,transition:spring}):{}}
     ><span className="intro-bubble" style={{transform:`rotate(${L.rot}deg)`,"--bsc":L.scale} as React.CSSProperties}>{b}</span></motion.div>;})}
-   <AnimatePresence mode="wait">
-    {shown>bubbles.length&&phase==="chat"&&
-     <motion.div key="q" className="intro-q" initial={{opacity:0,y:22,scale:.95}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:0,y:-10,scale:.97}} transition={spring}>
-      <p>{t("intro.question")}</p>
-      <div className="intro-q-actions">
-       <button className="intro-yes" onClick={reveal}>{t("intro.yes")}</button>
-       <button className="intro-no" onClick={()=>setPhase("no")}>{t("intro.no")}</button>
-      </div>
-     </motion.div>}
-    {phase==="no"&&
-     <motion.div key="no" className="intro-q" initial={{opacity:0,y:22,scale:.95}} animate={{opacity:1,y:0,scale:1}} transition={spring}>
-      <p className="intro-no-msg">{t("intro.noMsg")}</p>
-      <div className="intro-q-actions"><button className="intro-yes" onClick={reveal}>{t("intro.noCta")}</button></div>
-     </motion.div>}
-   </AnimatePresence>
   </div>
+  {/* 第二幕: 感情の決壊（問いかけ時にはすっと消える） */}
+  {emos.map((b,i)=>{const E=EMO_LAYOUT[i]||EMO_LAYOUT[0];
+   return <motion.div key={`e${i}`} className={`intro-emo emo-${i}${E.hot?" is-hot":""}`}
+    style={{"--ex":E.x,"--ey":E.y} as React.CSSProperties}
+    initial={{opacity:0,y:14,scale:.5}}
+    animate={i<emoShown?(phase!=="flood"?{opacity:0,scale:.6,transition:{duration:.22,delay:i*.03}}:{opacity:1,y:0,scale:1,transition:{type:"spring",stiffness:520,damping:24}}):{}}
+   ><span className="intro-bubble" style={{transform:`rotate(${E.rot}deg)`,"--bsc":E.scale} as React.CSSProperties}>{b}</span></motion.div>;})}
+  {/* 第三幕: 問いかけ */}
+  <AnimatePresence mode="wait">
+   {phase==="ask"&&
+    <div className="intro-ask" key="ask"><motion.div className="intro-q" initial={{opacity:0,y:26,scale:.92}} animate={{opacity:1,y:0,scale:1}} exit={{opacity:0,y:-10,scale:.97}} transition={spring}>
+     <p>{t("intro.question")}</p>
+     <div className="intro-q-actions">
+      <button className="intro-yes" onClick={reveal}>{t("intro.yes")}</button>
+      <button className="intro-no" onClick={()=>setPhase("no")}>{t("intro.no")}</button>
+     </div>
+    </motion.div></div>}
+   {phase==="no"&&
+    <div className="intro-ask" key="no"><motion.div className="intro-q" initial={{opacity:0,y:26,scale:.92}} animate={{opacity:1,y:0,scale:1}} transition={spring}>
+     <p className="intro-no-msg">{t("intro.noMsg")}</p>
+     <div className="intro-q-actions"><button className="intro-yes" onClick={reveal}>{t("intro.noCta")}</button></div>
+    </motion.div></div>}
+  </AnimatePresence>
  </motion.div>;
 }
 

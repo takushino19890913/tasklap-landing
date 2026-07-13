@@ -682,7 +682,17 @@
       ],
       "h1Top": "L'appli de tâches",
       "h1Bottom": "faite pour finir.",
-      "h1Em": "top"
+      "h1Em": "top",
+      "bubblesEmo": [
+        "Encore laissée à l'abandon",
+        "Pas tenu cette fois non plus…",
+        "Je ne veux même plus la voir",
+        "C'est… moi le problème ?",
+        "Le papier, c'était bien finalement",
+        "Pfff……",
+        "J'en ai MARRE des applis de tâches !",
+        "Stop !!"
+      ]
     },
     "statement": {
       "h2": "Pas une appli pour gérer. Une appli pour terminer.",
@@ -755,7 +765,7 @@
     },
     "scroll": "Défiler",
     "intro": {
-      "question": "Ça vous parle ?",
+      "question": "Ça vous est déjà arrivé ?",
       "yes": "Beaucoup trop…",
       "no": "Pas vraiment",
       "noMsg": "Respect — vous faites partie des rares qui tiennent bon 🙌 Cette page est pour nous autres. Mais une appli légère n'a jamais ralenti personne.",
